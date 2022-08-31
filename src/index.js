@@ -8,13 +8,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
-import Team from './Pages/Teams';
+import Teams from './Pages/Teams';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
   <Routes>
     <Route path="/" element={<App />} />
-    <Route path="teams" element={<Team />} />
+    <Route path="teams" element={<Teams />} />
  
   </Routes>
 </BrowserRouter>

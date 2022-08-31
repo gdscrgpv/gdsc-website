@@ -1,5 +1,5 @@
 import React, { Component, useState, useRef, useEffect }from "react";
-import ReactLogo from "../Images/illustration-box-desktop.svg";
+// import ReactLogo from "../Images/illustration-box-desktop.svg";
 import { FiPlus } from "react-icons/fi";
 export default function FAQ() {
     const [active, setActive] = useState(false);

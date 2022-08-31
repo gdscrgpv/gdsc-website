@@ -16,8 +16,6 @@ function App() {
     <div className="App">
     {loader ? <Loader /> : <Home />}
     </div>
-
-    
   );
 }
 

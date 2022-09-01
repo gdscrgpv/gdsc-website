@@ -167,6 +167,10 @@
 }
 
 /* FAQ */
+.faq {
+  text-align: center;
+}
+
 .question-section {
   background: transparent;
   border: 1px solid lightgray;

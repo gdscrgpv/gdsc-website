@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../Images/gdsc.png";
+import logo from "../Images/GDSC.png";
 import "./Footer.css";
 export default class Footer extends Component {
   render() {

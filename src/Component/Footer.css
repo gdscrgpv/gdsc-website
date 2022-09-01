@@ -1,0 +1,133 @@
+.footer-distributed {
+    font-family: "GoogleSans-Bold";
+    background: #fff;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 55px 50px;
+}
+
+.footer-distributed .footer-center,
+.footer-distributed .footer-left,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: middle;
+    width: 33.3%;
+}
+
+.footer-left img {
+    height: 100px;
+}
+
+.copyright {
+    margin: 20px;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center i {
+    background-color: #fff;
+    color: #1f1f1f;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 15px;
+    vertical-align: middle;
+}
+
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #1f1f1f;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: lightseagreen;
+    text-decoration: none;
+    ;
+}
+
+.footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: #1f1f1f;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #1f1f1f;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #1f1f1f;
+    border-radius: 20px;
+
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin: 10px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+
+    .college {
+        display: block !important;
+        font-size: 14px;
+    }
+}
+

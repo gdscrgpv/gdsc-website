@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./AboutUsStyle.css";
-import gsap from "gsap";
-import Img from "../Assets/img/AboutUs.png";
+import Img from '../Assets/img/AboutUs.png';
 import Transition from "./Transition/Transition";
 
 const AboutUs = () => {

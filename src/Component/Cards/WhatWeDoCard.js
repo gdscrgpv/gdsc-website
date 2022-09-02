@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import wedo from '../../Images/wedo.png';
 export default class WhatWeDoCard extends Component {
+
   render() {
+    
     return (
       <div className="testimonial-card text-white font-face-lighter">
         <div className="d-flex customer-identity">

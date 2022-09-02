@@ -37,3 +37,5 @@ export const WTB_Member = () => {
     </div>
   );
 };
+
+export default WTB_Member;

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Navbar, Nav, Button } from "react-bootstrap";
+import { Navbar, Nav, Button } from "reactstrap";
 import logo from "../Images/sample.png";
 export default class NavBarcomp extends Component {
   render() {

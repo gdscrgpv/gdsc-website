@@ -6,7 +6,7 @@ export default class Landing extends Component {
     return (
       <div className='container landing heading'>
         
-        <img src={Logo} alt='logo' className='logo'  />
+        {/* <img src={Logo} alt='logo' className='logo'  /> */}
                 
       </div>
     )

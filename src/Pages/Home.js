@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
 import About from '../Component/AboutUs.js'

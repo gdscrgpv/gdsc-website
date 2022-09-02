@@ -223,3 +223,205 @@
   transition: max-height 0.6s ease;
   text-align: left;
 }
+
+
+/* Abhishek Malviya Code  */
+/* NavBar */
+.Navbar {
+  margin:1.25rem ;
+  margin-top: 0;
+  padding: 0.625rem;
+  background-color: white;
+}
+/* Navbar logo */
+.Navbar-logo {
+  height: 3rem;
+  width: 6rem;
+}
+/* Navbar Tab */
+.Navbar-links {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+/* Why to become member */
+
+/* parent div of section */
+.main-box {
+  display: flex !important;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+/* left hand side box */
+.Side-box {
+  flex-direction: column;
+  border: 10px rgb(66, 133, 244) solid;
+  border-left: 0;
+  border-bottom-right-radius: 6rem;
+  border-top-right-radius: 6rem;
+  width: 50%;
+  height: auto;
+  padding: 4rem;
+}
+
+.Side-box p {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: black;
+}
+.Side-box h2 {
+  margin: 2px;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.Side-box p:hover {
+  text-decoration: underline;
+}
+
+/* special class for the colored GDSC text  */
+.colored-logo {
+  margin-left: 1.25px;
+}
+
+/* right hand side  box */
+.right-box {
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  padding: 4rem;
+}
+/* des text of the right hand box */
+.WTB-text p {
+  font-size: 1.75rem;
+  color: black;
+}
+
+/* join  community  button class  */
+
+.join-community-btn {
+  height: 5rem;
+  width: 60%;
+  border: 3px solid;
+  border-radius: 1.6rem;
+  background-color: rgba(66, 133, 244, 1);
+  border-color: #21509b;
+}
+
+.join-community-btn a {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.join-community-btn:hover {
+  background-color: rgba(66, 133, 244, 0.8);
+}
+
+
+/* //media Query  */
+@media only screen and (max-width: 800px) {
+  .main-box {
+    flex-direction: column;
+  }
+
+  .Side-box {
+    flex-direction: column;
+    border: 2px rgb(66, 133, 244) solid;
+    border-radius: 2rem;
+    width: 50%;
+    height: auto;
+    padding: 2rem;
+  }
+  .Side-box p {
+    font-size: 2rem;
+    font-weight: 100;
+    color: black;
+  }
+  .Side-box h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .colored-logo {
+    margin: 0;
+  }
+
+  .right-box {
+    margin: 2rem;
+    width: 90%;
+    height: auto;
+    padding: 0;
+  }
+  .WTB-text p {
+    font-size: 2rem;
+    color: black;
+  }
+  .join-community-btn {
+    height: 4rem;
+    width: 60%;
+    border: 0;
+    border-radius: 3rem;
+    background-color: rgba(66, 133, 244, 1);
+  }
+
+  .join-community-btn a {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .main-box {
+    flex-direction: column;
+  }
+
+  .Side-box {
+    flex-direction: column;
+    border: 2px rgb(66, 133, 244) solid;
+    border-radius: 2rem;
+    width: 50%;
+    height: auto;
+    padding: 1rem;
+  }
+  .Side-box p {
+    font-size: 1rem;
+    font-weight: 100;
+    color: black;
+  }
+  .Side-box h2 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .colored-logo {
+    margin: 0;
+  }
+
+  .right-box {
+    margin: 1rem;
+    width: 90%;
+    height: auto;
+    padding: 0;
+  }
+  .WTB-text p {
+    font-size: 1rem;
+    color: black;
+  }
+  .join-community-btn {
+    height: 3rem;
+    width: 60%;
+    border: 0;
+    border-radius: 2rem;
+    background-color: rgba(66, 133, 244, 1);
+  }
+
+  .join-community-btn a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+  }
+}
+

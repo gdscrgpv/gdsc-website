@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { useState,useEffect } from 'react';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Home from './Pages/Home';
 import Loader from './Component/Loader';
 function App() {

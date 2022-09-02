@@ -1,0 +1,41 @@
+.transition-effect-black {
+    position: absolute;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    top: 4%;
+    width: 96%;
+    height: 60vh;
+}
+
+.transition-effect-red {
+    position: absolute;
+    z-index: 101;
+    background-color: #ea4435e1;
+    width: 20%;
+    height: 60vh;
+    flex-direction: row;
+}
+
+.transition-effect-blue {
+    position: absolute;
+    z-index: 102;
+    background-color: #4286f4e1;
+    width: 15%;
+    height: 60vh;
+}
+
+.transition-effect-green {
+    position: absolute;
+    z-index: 103;
+    background-color: #0F9D58e1;
+    width: 10%;
+    height: 60vh;
+}
+
+.transition-effect-yellow {
+    position: absolute;
+    z-index: 104;
+    background-color: #FBBC04e1;
+    width: 5%;
+    height: 60vh;
+}

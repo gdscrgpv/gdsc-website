@@ -51,6 +51,7 @@ export default class Teams extends Component {
       console.log(Teachteam);
     return (
       <div className='team'>
+        
         <div className='teamlanding'>
           <h1>The Team </h1>
         </div>

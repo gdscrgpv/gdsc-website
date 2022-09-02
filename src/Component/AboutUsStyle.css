@@ -1,0 +1,80 @@
+.mainView {
+  margin: 2%;
+  padding: 3% 0% 3% 0%;
+  align-items: center;
+  border-radius: 15px;
+
+}
+
+.flex {
+  flex-direction: row;
+  /* justify-content: center; */
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.space {
+  margin-left: 3%;
+}
+
+.top {
+  margin-top: 0.5%;
+}
+
+.smallLine {
+  width: 1%;
+  height: 2px;
+  margin-left: 0.5%;
+  border-radius: 2px;
+  background-color: #FBB604;
+}
+
+.line {
+  width: 12.2%;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #FBB604;
+}
+
+.gdsc {
+  margin-left: 1%;
+}
+
+.leftBox {
+  width: 60%;
+  margin-left: 2%;
+  margin-right: 2%
+}
+
+.content {
+  width: 56%;
+  margin: 3% 3% 0% 3%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textbox {
+  width: 88%;
+  /* height: 40%; */
+  margin-top: 5%;
+
+}
+
+.imageDiv {  
+  width: 30%;
+  height: 30%;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  /* position: absolute;
+  top: 20%;
+  right: 4%; */
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}

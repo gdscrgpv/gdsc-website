@@ -1,68 +1,106 @@
-import React, { Component, useState, useRef, useEffect }from "react";
+import React, { Component, useState, useRef, useEffect } from "react";
 // import ReactLogo from "../Images/illustration-box-desktop.svg";
 import { FiPlus } from "react-icons/fi";
+import "../Component/css/faq.css";
 export default function FAQ() {
-  const [active, setActive] = useState(false);
-
-  const contentRef = useRef(null);
-
-  useEffect(() => {
-    contentRef.current.style.maxHeight = active
-      ? `${contentRef.current.scrollHeight}px`
-      : "0px";
-  }, [contentRef, active]);
-
-  const toggleAccordion = () => {
-    setActive(!active);
-  };
-  
   return (
     <>
-      <div className="faq">
-        <button
-          className={`question-section ${active}`}
-          onClick={toggleAccordion}
-        >
-          <div className="font-face-lighter">
-            <div className="question-align">
-              <h4 className="question-style">
-                Who can become a member of GDSC?
-              </h4>
-              <FiPlus
-                className={active ? `question-icon rotate` : `question-icon`}
-              />
-            </div>
-            <div
-              ref={contentRef}
-              className={active ? `answer answer-divider` : `answer`}
-            >
-              <p>Students from all undergraduate or graduate programs with an interest in growing as a developer are welcomed. The only prerequisite is your interest and will to learn in a community of budding developers.</p>
-            </div>
-          </div>
-        </button>
-      </div>
-      <div className="faq">
-        <button
-          className={`question-section ${active}`}
-          onClick={toggleAccordion}
-        >
-          <div className="font-face-lighter">
-            <div className="question-align">
-              <h4 className="question-style">
-                Who can become a member of GDSC?
-              </h4>
-              <FiPlus
-                className={active ? `question-icon rotate` : `question-icon`}
-              />
-            </div>
-            <div
-              ref={contentRef}
-              className={active ? `answer answer-divider` : `answer`}
-            >
-              <p>Students from all undergraduate or graduate programs with an interest in growing as a developer are welcomed. The only prerequisite is your interest and will to learn in a community of budding developers.</p>
-            </div>
-          </div>
-        </button>
+      <div className="root">
+        <div class="root">
+          <main>
+            <article>
+              <div class="contentWrapper">
+                <h1>Faq</h1>
+                <ul>
+                  <li>
+                    <input
+                      type="checkbox"
+                      id="question1"
+                      name="accordionGroup"
+                      class="toggleState"
+                    />
+                    <h2 class="question">
+                      <label for="question1">
+                        How many team members can I invite?
+                      </label>
+                    </h2>
+                    <p class="answer">
+                      You can invite up to 2 additional users on the Free plan.
+                      There is no limit on team members for the Premium plan.
+                    </p>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      id="question2"
+                      name="accordionGroup"
+                      class="toggleState"
+                    />
+                    <h2 class="question">
+                      <label for="question2">
+                        What is the maximum file upload size?
+                      </label>
+                    </h2>
+                    <p class="answer">
+                      No more than 2GB. All files in your account must fit your
+                      allotted storage space.
+                    </p>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      id="question3"
+                      name="accordionGroup"
+                      class="toggleState"
+                    />
+                    <h2 class="question">
+                      <label for="question3">How do I reset my password?</label>
+                    </h2>
+                    <p class="answer">
+                      Click “Forgot password” from the login page or “Change
+                      password” from your profile page. A reset link will be
+                      emailed to you.
+                    </p>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      id="question4"
+                      name="accordionGroup"
+                      class="toggleState"
+                    />
+                    <h2 class="question">
+                      <label for="question4">
+                        Can I cancel my subscription?
+                      </label>
+                    </h2>
+                    <p class="answer">
+                      Yes! Send us a message and we’ll process your request no
+                      questions asked.
+                    </p>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      id="question5"
+                      name="accordionGroup"
+                      class="toggleState"
+                    />
+                    <h2 class="question">
+                      <label for="question5">
+                        Do you provide additional support?
+                      </label>
+                    </h2>
+                    <p class="answer">
+                      Chat and email support is available 24/7. Phone lines are
+                      open during normal business hours.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </main>
+        </div>
       </div>
     </>
   );

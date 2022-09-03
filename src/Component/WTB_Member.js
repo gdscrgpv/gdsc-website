@@ -3,8 +3,9 @@ import React from "react";
 export const WTB_Member = () => {
   return (
     <div className="main-box ">
-      <div className="Side-box d-flex align-self-center">
-        <div className="circle-1"> <h4> Learn</h4> </div> 
+
+      <div className="Side-box align-self-center">
+      <div className="circle-1"> Learn</div>
         <div className="d-flex font-face-bold  justify-content-center  ">
           <p >
             Why To Become <br />
@@ -18,8 +19,8 @@ export const WTB_Member = () => {
           <h2 className="C">C</h2>
           <h2>?</h2>
         </div>
-        {/* <div className="circle-2"> <h4> Connect</h4> </div> */}
-        {/* <div className="circle-3"> <h4> Growth</h4> </div> */}
+        <div className="circle-2 ">Connect</div>
+        <div className="circle-3 ">Growth</div>
       </div>
       <div className="right-box d-flex">
         <div className=" d-flex text-center justify-content-center font-face-bold WTB-text ">

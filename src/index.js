@@ -11,6 +11,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import Teams from './Pages/Teams';
 import Footer from './Component/Footer';
+import Contact from './Component/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,7 +19,7 @@ root.render(
   <Routes>
     <Route path="/" element={<App />} />
     <Route path="teams" element={<Teams/>} />
- 
+    <Route path="contact" element={<Contact/>} />
   </Routes>
 </BrowserRouter>
 );

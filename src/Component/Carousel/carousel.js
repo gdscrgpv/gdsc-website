@@ -4,10 +4,12 @@ const Carousel = () => {
     return (
         <div className="mainView">
             {/* heading */}
-            <h1>
-                Gallery
-            </h1>
-            
+            <div className="header">
+                <h1>
+                    Gallery
+                </h1>
+            </div>
+
             <section>
                 <div className="wrapper">
                     <img src="https://picsum.photos/seed/picsum1/300/300" />

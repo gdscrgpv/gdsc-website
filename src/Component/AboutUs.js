@@ -32,7 +32,6 @@ const AboutUs = () => {
         <>
 
             <div className="mainView flex">
-
                 
                 <div className="leftBox">
                     {/* heading section */}

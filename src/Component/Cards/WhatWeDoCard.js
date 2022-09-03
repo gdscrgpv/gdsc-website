@@ -11,13 +11,11 @@ export default class WhatWeDoCard extends Component {
             <img src={wedo} />
           </div>
           <div className="content-body text-black">
-            <h5>SEMINAR</h5>
+            <h5></h5>
           </div>
         </div>
         <p className="text-center text-black ">
-          “You made it so simple. My new site is so much faster and easier to
-          work with than my old site. I just choose the page, make the change
-          and click save.
+         
         </p>
       </div>
     );

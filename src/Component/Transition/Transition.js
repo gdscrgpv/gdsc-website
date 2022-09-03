@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import "./Transition.css";
-import { Power4 } from 'gsap';
 function Transition({ timeline }) {
 
     const black = useRef(null);
@@ -10,7 +9,7 @@ function Transition({ timeline }) {
         timeline.to(black.current, {
             duration: 2,
             x: 2600,
-            ease: Power4.easeOut,
+            // ease: Power4.easeOut,
         });
 
     })
@@ -33,4 +32,4 @@ function Transition({ timeline }) {
         </div>
     )
 }
-export default Transition
+export default Transition;

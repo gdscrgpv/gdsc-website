@@ -6,7 +6,7 @@ export default class WhatWeDo extends Component {
     return (
       <div className="testimonial-area-l-13 position-relative overflow-hidden z-index-1">
         <div className="container">
-          <div className="row justify-content-center">
+          <div className="row justify-content-center ">
             <div className="col-xl-11">
               <div className="row">
                 <div className="col-md-12">

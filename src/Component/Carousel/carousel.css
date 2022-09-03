@@ -1,0 +1,72 @@
+
+.mainView {
+    margin-top: -5%;
+    margin-left: 0%;
+    width: 100%;
+    /* box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.274); */
+}
+
+/* .header{} */
+
+h1 {
+    font-variant-caps: all-petite-caps;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  padding: 60px 0;
+  grid: 1fr -webkit-min-content -webkit-min-content 1fr/1fr;
+  grid: 1fr min-content min-content 1fr/1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+header {
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+}
+
+section {
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  --v-offset: 60px;
+  --curve-height: 120px;
+}
+section:before,
+section:after {
+  content: "";
+  display: block;
+  background: white;
+  width: calc(100vw + 2 * var(--v-offset));
+  height: var(--curve-height);
+  position: absolute;
+  border-radius: 50%;
+  left: calc(-1 * var(--v-offset));
+  right: calc(-1 * var(--v-offset));
+}
+section:before {
+  top: calc(-0.6 * var(--curve-height));
+}
+section:after {
+  bottom: calc(-0.6 * var(--curve-height));
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 300px;
+  grid-auto-flow: column;
+  grid-gap: 24px;
+  overflow: auto;
+  -ms-scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
+}
+.wrapper img {
+  scroll-snap-align: center;
+}

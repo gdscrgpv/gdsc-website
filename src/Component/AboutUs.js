@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./AboutUsStyle.css";
 import Img from '../Assets/img/AboutUs.png';
-import Transition from "./Transition/Transition";
+// import Transition from "./Transition/Transition";
 
 const AboutUs = () => {
   const [hid, setHid] = useState(false);

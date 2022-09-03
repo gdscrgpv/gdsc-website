@@ -4,7 +4,8 @@
   width: 100%;
   height: auto;
   padding-top: 3.125rem;
-  padding-bottom: 1.875rem;
+  padding-bottom: 1.85rem;
+  
 }
 
 /* A class that is used to make the text in the div to be displayed in the center. */
@@ -77,8 +78,8 @@
   flex-wrap: wrap;
 }
 .card {
-  width: 11rem;
-  height: 11rem;
+  width: 10rem;
+  height: 10rem;
   cursor: pointer;
   transition: 0.3s;
   border-radius: 30px !important;

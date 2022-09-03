@@ -1,6 +1,6 @@
 /* Css for the partners section  */
 .partners {
-  background-color: #1d252c;
+  background-color: rgba(232, 208, 219, 0.1);
   width: 100%;
   height: auto;
   padding-top: 3.125rem;
@@ -13,8 +13,14 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
+.start-text{
+  color: #6968ff;
+  margin-right: 1rem;
+
+}
 /* Adding a margin of 10px to the right of the element. */
 .margin-10px {
   margin-right: 10px;
@@ -76,7 +82,7 @@
   cursor: pointer;
   transition: 0.3s;
   border-radius: 30px !important;
-  background-color: #271550 !important;
+  background-color: rgb(16, 152, 247) !important;
 }
 /* extra added  by Abhishek-M  */
 .card p {
@@ -85,7 +91,7 @@
 .card p a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   font-family: "GoogleSans-Light";
 }

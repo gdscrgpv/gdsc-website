@@ -8,23 +8,20 @@ import WTBM from '../Component/WTB_Member';
 import Partner from '../Component/Partners';
 import Footer from '../Component/Footer.js';
 import AboutUs from '../Component/AboutUs.js';
+import FAQ from '../Component/FAQ.js';
 export default class Home extends Component {
   render() {
     return (
       <div >
 
           <Landing />
-    
           <AboutUs/>
-    
         <Whatwedo/>
         <div className='mt-5 mb-5'>
-          <WTBM/>
+        <WTBM/>
         </div>
-
+        <FAQ />
         <Partner/>
- 
-        
         {/* header section */}
         <Footer/>
 

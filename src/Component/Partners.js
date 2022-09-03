@@ -8,7 +8,7 @@ export default class Partners extends Component {
     return (
       <div className="partners">
         <div className="partners-heading font-face-bold flex">
-          <h2 className="text-white margin-10px">Partners at</h2>
+        <div> <h2 className="start-text">Partners at </h2> </div>
           <h2 className="G margin-10px">GDSC</h2>
           <h2 className="D margin-10px">UIT</h2>
           <h2 className="S margin-10px">RGPV</h2>

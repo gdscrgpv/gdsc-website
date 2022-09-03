@@ -1,6 +1,6 @@
 import React, { Component, useState, useRef, useEffect } from "react";
 // import ReactLogo from "../Images/illustration-box-desktop.svg";
-import { FiPlus } from "react-icons/fi";
+// import { FiPlus } from "react-icons/fi";
 import "../Component/css/faq.css";
 export default function FAQ() {
   return (

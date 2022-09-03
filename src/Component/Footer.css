@@ -72,6 +72,24 @@
 {
   margin:0
 }
+
+.leftDiv {
+  text-align: left;
+  background-color: orangered;
+}
+.gdscImg {
+  
+  width: 50vh;
+  height: 25vh;
+  background-color: black;
+}
+.newsletter {
+  width: 50vh;
+  height: 10vh;
+  
+  background-color: white;
+}
+
 @media (max-width:991px)
 {
   .site-footer [class^=col-]

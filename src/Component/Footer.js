@@ -12,7 +12,7 @@ export default class Footer extends Component {
 
                 {/* gdsc LOGO and newsletter */}
                 <h6>About</h6>
-                <img src={GSDC} class="gdscImg" />
+                <img src={GSDC} class="gdscImg" alt="GDSC" />
 
                 {/* newsLetter */}
                 <div class="newsletter">

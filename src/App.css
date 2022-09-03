@@ -134,6 +134,10 @@
   background-color: rgba(255, 255, 255,1 );
   border-radius: 10px;
   padding: 5px 35px 10px 35px;
+
+
+  box-shadow:  18px 18px 37px #bebebe,
+  -18px -18px 37px #ffffff;
 }
 
 .testimonial-area-l-13 .testimonial-card p {

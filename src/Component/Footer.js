@@ -1,6 +1,19 @@
 import React, { Component } from "react";
 import "./Footer.css";
-import GSDC from "../Assets/img/GDSC_Logo.png"
+import GSDC from "../Assets/img/GDSC_Logo.png";
+import mail from "../Assets/img/mail.png";
+import phone from "../Assets/img/phone.png";
+import mapPin from "../Assets/img/map_pin.png";
+import facebook from "../Assets/img/facebook.png";
+import linkedin from "../Assets/img/linkedin.png";
+import twitter from "../Assets/img/twitter.png";
+import youtube from "../Assets/img/youtube.png";
+import insta from "../Assets/img/instagram.png";
+import telegram from "../Assets/img/telegram.png";
+import discord from "../Assets/img/discord.png";
+
+
+import { Button } from "reactstrap";
 export default class Footer extends Component {
   render() {
     return (
@@ -9,59 +22,78 @@ export default class Footer extends Component {
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-6 leftDiv">
+                <img src={GSDC} class="gdscImg"/>
+              </div>
 
-                {/* gdsc LOGO and newsletter */}
-                <h6>About</h6>
-                <img src={GSDC} class="gdscImg" alt="GDSC" />
+              <div class="col-xs-6 col-md-3">
 
-                {/* newsLetter */}
-                <div class="newsletter">
+                <div className="horizontal ">
+                  <img src={mail} className="icon leftIcon" />
+
+                  <h6 className=" font-face-lighter" >gdscuitrgpv@gmail.com</h6>
+                </div>
+
+                <div className="horizontal ">
+                  <img src={phone} className="icon leftIcon" />
+
+                  <h6 className=" font-face-lighter" >+91-6283698964</h6>
+                </div>
+
+                <div className="horizontal ">
+                  <img src={mapPin} className="icon leftIcon" />
+
+                  <h6 className=" font-face-lighter" >8966+3M7, Abbas Nagar, Gandhi Nagar, Bhopal, Madhya Pradesh 462033</h6>
 
                 </div>
-                {/* <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p> */}
-              </div>
-
-              <div class="col-xs-6 col-md-3">
-                <h6>Categories</h6>
-                <ul class="footer-links">
-                  <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
-                  <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
-                  <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
-                  <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
-                  <li><a href="http://scanfcode.com/category/android/">Android</a></li>
-                  <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
-                </ul>
-              </div>
-
-              <div class="col-xs-6 col-md-3">
-                <h6>Quick Links</h6>
-                <ul class="footer-links">
-                  <li><a href="http://scanfcode.com/about/">About Us</a></li>
-                  <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-                  <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
-                  <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-                  <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
-                </ul>
               </div>
             </div>
-            <hr/>
+            <hr />
           </div>
           <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-sm-6 col-xs-12">
-                <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
-                  <a href="#">Scanfcode</a>.
+            <div class="row text-center">
+              <div class="col-sm-6 col-md-3">
+                <p class="copyright-text">Copyright &copy; 2022 GDSC UIT RGPV Bhopal
                 </p>
               </div>
 
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <ul class="social-icons">
-                  <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
+              <div class="col-xs-6 col-md-3 horizontal">
+                <p class="contact-text">Contact with US
+                </p>
+
+                <div className="horizontal leftIcon ">
+                  <img src={facebook} className="icon" />
+                </div>
+
+                <div className="horizontal leftIcon ">
+                  <img src={linkedin} className="icon" />
+                </div>
+                <div className="horizontal leftIcon ">
+                  <img src={twitter} className="icon" />
+                </div>
+
+                <div className="horizontal leftIcon ">
+                  <img src={youtube} className="icon" />
+                </div>
+
+                <div className="horizontal leftIcon ">
+                  <img src={insta} className="icon" />
+                </div>
+
+                <div className="horizontal leftIcon ">
+                  <img src={telegram} className="icon" />
+                </div>
+
+                <div className="horizontal leftIcon ">
+                  <img src={discord} className="icon" />
+                </div>
+
               </div>
+
+              <div className="col-xs-6 col-md-3">
+                <p class="copyright-text">Privacy Policy | Terms & conditions
+                </p>
+              </div>
+
             </div>
           </div>
         </footer>

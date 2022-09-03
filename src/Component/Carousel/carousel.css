@@ -15,16 +15,7 @@ h1 {
     margin-bottom: 3%;
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  padding: 60px 0;
-  grid: 1fr -webkit-min-content -webkit-min-content 1fr/1fr;
-  grid: 1fr min-content min-content 1fr/1fr;
-  align-items: center;
-  justify-items: center;
-}
+
 
 header {
   font-size: 42px;

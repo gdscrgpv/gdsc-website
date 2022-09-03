@@ -5,7 +5,9 @@ export default class Landing extends Component {
   render() {
     return (
       <div className='banner-landing '>
-        <img src={Logo} alt="logo" className='gdsc-landing-logo' style={{height:'90%',width:'90%'}}/>
+        <img src={Logo} alt="logo" className='gdsc-landing-logo' style={{height:'90%',width:'80%'}}/>
+
+        <h1></h1>
         
                 
       </div>

@@ -20,8 +20,8 @@ export default class Home extends Component {
         <div className='mt-5 mb-5'>
         <WTBM/>
         </div>
-        <FAQ />
         <Partner/>
+        <FAQ />
         {/* header section */}
         <Footer/>
 

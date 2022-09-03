@@ -10,7 +10,7 @@ export default class WhatWeDo extends Component {
             <div className="col-xl-11">
               <div className="row">
                 <div className="col-md-12">
-                  <div className="section-heading-7 text-left text-white font-face-bold">
+                  <div className="section-heading-7 text-left text-black font-face-bold">
                     <div className="flex">
                       <h2 className="what-we-do">What we do at</h2>
                       <h2 className="G">G</h2>
@@ -20,7 +20,7 @@ export default class WhatWeDo extends Component {
                       <h2>?</h2>
                     </div>
                   </div>
-                  <div className="section-heading-7 text-left text-white font-face-lighter">
+                  <div className="section-heading-7 text-left text-black font-face-lighter">
                     <h4>
                       Google Developers Students Club (GDSC) is formed by
                       passionate and dedicated students leading to empower other

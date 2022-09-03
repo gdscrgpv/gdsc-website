@@ -4,13 +4,15 @@ export default class Footer extends Component {
   render() {
     return (
       <div>
-        {/* <!-- Site footer --> */}
         <footer class="site-footer">
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-6">
+
+                {/* gdsc LOGO and newsletter */}
                 <h6>About</h6>
-                <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+                <img src="" />
+                {/* <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p> */}
               </div>
 
               <div class="col-xs-6 col-md-3">
@@ -36,7 +38,7 @@ export default class Footer extends Component {
                 </ul>
               </div>
             </div>
-            <hr>
+            {/* </hr> */}
           </div>
           <div class="container">
             <div class="row">

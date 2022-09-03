@@ -7,6 +7,7 @@ import Whatwedo from '../Component/WhatWeDo';
 import Navbar from '../Component/NavBarcomp';
 import WTBM from '../Component/WTB_Member';
 import Partner from '../Component/Partners';
+import Footer from '../Component/Footer.js';
 export default class Home extends Component {
   render() {
     return (
@@ -24,9 +25,8 @@ export default class Home extends Component {
         <Partner/>
  
         
-        
-
-
+        {/* header section */}
+        <Footer/>
 
       </div>
     )

@@ -1,0 +1,148 @@
+   /* NAVBAR STYLING STARTS */
+
+   .sticky{
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+._navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem;
+    background-color:transparent;
+    color: white;
+    z-index: 1;
+   }
+
+
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+   }
+
+   .logo img{
+    height: 3.5rem;
+    width: auto;
+    margin: 1rem;
+}
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    background-color:transparent;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .menu li {
+    padding: 5px 14px;   
+   }
+   .link_text{
+    font-size: 1.45rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+   }
+
+   .btn_text {
+    font-size: 1.35rem;
+    text-decoration: none;
+    color: white;
+   }
+
+   .join_us_btn{
+    display: flex;
+    height: 4rem;
+    width: 10rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1.2rem;
+    background-color:rgba(66, 133, 244, 1);
+   }
+/*RESPONSIVE NAVBAR MENU STARTS*/
+
+
+
+/* CHECKBOX HACK */
+input[type=checkbox]{
+    display: none;
+   } 
+   /*HAMBURGER MENU*/
+   .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+    color: black;
+   }
+
+
+   @media  (min-width: 1000px) {
+    
+   }
+   /* APPLYING MEDIA QUERIES */
+   @media (max-width: 800px) {
+
+    .logo img{
+        height: 2.5rem;
+        width: auto;
+        margin: 1rem;
+    }
+
+    
+   .join_us_btn{
+    display: flex;
+    height: 2rem;
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1.2rem;
+    background-color:rgba(66, 133, 244, 1);
+   }
+
+   
+   .btn_text {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+   }
+
+   .menu { 
+    display:none;
+    position: absolute;
+    background-color:transparent;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+   }
+   .menu li:hover {
+    display: inline-block;
+    background-color:rgba(0, 0 , 0, 0.05);
+    transition: 0.3s ease;
+   }
+   .menu li + li {
+    margin-top: 12px;
+   }
+   input[type=checkbox]:checked ~ .menu{
+    display: block;
+   }
+   .hamburger {
+    display: block;
+   }
+   .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+   }
+   .dropdown li:hover {
+    background-color: #4c9e9e;
+   }
+   }

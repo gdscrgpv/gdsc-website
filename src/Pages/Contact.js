@@ -13,11 +13,13 @@ import {
   FaGoogle,
 } from "react-icons/fa";
 import ContactComponent from "../Component/Contact";
+import NavBarcomp from "../Component/NavBar";
 export default class Contact extends Component {
   render() {
     return (
       <>
         <div className="">
+          <NavBarcomp/>
           <ContactComponent />
         </div>
       </>

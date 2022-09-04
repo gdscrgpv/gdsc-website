@@ -29,7 +29,7 @@ export default class NavBarcomp extends Component {
             </li>
             <li>
             < div className="join_us_btn">
-             <a className=" font-face-Bold btn_text" href="/">JOIN US</a>
+             <a className=" font-face-Bold btn_text" target="_blank" rel="noopener noreferrer" href="https://gdsc.community.dev/university-institute-of-technology-rgpv-bhopal/">JOIN US</a>
              </div>
             </li>
           </div>

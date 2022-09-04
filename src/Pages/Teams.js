@@ -64,7 +64,7 @@ export default class Teams extends Component {
       },
       
       {
-        name:"Prakriti Mankar",
+        name:"Prakrti Mankar",
         role:'Women In Tech',
         img:require("../Assets/img/Prakrti Mankar _ Women in Tech.jpg"),
       },
@@ -110,32 +110,34 @@ export default class Teams extends Component {
         
         <div >
           {/*left right section */}
-          <div className='container' style={{height:'100vh'}}>
-            <div className='row'>
-              <div className='col-md-6'>
-                <div className='row'>
-                  <div className='col-md-12'>
-                    <h1 className='heading'>
-                      <span className='text-primary'>
-                        <h1>The Team</h1>
-                      </span>
-                    </h1>
-                  </div>
-                </div>
-                <div className='row'>
-                  <div className='col-md-12'>
-                    <p className='text-justify'>
-                      We are a team of passionate people who love to create
-                      meaningful things. We believe in the power of collaboration
-                      and in the power of technology.
-                    </p>
-                  </div>
+          <div className='teamlanding'>
+
+            
+
+          <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+
+              <div class="col-md-6" id="home-img"></div>
+              <div class="col-md-6  text-center titletean" id="home-content ">
+                <h1 className='first-title'>The<br/>
+                   <span className='G'>T</span>
+                   <span className='D'>E</span>
+                   <span className='S'>A</span>
+                   <span className='C'>M</span>
+                </h1>
+                <h2><b>Presenting board of 2022-2023</b></h2>
+                <div>
                 </div>
               </div>
-              <div className='col-md-6'>
-                
-              </div>
-            </div>
+            
+        </div>
+     </div>
+
+
+
+
+
+
           </div>
         </div>
         {/*team section */}
@@ -143,8 +145,8 @@ export default class Teams extends Component {
         {/*team section */}
         <div className='container'>
         </div>
-        <div className='Heading text-center '>
-          <h1>GDSC Lead</h1>
+        <div className='Heading text-center mt-5'>
+          <h1>Faculty Coordinator</h1>
         </div>
         <div className="speakersCardContainer mt-5">
           <div class="speakerCard">

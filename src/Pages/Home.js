@@ -13,7 +13,7 @@ export default class Home extends Component {
   render() {
     return (
       <div >
-
+        <Navbar />
           <Landing />
           <AboutUs/>
         <Whatwedo/>

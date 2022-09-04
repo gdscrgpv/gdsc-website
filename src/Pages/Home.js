@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import { Link } from "react-router-dom";
 import Landing from '../Component/Landing';
 import Whatwedo from '../Component/WhatWeDo';
-import Navbar from '../Component/NavBarcomp';
+import Navbar from '../Component/NavBar';
 import WTBM from '../Component/WTB_Member';
 import Partner from '../Component/Partners';
 import Footer from '../Component/Footer.js';
@@ -13,7 +13,7 @@ export default class Home extends Component {
   render() {
     return (
       <div >
-        <Navbar />
+         <Navbar />
           <Landing />
           <AboutUs/>
         <Whatwedo/>
@@ -22,7 +22,6 @@ export default class Home extends Component {
         </div>
         <Partner/>
         <FAQ />
-        {/* header section */}
         <Footer/>
 
       </div>

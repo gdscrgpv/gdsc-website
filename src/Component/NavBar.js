@@ -4,7 +4,7 @@ import logo from "../Images/sample.png";
 export default class NavBarcomp extends Component {
   render() {
     return (
-        <nav class="_navbar sticky" >
+        <nav class="_navbar" >
         <div className="logo"><img src={logo} alt ="logo"/>
         </div>
 

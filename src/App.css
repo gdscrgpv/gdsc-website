@@ -348,6 +348,20 @@
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
+.circle-1:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.circle-2:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.circle-3:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+
 /* //media Query for WTB section  */
 
 @media only screen and (max-width: 1650px){

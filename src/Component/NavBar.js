@@ -4,8 +4,8 @@ import logo from "../Images/sample.png";
 export default class NavBarcomp extends Component {
   render() {
     return (
-        <nav class="_navbar" >
-        <div className="logo"><img src={logo} alt ="logo"/>
+        <nav class="_navbar sticky" >
+        <div className="logo"><img src="https://gdsciiitb.tech/images/logos/gdsc-logo.gif" alt ="logo"/>
         </div>
 
         <ul className="nav-links ">

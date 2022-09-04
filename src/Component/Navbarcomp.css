@@ -10,8 +10,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.2rem;
-    background-color:transparent;
+    
+    background-color:white;
     color: white;
     z-index: 1;
    }
@@ -23,9 +23,10 @@
    }
 
    .logo img{
-    height: 3.5rem;
+    height: 4.5rem;
     width: auto;
-    margin: 1rem;
+    margin-left: 3rem;
+
 }
    /* NAVBAR MENU */
    .menu {
@@ -43,7 +44,7 @@
     padding: 5px 14px;   
    }
    .link_text{
-    font-size: 1.45rem;
+    font-size: 1.2rem;
     font-weight: 400;
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -51,15 +52,15 @@
    }
 
    .btn_text {
-    font-size: 1.35rem;
+    font-size: 1rem;
     text-decoration: none;
     color: white;
    }
 
    .join_us_btn{
     display: flex;
-    height: 4rem;
-    width: 10rem;
+    height: 3rem;
+    width: 8rem;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -87,7 +88,7 @@ input[type=checkbox]{
     
    }
    /* APPLYING MEDIA QUERIES */
-   @media (max-width: 800px) {
+   @media (max-width: 1000px) {
 
     .logo img{
         height: 2.5rem;
@@ -117,25 +118,26 @@ input[type=checkbox]{
    .menu { 
     display:none;
     position: absolute;
-    background-color:transparent;
+    background-color:white;
     right: 0;
     left: 0;
     text-align: center;
     padding: 16px 0;
+    margin-top: 1.5rem;
    }
    .menu li:hover {
-    display: inline-block;
+    /* display: inline-block; */
     background-color:rgba(0, 0 , 0, 0.05);
     transition: 0.3s ease;
    }
    .menu li + li {
-    margin-top: 12px;
+    margin-top: 0;
    }
    input[type=checkbox]:checked ~ .menu{
     display: block;
    }
    .hamburger {
-    display: block;
+    display: flex;
    }
    .dropdown {
     left: 50%;

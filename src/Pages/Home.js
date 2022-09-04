@@ -22,7 +22,6 @@ export default class Home extends Component {
         </div>
         <Partner/>
         <FAQ />
-        {/* header section */}
         <Footer/>
 
       </div>

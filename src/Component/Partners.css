@@ -1,6 +1,6 @@
 /* Css for the partners section  */
 .partners {
-  background-color: rgba(232, 208, 219, 0.1);
+  background-color: #f2f2f2;
   width: 100%;
   height: auto;
   padding-top: 3.125rem;
@@ -17,10 +17,12 @@
   margin-bottom: 2rem;
 }
 
-.start-text{
-  color: #6968ff;
-  margin-right: 1rem;
+.partners-heading h2 {
+  font-family: "GoogleSans-Bold" !important;
+}
 
+.start-text{
+margin-right: 10px;
 }
 /* Adding a margin of 10px to the right of the element. */
 .margin-10px {

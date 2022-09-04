@@ -5,7 +5,7 @@ export default class NavBarcomp extends Component {
   render() {
     return (
         <nav class="_navbar sticky" >
-        <div className="logo"><img src={logo} alt ="logo"/>
+        <div className="logo"><img src="https://gdsciiitb.tech/images/logos/gdsc-logo.gif" alt ="logo"/>
         </div>
 
         <ul className="nav-links ">
@@ -29,7 +29,7 @@ export default class NavBarcomp extends Component {
             </li>
             <li>
             < div className="join_us_btn">
-             <a className=" font-face-Bold btn_text" href="/">JOIN US</a>
+             <a className=" font-face-Bold btn_text" target="_blank" rel="noopener noreferrer" href="https://gdsc.community.dev/university-institute-of-technology-rgpv-bhopal/">JOIN US</a>
              </div>
             </li>
           </div>

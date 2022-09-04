@@ -1,11 +1,20 @@
 
 
 .teamlanding{
-    height: 98vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/project-banana-4822.appspot.com/o/images%2Fbk.png?alt=media');
+    height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first-title{
+  font-size: 3.5em ;
+  padding-top: 2em;
 }
 .speakersCardContainer {
     display: flex;

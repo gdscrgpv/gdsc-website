@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 // import { Link } from "react-router-dom";
 import "../Component/Partners.css";
+import semikolan from "../Images/semikolan.png";
+import finflee from "../Images/finflee.png";
 import WhatWeDoCard from "./Cards/WhatWeDoCard";
 export default class Partners extends Component {
   render() {
@@ -29,32 +31,31 @@ export default class Partners extends Component {
 
     return (
       <>
+      <div className="partners">
+      <div className="partners-title">Partners & Sponsors</div>
         <div className="cards-list">
           <div className="card">
             <div className="card_image">
-              {" "}
-              <img src="https://i.redd.it/b3esnz5ra34y.jpg" />{" "}
+              <img src={semikolan} />
             </div>
           </div>
           <div className="card">
             <div className="card_image">
-              {" "}
-              <img src="https://i.redd.it/b3esnz5ra34y.jpg" />{" "}
+              <img src={semikolan} />
             </div>
           </div>
           <div className="card">
             <div className="card_image">
-              {" "}
-              <img src="https://i.redd.it/b3esnz5ra34y.jpg" />{" "}
+              <img src={semikolan} />
             </div>
           </div>
           <div className="card">
             <div className="card_image">
-              {" "}
-              <img src="https://i.redd.it/b3esnz5ra34y.jpg" />{" "}
+              <img src={semikolan} />
             </div>
           </div>
         </div>
+      </div>
       </>
     );
   }

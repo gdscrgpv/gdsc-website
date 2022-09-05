@@ -320,6 +320,62 @@
   }
 }
 
+@media screen and (max-width: 1280px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+    width: 50%;
+  }
+
+  .screen-body-item.right {
+    width: 50%;
+    padding-left: 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .logo {
+    margin-top: -28%;
+    margin-left: 0vh;
+    padding: 0vh 0%;
+    width: 60%;
+    height: 50%;
+    font-weight: 400;
+  }
+
+  .contact-detail {
+    margin-top: 15%;
+    margin-left: 6%;
+    padding-left: 20%;
+  }
+
+  .app-form-group.buttons {
+    width: 100%;
+    text-align: center;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+
+  .midTxt {
+    font-size: 1.8vh;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .screen-body {
     padding: 40px;
@@ -344,13 +400,14 @@
     margin-left: 0vh;
     padding: 0vh 0%;
     width: 60%;
-    height: 60%;
+    height: 50%;
     font-weight: 400;
   }
 
   .contact-detail {
     margin-top: 15%;
     margin-left: 6%;
+    padding-left: 20%;
   }
 
   .app-form-group.buttons {
@@ -395,18 +452,18 @@
   }
 
   .logo {
-    
-    margin-top: -37%;
+    margin-top: -40%;
     margin-left: 0vh;
     padding: 0vh 0%;
     width: 80%;
-    height: 70%;
+    height: 55%;
     font-weight: 400;
   }
 
   .contact-detail {
     margin-top: 6%;
-    margin-left: 6%;
+    margin-left: 0%;
+    padding-left: 12%;
   }
 
   .app-form-group.buttons {
@@ -450,18 +507,18 @@
   }
 
   .logo {
-    
-    margin-top: -40%;
+    margin-top: -44%;
     margin-left: 0vh;
     padding: 0vh 0%;
     width: 80%;
-    height: 70%;
+    height: 55%;
     font-weight: 400;
   }
 
   .contact-detail {
-    margin-top: 1%;
+    margin-top: 6%;
     margin-left: 6%;
+    padding-left: 8%;
   }
 
   .app-form-group.buttons {
@@ -505,7 +562,6 @@
   }
 
   .logo {
-    
     margin-top: -40%;
     margin-left: 0vh;
     padding: 0vh 0%;
@@ -561,18 +617,23 @@
   }
 
   .logo {
-    
-    margin-top: -70%;
+    margin-top: -75%;
     margin-left: 0vh;
     padding: 0vh 0%;
     width: 90%;
-    height: 60%;
+    height: 50%;
     font-weight: 400;
   }
 
   .contact-detail {
     margin-top: 15%;
     margin-left: 6%;
+    padding-left: 1%;
+  }
+
+  .contactIcon {
+    margin-top: 3%;
+    margin-right: 1vh;
   }
 
   .app-form-group.buttons {
@@ -617,18 +678,28 @@
   }
 
   .logo {
-    
     margin-top: -70%;
     margin-left: 0vh;
     padding: 0vh 0%;
     width: 90%;
-    height: 60%;
+    height: 50%;
     font-weight: 400;
   }
 
   .contact-detail {
     margin-top: 15%;
     margin-left: 6%;
+    padding-left: 5%;
+  }
+
+  .contactIcon {
+    margin-top: 3%;
+    margin-right: 1vh;
+  }
+
+  .connectIcon {
+    width: 80%;
+    height: 80%;
   }
 
   .app-form-group.buttons {
@@ -684,7 +755,19 @@
   .contact-detail {
     margin: 0vh;
     margin-bottom: 5vh;
-    padding-left: 0vh;
+    padding-left: 25%;
+  }
+
+  .contactIcon {
+    width: 8%;
+    height: 8%;
+    margin-top: 0%;
+    margin-right: 5%;
+  }
+
+  .connectIcon {
+    width: 80%;
+    height: 80%;
   }
 
   .app-form-group.buttons {
@@ -721,7 +804,6 @@
     display: flex;
     margin-bottom: 30px;
     text-align: center;
-
   }
 
   .logo {
@@ -779,7 +861,6 @@
     display: flex;
     margin-bottom: 30px;
     text-align: center;
-
   }
 
   .logo {
@@ -800,7 +881,7 @@
   .contact-detail {
     margin: 0vh;
     margin-bottom: 5vh;
-    padding-left: 0vh;
+    padding-left: 10%;
   }
 
   .app-form-group.buttons {

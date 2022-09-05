@@ -90,21 +90,21 @@ export default class ContactComponent extends Component {
 
                   {/* contact details */}
                   <div class="contact-detail contact ">
-                    <div class=" flex">
+                    <div class=" flex" style={{marginBottom: "2%"}}>
                       <img src={mapPin} className="contactIcon" style={{ color: 'black' }} />
 
                       <p class="midTxt">
                         Airport road, Uit rgpv
                       </p>
                     </div>
-                    <div class=" flex">
+                    <div class=" flex" style={{marginBottom: "2%"}}>
                       <img src={mail} className="contactIcon" style={{ color: 'black' }} />
 
                       <p class="midTxt">
                         gdscuitrgpv@gmail.com
                       </p>
                     </div>
-                    <div class=" flex">
+                    <div class=" flex" style={{marginBottom: "2%"}}>
                       <img src={phone} className="contactIcon" style={{ color: 'black' }} />
 
                       <p class="midTxt">

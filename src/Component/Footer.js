@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Footer.css";
-import GSDC from "../Assets/img/GDSC_Logo.png";
+import GDSC from "../Assets/img/GDSC_Logo.png";
 import mail from "../Assets/img/mail.png";
 import phone from "../Assets/img/phone.png";
 import mapPin from "../Assets/img/map_pin.png";
@@ -9,95 +9,100 @@ import linkedin from "../Assets/img/linkedin.png";
 import twitter from "../Assets/img/twitter.png";
 import youtube from "../Assets/img/youtube.png";
 import insta from "../Assets/img/instagram.png";
-import telegram from "../Assets/img/telegram.png";
+// import telegram from "../Assets/img/telegram.png";
 import discord from "../Assets/img/discord.png";
-
 
 import { Button } from "reactstrap";
 export default class Footer extends Component {
   render() {
     return (
-      <div>
-        <footer class="site-footer">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12 col-md-6 leftDiv">
-                <img src={GSDC} class="gdscImg"/>
-              </div>
-
-              <div class="col-xs-6 col-md-3">
-
-                <div className="horizontal ">
-                  <img src={mail} className="icon leftIcon" />
-
-                  <h6 className=" font-face-lighter" >gdscuitrgpv@gmail.com</h6>
-                </div>
-
-                <div className="horizontal ">
-                  <img src={phone} className="icon leftIcon" />
-
-                  <h6 className=" font-face-lighter" >+91-6283698964</h6>
-                </div>
-
-                <div className="horizontal ">
-                  <img src={mapPin} className="icon leftIcon" />
-
-                  <h6 className=" font-face-lighter" >8966+3M7, Abbas Nagar, Gandhi Nagar, Bhopal, Madhya Pradesh 462033</h6>
-
-                </div>
-              </div>
+      <footer className="footer-section">
+  <div className="container">
+    <div className="footer-content pt-5 pb-5">
+      <div className="row">
+        <div className="col-xl-4 col-lg-4 mb-50">
+          <div className="footer-widget">
+            <div className="footer-logo">
+              <a href="index.html">
+                <img
+                  src={GDSC}
+                  className="img-fluid"
+                  alt="logo"
+                />
+              </a>
             </div>
-            <hr />
-          </div>
-          <div class="container">
-            <div class="row text-center">
-              <div class="col-sm-6 col-md-3">
-                <p class="copyright-text">Copyright &copy; 2022 GDSC UIT RGPV Bhopal
-                </p>
-              </div>
-
-              <div class="col-xs-6 col-md-3 horizontal">
-                <p class="contact-text">Contact with US
-                </p>
-
-                <div className="horizontal leftIcon ">
-                  <img src={facebook} className="icon" />
-                </div>
-
-                <div className="horizontal leftIcon ">
-                  <img src={linkedin} className="icon" />
-                </div>
-                <div className="horizontal leftIcon ">
-                  <img src={twitter} className="icon" />
-                </div>
-
-                <div className="horizontal leftIcon ">
-                  <img src={youtube} className="icon" />
-                </div>
-
-                <div className="horizontal leftIcon ">
-                  <img src={insta} className="icon" />
-                </div>
-
-                <div className="horizontal leftIcon ">
-                  <img src={telegram} className="icon" />
-                </div>
-
-                <div className="horizontal leftIcon ">
-                  <img src={discord} className="icon" />
-                </div>
-
-              </div>
-
-              <div className="col-xs-6 col-md-3">
-                <p class="copyright-text">Privacy Policy | Terms & conditions
-                </p>
-              </div>
-
+            <div className="footer-text text-left">
+              <p className="text-left">
+              Google Student Developer Clubs (GDSC) is a student-led network that allows undergrad students to upgrade their skills and learn about various domains of computing.
+              </p>
             </div>
           </div>
-        </footer>
+        </div>
+        <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+          <div className="footer-widget">
+            <div className="footer-widget-heading useful">
+              <h3>Useful Links</h3>
+            </div>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">about</a>
+              </li>
+              <li>
+                <a href="#">services</a>
+              </li>
+              <li>
+                <a href="#">portfolio</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <a href="#">About us</a>
+              </li>
+              <li>
+                <a href="#">Our Services</a>
+              </li>
+              <li>
+                <a href="#">Expert Team</a>
+              </li>
+              <li>
+                <a href="#">Contact us</a>
+              </li>
+              <li>
+                <a href="#">Latest News</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
+          <div className="footer-widget">
+            <div className="footer-widget-heading">
+              <h3>Subscribe</h3>
+            </div>
+            <div className="footer-text mb-25">
+              <p>
+                Don’t miss to subscribe to our new feeds, kindly fill the form
+                below.
+              </p>
+            </div>
+            <div className="subscribe-form">
+              <form action="#">
+                <input type="text" placeholder="Email Address" />
+                <button>
+                  <i className="fa fa-telegram-plane" />
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+  </div>
+</footer>
+
     );
   }
 }

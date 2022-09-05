@@ -8,85 +8,96 @@ export default function FAQ() {
       <div className="root">
         <main>
           <article>
-            <div class="container">
-              <div class="row faq-card">
-                <div class="col-sm">
-                  <lottie-player
-                    src="https://assets4.lottiefiles.com/packages/lf20_rmqm00ic.json"
-                    background="transparent"
-                    speed="1"
-                    style={{ width:"100%", height: "100%" }}
-                    loop
-                    autoplay
-                  ></lottie-player>
-                </div>
-                <div class="col-sm">
-                  <div class="mt-5 mb-5 contentWrapper">
-                    <h1>Faq</h1>
-                    <ul>
-                      <li>
-                        <input
-                          type="checkbox"
-                          id="question1"
-                          name="accordionGroup"
-                          class="toggleState"
-                        />
-                        <h2 class="question">
-                          <label for="question1">
-                            Who can become a member of GDSC?
-                          </label>
-                        </h2>
-                        <p class="answer">
-                          Students of all undergraduate and graduate programs
-                          from all domains who are passionate about becoming a
-                          developer are welcome as a member of GDSC. The passion
-                          to learn and grow in a community of enthusiastic
-                          developers is the only prerequisite needed.
-                        </p>
-                      </li>
-                      <li>
-                        <input
-                          type="checkbox"
-                          id="question2"
-                          name="accordionGroup"
-                          class="toggleState"
-                        />
-                        <h2 class="question">
-                          <label for="question2">
-                            Are GDSC activities free of cost?
-                          </label>
-                        </h2>
-                        <p class="answer">
-                          Yes, all sessions, workshops, seminars, hackathons,
-                          etc. organised by GDSC are free of cost. All
-                          activities are organised by highly skilled experts who
-                          have achieved laurels in their respective domains.
-                        </p>
-                      </li>
-                      <li>
-                        <input
-                          type="checkbox"
-                          id="question3"
-                          name="accordionGroup"
-                          class="toggleState"
-                        />
-                        <h2 class="question">
-                          <label for="question3">
-                            Why GDSC when we have a similar club?
-                          </label>
-                        </h2>
-                        <p class="answer">
-                          Being a global community, GDSC offers immense exposure
-                          to its community members. By joining a GDSC, a student
-                          not only learns and grows as a developer but also
-                          builds up a strong network and exquisite communication
-                          skills.
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+            <div className="contentWrapper">
+              <h1>Faq</h1>
+              <ul>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="question1"
+                    name="accordionGroup"
+                    className="toggleState"
+                  />
+                  <h2 className="question">
+                    <label htmlFor="question1">
+                      How many team members can I invite?
+                    </label>
+                  </h2>
+                  <p className="answer">
+                    You can invite up to 2 additional users on the Free plan.
+                    There is no limit on team members for the Premium plan.
+                  </p>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="question2"
+                    name="accordionGroup"
+                    className="toggleState"
+                  />
+                  <h2 className="question">
+                    <label htmlFor="question2">
+                      What is the maximum file upload size?
+                    </label>
+                  </h2>
+                  <p className="answer">
+                    No more than 2GB. All files in your account must fit your
+                    allotted storage space.
+                  </p>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="question3"
+                    name="accordionGroup"
+                    className="toggleState"
+                  />
+                  <h2 className="question">
+                    <label htmlFor="question3">
+                      How do I reset my password?
+                    </label>
+                  </h2>
+                  <p className="answer">
+                    Click “Forgot password” from the login page or “Change
+                    password” from your profile page. A reset link will be
+                    emailed to you.
+                  </p>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="question4"
+                    name="accordionGroup"
+                    className="toggleState"
+                  />
+                  <h2 className="question">
+                    <label htmlFor="question4">
+                      Can I cancel my subscription?
+                    </label>
+                  </h2>
+                  <p className="answer">
+                    Yes! Send us a message and we’ll process your request no
+                    questions asked.
+                  </p>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="question5"
+                    name="accordionGroup"
+                    className="toggleState"
+                  />
+                  <h2 className="question">
+                    <label htmlFor="question5">
+                      Do you provide additional support?
+                    </label>
+                  </h2>
+                  <p className="answer">
+                    Chat and email support is available 24/7. Phone lines are
+                    open during normal business hours.
+                  </p>
+                </li>
+              </ul>
             </div>
           </article>
         </main>

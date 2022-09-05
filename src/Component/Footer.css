@@ -1,197 +1,172 @@
-.site-footer {
-  background-color: #26272b;
-  padding: 45px 0 20px;
-  font-size: 15px;
-  line-height: 24px;
-  color: #737373;
+ul {
+  margin: 0px;
+  padding: 0px;
 }
-.site-footer hr {
-  border-top-color: #bbb;
-  opacity: 0.5;
+.footer-section {
+background: #151414;
+position: relative;
 }
-.site-footer hr.small {
-  margin: 20px 0;
+.footer-cta {
+border-bottom: 1px solid #373636;
 }
-.site-footer h6 {
-  color: #fff;
-  font-size: 16px;
-  margin-top: 5px;
-  letter-spacing: 1px;
-  text-align: left;
+.single-cta i {
+color: #ff5e14;
+font-size: 30px;
+float: left;
+margin-top: 8px;
 }
-.site-footer a {
-  color: #737373;
+.cta-text {
+padding-left: 15px;
+display: inline-block;
 }
-.site-footer a:hover {
-  color: #3366cc;
-  text-decoration: none;
+.cta-text h4 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
 }
-.footer-links {
-  padding-left: 0;
-  list-style: none;
+.cta-text span {
+color: #757575;
+font-size: 15px;
 }
-.footer-links li {
-  display: block;
+.footer-content {
+position: relative;
+z-index: 2;
 }
-.footer-links a {
-  color: #737373;
+.footer-pattern img {
+position: absolute;
+top: 0;
+left: 0;
+height: 330px;
+background-size: cover;
+background-position: 100% 100%;
 }
-.footer-links a:active,
-.footer-links a:focus,
-.footer-links a:hover {
-  color: #3366cc;
-  text-decoration: none;
+.footer-logo {
+margin-bottom: 30px;
 }
-.footer-links.inline li {
-  display: inline-block;
+.footer-logo img {
+  max-width: 20rem;
 }
-.site-footer .social-icons {
-  text-align: right;
+.footer-text p {
+margin-bottom: 14px;
+font-size: 14px;
+font-family: "GoogleSans-Light";
+text-align: left;
+    color: #fff;
+line-height: 28px;
 }
-.site-footer .social-icons a {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  margin-left: 6px;
-  margin-right: 0;
-  border-radius: 100%;
-  background-color: #33353d;
+.footer-social-icon span {
+color: #fff;
+display: block;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 20px;
 }
-.copyright-text {
-  margin: 0;
-  color: white;
+.footer-social-icon a {
+color: #fff;
+font-size: 16px;
+margin-right: 15px;
 }
-
-.contact-text {
-  margin: 0;
-  /* width: vh; */
-  color: white;
+.footer-social-icon i {
+height: 40px;
+width: 40px;
+text-align: center;
+line-height: 38px;
+border-radius: 50%;
 }
-
-.leftDiv {
-  /* text-align: left; */
-  /* background-color: orangered; */
+.facebook-bg{
+background: #3B5998;
 }
-.rightDiv {
-  /* text-align: center */
+.twitter-bg{
+background: #55ACEE;
 }
-.gdscImg {
-  width: 50vh;
-  height: 25vh;
+.google-bg{
+background: #DD4B39;
 }
-.newsletter {
-  width: 50vh;
-  height: 10vh;
-  padding: 1vh;
-  border-radius: 5vh;
-  background-color: white;
+.footer-widget-heading h3 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+text-align: left !important;
+margin-bottom: 40px;
+position: relative;
 }
-.btn {
-  width: 8vh;
-  height: 8vh;
-}
-.circle {
-  width: 8vh;
-  height: 8vh;
-  padding: 0.3vh;
-  float: right;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10vh;
-  background-color: rgb(255, 187, 0);
-}
-.send {
-  /* margin: 1vh; */
-  width: 7vh;
-  height: 7vh;
-}
-.horizontal {
-  display: flex;
-  flex-direction: row;
-}
-.leftIcon {
-  /* width: "30%"; */
-  margin-top: 0.6vh;
-  margin-right: 3vh;
-}
-.icon {
-  width: 4vh;
-  height: 4vh;
+.footer-widget-heading h3::before {
+content: "";
+position: absolute;
+left: 0;
+bottom: -15px;
+height: 2px;
+width: 50px;
+/* background: #ff5e14; */
 }
 
-@media (max-width: 991px) {
-  .site-footer [class^="col-"] {
-    margin-bottom: 30px;
-  }
+.useful {
+  margin-left: 30px !important;
 }
-@media (max-width: 767px) {
-  .site-footer {
-    padding-bottom: 0;
-  }
-  .site-footer .copyright-text,
-  .site-footer .social-icons {
-    text-align: center;
-  }
+.footer-widget ul li {
+display: inline-block;
+text-align: left;
+float: left;
+width: 50%;
+margin-bottom: 12px;
 }
-.social-icons {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
+.footer-widget ul li a:hover{
+/* color: #ff5e14; */
 }
-.social-icons li {
-  display: inline-block;
-  margin-bottom: 4px;
+.footer-widget ul li a {
+color: #fff;
+font-family: "GoogleSans-Light";
+font-size: 1rem;
+text-decoration: none;
+text-transform: capitalize;
 }
-.social-icons li.title {
-  margin-right: 15px;
-  text-transform: uppercase;
-  color: #96a2b2;
-  font-weight: 700;
-  font-size: 13px;
+.subscribe-form {
+border-radius: 30px;
+position: relative;
+overflow: hidden;
 }
-.social-icons a {
-  background-color: #eceeef;
-  color: #818a91;
-  font-size: 16px;
-  display: inline-block;
-  line-height: 44px;
-  width: 44px;
-  height: 44px;
-  text-align: center;
-  margin-right: 8px;
-  border-radius: 100%;
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+.subscribe-form input {
+width: 100%;
+padding: 14px 28px;
+background: #2E2E2E;
+border: 1px solid #2E2E2E;
+color: #fff;
 }
-.social-icons a:active,
-.social-icons a:focus,
-.social-icons a:hover {
-  color: #fff;
-  background-color: #29aafe;
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #ff5e14;
+  padding: 25px 25px;
+  border: 1px solid #ff5e14;
+  top: 0;
 }
-.social-icons.size-sm a {
-  line-height: 34px;
-  height: 34px;
-  width: 34px;
-  font-size: 14px;
+.subscribe-form button i {
+color: #fff;
+font-size: 22px;
+transform: rotate(-6deg);
 }
-.social-icons a.facebook:hover {
-  background-color: #3b5998;
+.copyright-area{
+background: #202020;
+padding: 25px 0;
 }
-.social-icons a.twitter:hover {
-  background-color: #00aced;
+.copyright-text p {
+margin: 0;
+font-size: 14px;
+color: #878787;
 }
-.social-icons a.linkedin:hover {
-  background-color: #007bb6;
+.copyright-text p a{
+color: #ff5e14;
 }
-.social-icons a.dribbble:hover {
-  background-color: #ea4c89;
+.footer-menu li {
+display: inline-block;
+margin-left: 20px;
 }
-@media (max-width: 767px) {
-  .social-icons li.title {
-    display: block;
-    margin-right: 0;
-    font-weight: 600;
-  }
+.footer-menu li:hover a{
+color: #ff5e14;
+}
+.footer-menu li a {
+font-size: 14px;
+color: #878787;
 }

@@ -1,0 +1,822 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  /* background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%); */
+  font-size: 12px;
+}
+
+body,
+textarea,
+input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  background-color: #5aa4ff;
+}
+
+.background {
+  display: flex;
+  min-height: 100vh;
+}
+
+.logo {
+  margin-top: -10vh;
+  width: 60vh;
+  height: 60vh;
+  font-weight: 400;
+}
+
+.icon {
+  margin-right: 4vh;
+}
+
+.icon:hover {
+  width: 4.2vh;
+  height: 4.2vh;
+}
+
+.smallTxt {
+  margin-left: 0.4vh;
+  font-size: 2.2vh;
+  letter-spacing: 1px;
+  color: #666;
+}
+
+.midTxt {
+  margin-top: 0.5vh;
+  font-size: 2.2vh;
+  letter-spacing: 0.5px;
+  color: rgb(50, 50, 50);
+}
+
+.container {
+  /* flex: 0 1 700px; */
+  margin: auto;
+  padding: 10px;
+}
+
+.screen {
+  position: relative;
+  background: #f7f8ff;
+  border-radius: 15px;
+}
+
+.screen:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.screen-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #aad0ff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.screen-header-left {
+  margin-right: auto;
+}
+
+.screen-header-button {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 3px;
+  border-radius: 8px;
+  background: white;
+}
+
+.screen-header-button.close {
+  background: #ed1c6f;
+}
+
+.screen-header-button.maximize {
+  background: #e8e925;
+}
+
+.screen-header-button.minimize {
+  background: #74c54f;
+}
+
+.screen-header-right {
+  display: flex;
+}
+
+.screen-header-ellipsis {
+  width: 3px;
+  height: 3px;
+  margin-left: 2px;
+  border-radius: 8px;
+  background: #999;
+}
+
+.screen-body {
+  display: flex;
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+
+.screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.screen-body-item.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #5aa4ff;
+  font-size: 26px;
+}
+
+.app-contact {
+  margin-top: auto;
+  font-size: 8px;
+  color: #888;
+}
+
+.contact-detail {
+  justify-content: center;
+}
+
+.app-form-group {
+  margin-bottom: 15px;
+}
+
+.app-form-group.message {
+  margin-top: 40px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.contact {
+  margin: 4vh;
+  /* margin-left: 12vh; */
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 10px 15px;
+  background: none;
+  border: none;
+  border-radius: 1vh;
+  border: 1.5px solid #9ecaff;
+  color: rgb(84, 83, 83);
+  font-size: 14px;
+  text-transform: none;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.app-form-control::placeholder {
+  font-weight: 400;
+  color: rgb(130, 130, 130);
+}
+
+.app-form-control:focus {
+  border-bottom-color: #ddd;
+}
+
+.connect-button {
+  background: none;
+  border: none;
+  margin: 0px 5px;
+  padding: 1px 1px;
+  border-radius: 1vh;
+  cursor: pointer;
+  outline: none;
+  width: 4.4vh;
+  /* background-color: #2286ff; */
+}
+
+.connect-button:hover {
+  margin: 0px 5px 4px 5px;
+  /* background-color: #2286ff; */
+}
+
+.app-form-button {
+  /* background: none; */
+  border: none;
+  color: #ffffff;
+  padding: 10px 50px;
+  border-radius: 1vh;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  background-color: #5aa4ff;
+}
+
+.app-form-button:hover {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #2286ff;
+}
+
+.credits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: #ffa4bd;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.credits-link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.dribbble {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 1280px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+    width: 50%;
+  }
+
+  .screen-body-item.right {
+    width: 50%;
+    padding-left: 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .logo {
+    margin-top: -27%;
+    margin-left: 0vh;
+    padding: 0vh 0%;
+    width: 65%;
+    height: 65%;
+    font-weight: 400;
+  }
+
+  .contact-detail {
+    margin-top: 10%;
+    margin-left: 6%;
+  }
+
+  .app-form-group.buttons {
+    width: 100%;
+    text-align: center;
+    /* padding: 0vh 1vh; */
+    /* flex-wrap: wrap; */
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+
+  .midTxt {
+    font-size: 1.8vh;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+    width: 50%;
+  }
+
+  .screen-body-item.right {
+    width: 50%;
+    padding-left: 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .logo {
+    margin-top: -35%;
+    margin-left: 0vh;
+    padding: 0vh 0%;
+    width: 60%;
+    height: 60%;
+    font-weight: 400;
+  }
+
+  .contact-detail {
+    margin-top: 15%;
+    margin-left: 6%;
+  }
+
+  .app-form-group.buttons {
+    width: 100%;
+    text-align: center;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+
+  .midTxt {
+    font-size: 1.8vh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+    width: 50%;
+  }
+
+  .screen-body-item.right {
+    width: 50%;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    
+    margin-top: -37%;
+    margin-left: 0vh;
+    padding: 0vh 0%;
+    width: 80%;
+    height: 70%;
+    font-weight: 400;
+  }
+
+  .contact-detail {
+    margin-top: 6%;
+    margin-left: 6%;
+  }
+
+  .app-form-group.buttons {
+    width: 100%;
+    text-align: center;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+
+  .midTxt {
+    font-size: 1.8vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+  }
+
+  .screen-body-item.right {
+    width: 50%;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    
+    margin-top: -40%;
+    margin-left: 0vh;
+    padding: 0vh 0%;
+    width: 80%;
+    height: 70%;
+    font-weight: 400;
+  }
+
+  .contact-detail {
+    margin-top: 1%;
+    margin-left: 6%;
+  }
+
+  .app-form-group.buttons {
+    width: 100%;
+    text-align: center;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+
+  .midTxt {
+    font-size: 1.8vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+  }
+
+  .screen-body-item.right {
+    width: 50%;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    
+    margin-top: -40%;
+    margin-left: 0vh;
+    padding: 0vh 0%;
+    width: 90%;
+    height: 70%;
+    font-weight: 400;
+  }
+
+  .contact-detail {
+    margin-top: 1%;
+    margin-left: 6%;
+  }
+
+  .app-form-group.buttons {
+    width: 100%;
+    text-align: center;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+
+  .midTxt {
+    font-size: 1.8vh;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+    width: 50%;
+  }
+
+  .screen-body-item.right {
+    width: 50%;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    
+    margin-top: -70%;
+    margin-left: 0vh;
+    padding: 0vh 0%;
+    width: 90%;
+    height: 60%;
+    font-weight: 400;
+  }
+
+  .contact-detail {
+    margin-top: 15%;
+    margin-left: 6%;
+  }
+
+  .app-form-group.buttons {
+    width: 100%;
+    text-align: center;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+
+  .midTxt {
+    font-size: 1.8vh;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+    width: 50%;
+  }
+
+  .screen-body-item.right {
+    width: 50%;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    
+    margin-top: -70%;
+    margin-left: 0vh;
+    padding: 0vh 0%;
+    width: 90%;
+    height: 60%;
+    font-weight: 400;
+  }
+
+  .contact-detail {
+    margin-top: 15%;
+    margin-left: 6%;
+  }
+
+  .app-form-group.buttons {
+    width: 100%;
+    text-align: center;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+
+  .midTxt {
+    font-size: 1.8vh;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .screen-body {
+    flex-direction: column;
+  }
+
+  .screen-body-item.left {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .screen-body-item.right {
+    width: 100%;
+    padding-left: 0vh;
+    display: flex;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .logo {
+    margin-top: -15%;
+    margin-bottom: -6vh;
+    margin-left: 0vh;
+    padding: 0vh 0vh;
+    width: 80%;
+    height: 50%;
+    font-weight: 400;
+  }
+
+  .contact-detail {
+    margin: 0vh;
+    margin-bottom: 5vh;
+    padding-left: 0vh;
+  }
+
+  .app-form-group.buttons {
+    width: 100%;
+    text-align: center;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .screen-body {
+    flex-direction: column;
+  }
+
+  .screen-body-item.left {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .screen-body-item.right {
+    width: 100%;
+    padding-left: 0vh;
+    display: flex;
+    margin-bottom: 30px;
+    text-align: center;
+
+  }
+
+  .logo {
+    margin-top: -20%;
+    margin-bottom: -10vh;
+    margin-left: 0vh;
+    padding: 0vh 0vh;
+    width: 90%;
+    height: 60%;
+    font-weight: 400;
+  }
+
+  .contact-detail {
+    margin: 0vh;
+    margin-bottom: 5vh;
+    padding-left: 0vh;
+  }
+
+  .app-form-group.buttons {
+    width: 100%;
+    text-align: center;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .screen-body {
+    flex-direction: column;
+  }
+
+  .screen-body-item.left {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .screen-body-item.right {
+    width: 100%;
+    padding-left: 0vh;
+    display: flex;
+    margin-bottom: 30px;
+    text-align: center;
+
+  }
+
+  .logo {
+    margin-top: -20%;
+    margin-bottom: -10vh;
+    margin-left: 0vh;
+    padding: 0vh 0vh;
+    width: 90%;
+    height: 60%;
+    font-weight: 400;
+  }
+
+  .contact-detail {
+    margin: 0vh;
+    margin-bottom: 5vh;
+    padding-left: 0vh;
+  }
+
+  .app-form-group.buttons {
+    width: 100%;
+    text-align: center;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+}

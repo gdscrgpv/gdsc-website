@@ -8,6 +8,7 @@
   flex-direction: column;
   padding: 2rem 0;
   margin: 0 auto;
+  
   /* background: #af67e9 linear-gradient(180deg, #af67e9 0%, #6565e7 100%); */
 }
 
@@ -17,6 +18,7 @@
 
 main {
   width: 85%;
+  
   max-width: 965px;
   position: relative;
   padding: 0 0 0 45px;
@@ -61,7 +63,7 @@ main {
 
 article {
   /* background: white url("https://assets.codepen.io/8618172/bg-pattern-desktop.svg") no-repeat -580px -294px; */
-  background: white;
+  background-color: rgba(0, 0, 0, 0.04);
   border-radius: 25px;
   display: flex;
   max-width: 920px;

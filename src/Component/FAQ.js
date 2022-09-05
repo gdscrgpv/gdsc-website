@@ -15,7 +15,7 @@ export default function FAQ() {
                     src="https://assets4.lottiefiles.com/packages/lf20_rmqm00ic.json"
                     background="transparent"
                     speed="1"
-                    style={{ width:"100%", height: "100%" }}
+                    style={{ width: "100%", height: "100%" }}
                     loop
                     autoplay
                   ></lottie-player>

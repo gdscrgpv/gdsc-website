@@ -1,158 +1,90 @@
-/* Css for the partners section  */
 .partners {
-  background-color: #f2f2f2;
-  width: 100%;
-  height: auto;
-  padding-top: 3.125rem;
-  padding-bottom: 1.85rem;
-  
+  background-color: rgba(0, 0, 0, 0.04);
+  padding: 4rem;
 }
 
-/* A class that is used to make the text in the div to be displayed in the center. */
-.partners-heading {
+.partners-title {
   font-family: "GoogleSans-Bold";
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 2rem;
+  font-size: 3rem;
 }
-
-.partners-heading h2 {
-  font-family: "GoogleSans-Bold" !important;
-}
-
-.start-text{
-margin-right: 10px;
-}
-/* Adding a margin of 10px to the right of the element. */
-.margin-10px {
-  margin-right: 10px;
-}
-
-/* A class that is used to make the elements inside the div to be displayed in a row. */
-.flex {
-  display: flex;
-}
-
-.font-face-bold {
-  font-family: "GoogleSans";
-}
-
-.font-face-lighter {
-  font-family: "GoogleSans-Light";
-}
-
-/* Just a color code for the text. */
-.G {
-  color: #ea4335;
-}
-
-.D {
-  color: #4285f4;
-}
-
-.S {
-  color: #0f9d58;
-}
-
-.C {
-  color: #fbbc04;
-}
-
-/* parnters image styling  */
-
-.finflee {
-  background-color: #6968ff;
-}
-
-.semikolan {
-  background-color: #0c1c33;
-}
-
-/* cards styling for the parnters section  */
 
 .cards-list {
-  padding-top: 10px;
   z-index: 0;
   width: 100%;
+  padding-top: 2rem;
+  text-align: center;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
+
 .card {
-  width: 10rem;
-  height: 10rem;
+  margin: 30px auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 40px !important;
+  /* box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22); */
   cursor: pointer;
-  transition: 0.3s;
-  border-radius: 30px !important;
-  background-color: rgb(16, 152, 247) !important;
-}
-/* extra added  by Abhishek-M  */
-.card p {
-  margin: 10px;
-}
-.card p a {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 1.2rem;
-  font-weight: 400;
-  font-family: "GoogleSans-Light";
+  transition: 0.4s;
 }
 
-.card_image {
-  width: 100%;
-  height: 100%;
-  border-radius: 30px;
-  padding: 30px;
+.card .card_image {
+  width: 200px;
+  height: 200px;
+  border-radius: 40px !important;
 }
 
-.card_image img {
-  width: 100%;
-  height: 100%;
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
   object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
 }
 
 .card:hover {
   transform: scale(1.1, 1.1);
-  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.15),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.11);
 }
 
-/* media querys for hte card  */
-@media all and (max-width: 720px) {
-  .card {
-    width: 9rem;
-    height: 9rem;
-    cursor: pointer;
-    transition: 0.3s;
-    border-radius: 30px !important;
-    margin: 1.2rem;
-  }
+.title-white {
+  color: white;
+}
 
-  .card_image {
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-    padding: 20px;
-  }
+.title-black {
+  color: black;
 }
-@media all and (max-width: 400px) {
-  .card {
-    width: 6rem;
-    height: 6rem;
-    cursor: pointer;
-    transition: 0.3s;
-    border-radius: 30px !important;
-  }
 
-  .card_image {
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-    padding: 10px;
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
   }
 }
-@media all and (max-width: 390px) {
-  .margin-10px {
-    margin-right: 4px;
-  }
+
+
+/*
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  transition: 0.4s;
 }
+*/

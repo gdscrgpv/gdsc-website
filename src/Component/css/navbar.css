@@ -110,6 +110,7 @@ line-height: 0;
 margin-left: 5px;
 }
 
+
 .navbar > ul > li > a:before {
 content: "";
 position: absolute;

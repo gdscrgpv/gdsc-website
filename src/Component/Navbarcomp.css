@@ -13,6 +13,8 @@
     
     background-color:white;
     color: white;
+    /*shadow at bottom of navbar*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.12);
     z-index: 1;
    }
 
@@ -61,6 +63,7 @@
     display: flex;
     height: 3rem;
     width: 8rem;
+    transform: translateY(0.2rem);
     justify-content: center;
     align-items: center;
     text-align: center;

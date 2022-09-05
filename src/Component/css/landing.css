@@ -1,5 +1,5 @@
 .banner-landing{
-    background-image: url(../../Assets/img/banner.png) ;
+    background-image: url(../../Assets/img/banner.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -14,3 +14,23 @@
     
     transform: translateY(-5rem);
 }
+/*
+.obj1{
+    position: relative;
+    height: 6% !important;
+    left:10%;
+    width: 6% !important;
+}
+.obj3{
+    position: relative;
+    height: 6% !important;
+    left:6% !important;
+    width: 6% !important;
+}
+.obj2{
+    position: relative;
+    height: 6% !important;
+    left:2% !important;
+    top:5% !important;
+    width: 6% !important;
+} */

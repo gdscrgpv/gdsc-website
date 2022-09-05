@@ -157,11 +157,11 @@ export default class Teams extends Component {
                 src={Sir}
               />
             </div>
-            <h5 class="MuiTypography-root jss7 MuiTypography-h5 MuiTypography-alignCenter">
+            <h5 class="MuiTypography-root mt-5 jss7 MuiTypography-h5 MuiTypography-alignCenter">
               Sanjay Kumar Sharma
             </h5>
             <span
-              class="MuiTypography-root jss7 MuiTypography-caption MuiTypography-alignCenter"
+              class="MuiTypography-root mt-5 jss7 MuiTypography-caption MuiTypography-alignCenter"
               sx="[object Object]"
             >
               Faculty Coordinator
@@ -213,6 +213,7 @@ export default class Teams extends Component {
          
          
         </div>
+        {/* GDSC Lead */}
         <div className='Heading text-center '>
           <h1>GDSC Lead</h1>
         </div>
@@ -225,19 +226,16 @@ export default class Teams extends Component {
                 src={Ankur}
               />
             </div>
-            <h5 class="MuiTypography-root jss7 MuiTypography-h5 MuiTypography-alignCenter">
+            <h5 class="MuiTypography-root mt-5 jss7 MuiTypography-h4 team-heading MuiTypography-alignCenter">
               Ankur Gupta
             </h5>
             <span
-              class="MuiTypography-root jss7 MuiTypography-caption MuiTypography-alignCenter"
+              class="MuiTypography-root mt-2 jss7 MuiTypography-caption team-dept MuiTypography-alignCenter"
               sx="[object Object]"
             >
               GDSC Lead
             </span>
-            <br />
-            <p class="MuiTypography-root jss7 MuiTypography-body1 MuiTypography-alignCenter">
-             Github Campus Expert
-            </p>
+            
             <div class="MuiCardActions-root MuiCardActions-spacing">
               <a
                 class="MuiButtonBase-root MuiIconButton-root"
@@ -284,6 +282,7 @@ export default class Teams extends Component {
          
          
         </div>
+        {/* Leads */}
         <div className='Heading text-center '>
           <h1>Leads</h1>
         </div>
@@ -300,11 +299,11 @@ export default class Teams extends Component {
             />
           </div>
           
-          <h5 class="MuiTypography-root jss7 mt-5 MuiTypography-h5 MuiTypography-alignCenter">
+          <h5 class="MuiTypography-root jss7 mt-5 team-heading MuiTypography-h5 MuiTypography-alignCenter">
             {speaker.name}
           </h5>
           <span
-            class="MuiTypography-root jss7 mt-5 MuiTypography-caption MuiTypography-alignCenter"
+            class="MuiTypography-root jss7 mt-5   MuiTypography-caption MuiTypography-alignCenter"
             sx="[object Object]"
           >
             {speaker.role}
@@ -378,7 +377,7 @@ export default class Teams extends Component {
             />
           </div>
           
-          <h5 class="MuiTypography-root jss7 mt-5 MuiTypography-h5 MuiTypography-alignCenter">
+          <h5 class="MuiTypography-root jss7 mt-5 team-heading MuiTypography-h5 MuiTypography-alignCenter">
             {speaker.name}
           </h5>
           <span
@@ -456,7 +455,7 @@ export default class Teams extends Component {
             />
           </div>
           
-          <h5 class="MuiTypography-root jss7 mt-5 MuiTypography-h5 MuiTypography-alignCenter">
+          <h5 class="MuiTypography-root jss7 team-heading mt-5 MuiTypography-h5 MuiTypography-alignCenter">
             {speaker.name}
           </h5>
           <span

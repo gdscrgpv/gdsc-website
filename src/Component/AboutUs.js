@@ -28,7 +28,7 @@ const AboutUs = () => {
 
   return (
     <>
-      <div className="mainView">
+      <div className="mainView" >
         <div className="leftBox">
           {/* heading section */}
 

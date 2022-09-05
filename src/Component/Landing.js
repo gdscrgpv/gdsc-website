@@ -39,7 +39,7 @@ export default class Landing extends Component {
         
         <img src={Logo} alt="logo" className='gdsc-landing-logo' style={{height:'35%',width:'40%'}}/>
         
-       <div>
+       {/* <div>
        <img src={Obj1} alt="logo" className='gdsc-landing-logo obj1' style={{height:'10%',width:'10%'}}/>
         <img src={Obj2} alt="logo" className='gdsc-landing-logo obj2' style={{height:'10%',width:'10%'}}/>
         <img src={Obj3} alt="logo" className='gdsc-landing-logo obj3' style={{height:'10%',width:'10%'}}/>
@@ -66,7 +66,7 @@ export default class Landing extends Component {
         <img src={Obj24} alt="logo" className='gdsc-landing-logo obj24' style={{height:'10%',width:'10%'}}/>
         <img src={Obj25} alt="logo" className='gdsc-landing-logo obj25' style={{height:'10%',width:'10%'}}/>
         <img src={Obj26} alt="logo" className='gdsc-landing-logo obj26' style={{height:'10%',width:'10%'}}/>
-       </div>
+       </div> */}
       
         
         

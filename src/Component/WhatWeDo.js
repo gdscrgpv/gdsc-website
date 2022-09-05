@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 // import { Link } from "react-router-dom";
+import "../Component/css/whatwedo.css";
 import WhatWeDoCard from "./Cards/WhatWeDoCard";
 export default class WhatWeDo extends Component {
   render() {

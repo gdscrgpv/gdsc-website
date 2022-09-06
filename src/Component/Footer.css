@@ -54,9 +54,9 @@ ul {
   margin-bottom: 30px;
 }
 
-.footer-logo img {
+/* .footer-logo img {
   max-width: 20rem;
-}
+} */
 
 .footer-text p {
   margin-bottom: 14px;
@@ -162,7 +162,7 @@ ul {
   font-size: 1rem;
   background: #fff;
   border: 2px solid #fff;
-  color: #fff;
+  color: #000;
 }
 
 .subscribe-form button {

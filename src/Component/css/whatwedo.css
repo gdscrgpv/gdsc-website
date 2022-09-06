@@ -104,6 +104,7 @@
     font-size: 15px;
     line-height: 25px;
     letter-spacing: -0.5px;
+    word-wrap: normal;
   }
   
   .testimonial-area-l-13 .testimonial-card .customer-identity {
@@ -119,4 +120,12 @@
     .testimonial-area-l-13 {
       padding: 2rem;
     }
+  }
+
+  @media (max-width: 380px) {
+    .customer-identity{
+      flex-direction: column;
+      align-items: center;
+    }
+
   }

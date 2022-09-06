@@ -3,6 +3,7 @@ import "./Footer.css";
 import GDSC from "../Assets/img/GDSC_Logo.png";
 import mail from "../Assets/img/mail.png";
 import phone from "../Assets/img/phone.png";
+import telegram from "../Assets/img/telegram.png";
 import mapPin from "../Assets/img/map_pin.png";
 import facebook from "../Assets/img/facebook.png";
 import linkedin from "../Assets/img/linkedin.png";
@@ -17,92 +18,90 @@ export default class Footer extends Component {
   render() {
     return (
       <footer className="footer-section">
-  <div className="container">
-    <div className="footer-content pt-5 pb-5">
-      <div className="row">
-        <div className="col-xl-4 col-lg-4 mb-50">
-          <div className="footer-widget">
-            <div className="footer-logo">
-              <a href="index.html">
-                <img
-                  src={GDSC}
-                  className="img-fluid"
-                  alt="logo"
-                />
-              </a>
-            </div>
-            <div className="footer-text text-left">
-              <p className="text-left">
-              Google Student Developer Clubs (GDSC) is a student-led network that allows undergrad students to upgrade their skills and learn about various domains of computing.
-              </p>
+        <div className="container">
+          <div className="footer-content pt-5 pb-5">
+            <div className="row">
+              <div className="col-xl-4 col-lg-4 mb-50">
+                <div className="footer-widget">
+                  <div className="footer-logo">
+                    <a href="index.html">
+                      <img src={GDSC} className="img-fluid" alt="logo" />
+                    </a>
+                  </div>
+                  <div className="footer-text text-left">
+                    <p className="text-left">
+                      Google Student Developer Clubs (GDSC) is a student-led
+                      network that allows undergrad students to upgrade their
+                      skills and learn about various domains of computing.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div className="footer-widget">
+                  <div className="footer-widget-heading useful">
+                    <h3>Useful Links</h3>
+                  </div>
+                  <ul>
+                    <li>
+                      <a href="#">Home</a>
+                    </li>
+                    <li>
+                      <a href="#">about</a>
+                    </li>
+                    <li>
+                      <a href="#">services</a>
+                    </li>
+                    <li>
+                      <a href="#">portfolio</a>
+                    </li>
+                    <li>
+                      <a href="#">Contact</a>
+                    </li>
+                    <li>
+                      <a href="#">About us</a>
+                    </li>
+                    <li>
+                      <a href="#">Our Services</a>
+                    </li>
+                    <li>
+                      <a href="#">Expert Team</a>
+                    </li>
+                    <li>
+                      <a href="#">Contact us</a>
+                    </li>
+                    <li>
+                      <a href="#">Latest News</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
+                <div className="footer-widget">
+                  <div className="footer-widget-heading">
+                    <h3>Subscribe</h3>
+                  </div>
+                  <div className="footer-text mb-25">
+                    <p>
+                      Don’t miss to subscribe to our new feeds, kindly fill the
+                      form below.
+                    </p>
+                  </div>
+                  <div className="subscribe-form">
+                    <form action="#">
+                      <input
+                        type="text"
+                        placeholder="Enter email address here..."
+                      />
+                      <button>Subscribe</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
-          <div className="footer-widget">
-            <div className="footer-widget-heading useful">
-              <h3>Useful Links</h3>
-            </div>
-            <ul>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">about</a>
-              </li>
-              <li>
-                <a href="#">services</a>
-              </li>
-              <li>
-                <a href="#">portfolio</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
-              </li>
-              <li>
-                <a href="#">About us</a>
-              </li>
-              <li>
-                <a href="#">Our Services</a>
-              </li>
-              <li>
-                <a href="#">Expert Team</a>
-              </li>
-              <li>
-                <a href="#">Contact us</a>
-              </li>
-              <li>
-                <a href="#">Latest News</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
-          <div className="footer-widget">
-            <div className="footer-widget-heading">
-              <h3>Subscribe</h3>
-            </div>
-            <div className="footer-text mb-25">
-              <p>
-                Don’t miss to subscribe to our new feeds, kindly fill the form
-                below.
-              </p>
-            </div>
-            <div className="subscribe-form">
-              <form action="#">
-                <input type="text" placeholder="Email Address" />
-                <button>
-                  <i className="fa fa-telegram-plane" />
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
+      </footer>
     );
   }
 }

@@ -23,7 +23,7 @@
     }
   }
   .font-face-bold {
-    font-family: "GoogleSans";
+    font-family: "GoogleSans-Bold";
   }
   
   .font-face-lighter {
@@ -113,4 +113,10 @@
   
   .what-we-do {
     margin-right: 10px;
+  }
+
+  @media (max-width: 448px) {
+    .testimonial-area-l-13 {
+      padding: 2rem;
+    }
   }

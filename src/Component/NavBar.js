@@ -51,7 +51,7 @@ export default class NavBarcomp extends Component {
             <Link
                 className="link_text font-face-Bold "
                 disabled
-                to="/contact"
+                to="https://gdsc.community.dev/university-institute-of-technology-rgpv-bhopal/"
               >
                 Join Us
               </Link>

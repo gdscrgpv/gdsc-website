@@ -31,7 +31,7 @@ export default class Partners extends Component {
       {
         title: "GDG Bhopal",
         img: require("../Assets/img/partners/GDG_cloud.jpg"),
-        link: "https://community.cncf.io/bhopal/",
+        link: "https://gdg.community.dev/gdg-cloud-bhopal/",
       },
     ];
     return (

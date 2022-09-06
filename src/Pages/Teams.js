@@ -36,7 +36,7 @@ export default class Teams extends Component {
         linkedIn: "https://www.linkedin.com/in/srajal-sahu-50863b214"
       },
       {
-        name: "Abhinav badge ",
+        name: "Abhinav Bagde ",
         role: 'Content Lead',
         img: require("../Assets/img/Abhinav Bagde - Content Lead.jpg"),
         linkedIn: "",
@@ -50,7 +50,7 @@ export default class Teams extends Component {
         linkedIn: "",
       },
       {
-        name: "Tanmay Rajatwat ",
+        name: "Tanmay Rajawat ",
         role: 'Event and Outreach Co-Lead',
         img: require("../Assets/img/Tanmay Rajawat - Co-lead event management.jpg"),
         linkedIn: "https://www.linkedin.com/in/tanmayrajawat",

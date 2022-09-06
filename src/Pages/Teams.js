@@ -106,6 +106,24 @@ export default class Teams extends Component {
       },
     ];
 
+    const buddies=[
+      {
+        name:"Sumit Yadav",
+        role:'Design',
+        img:require("../Assets/img/Sumit Yadav - Graphic designer and Video Editor.jpg"),
+      },
+      {
+        name:"Aastha Koserwal",
+        role:'Content and Marketing',
+        img:require("../Assets/img/Aastha Koserwal - Content and Marketing Lead.jpg"),
+      },
+      {
+        name:"Pratishtha Tiwari",
+        role:'Content and Marketing',
+        img:require("../Assets/img/Pratishtha Tiwari - Content and Marketin.jpg"),
+      },
+    ];
+
     return (
       <div className='team'>
         <NavBarcomp/>

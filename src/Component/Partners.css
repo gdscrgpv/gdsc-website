@@ -39,6 +39,7 @@
   width: inherit;
   height: inherit;
   border-radius: 40px;
+  padding: 2rem;
   object-fit: cover;
 }
 

@@ -53,10 +53,31 @@ export default class Footer extends Component {
                     <li>
                       <Link to="/contact">Contact</Link>
                     </li>
-                    
-                    
+                    <li>
+                      <a href="https://gdsc.community.dev/university-institute-of-technology-rgpv-bhopal/">
+                       Join Us
+                      </a>
+                    </li>
                   </ul>
-                  
+                </div>
+                <div className="footer-widget">
+                  <div className="footer-widget-heading useful">
+                    <h3>GDSC Departments</h3>
+                  </div>
+                  <ul className="footer-link">
+                    <li>
+                      <Link to="">Technical</Link>
+                    </li>
+                    <li>
+                      <Link to="">Design</Link>
+                    </li>
+                    <li>
+                      <Link to="">Content</Link>
+                    </li>
+                    <li>
+                      <Link to="">Event & Outreach</Link>
+                    </li>
+                  </ul>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-4 col-md-6 mb-50 subscribe">

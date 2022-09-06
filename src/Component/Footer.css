@@ -1,7 +1,6 @@
 ul {
   margin: 0px;
   padding: 0px;
-
 }
 .footer-link{
   display: flex;
@@ -128,18 +127,25 @@ ul {
   /* background: #ff5e14; */
 }
 
+.useful-links {
+  display: flex;
+  justify-content: space-around;
+}
 
+.footer-widget {
+  padding-top: 0.5rem;
+}
 
 .footer-widget ul li {
   font-family: "GoogleSans-Bold";
   display: inline-block;
   text-align: left;
   float: left;
-  width: 50%;
   margin-bottom: 12px;
 }
 
-.footer-widget ul li a:hover {
+.footer-widget ul {
+  padding-left: 0 !important;
   /* color: #ff5e14; */
 }
 
@@ -225,6 +231,7 @@ ul {
 
   .useful-links {
     padding-top: 1rem;
+    display: block;
   }
 
   .subscribe {

@@ -165,7 +165,6 @@
 }
 
 .app-form-group.message {
-  margin-top: 40px;
   padding-bottom: 8px;
   margin-bottom: 8px;
 }
@@ -206,7 +205,7 @@
 .connect-button {
   background: none;
   border: none;
-  margin: 0px 5px;
+  margin: 5px 5px;
   padding: 1px 1px;
   border-radius: 1vh;
   cursor: pointer;

@@ -127,8 +127,9 @@
   text-decoration: none;
 }
 
-.join-community-btn:hover {
-  background-color: rgba(66, 133, 244, 1.2);
+.join-community-btn a:hover {
+  color: black;
+  /* background-color: rgba(66, 133, 244, 1.2); */
 }
 
 /* circle over the border of WTB section  */

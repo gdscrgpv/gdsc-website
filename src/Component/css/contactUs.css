@@ -146,7 +146,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  color: #5aa4ff;
+  color: #707cff;
   font-size: 26px;
 }
 
@@ -186,7 +186,7 @@
   background: none;
   border: none;
   border-radius: 1vh;
-  border: 1.5px solid #9ecaff;
+  border: 1.5px solid hsla(214, 30%, 45%, 0.872);
   color: rgb(84, 83, 83);
   font-size: 14px;
   text-transform: none;
@@ -229,13 +229,13 @@
   font-size: 14px;
   cursor: pointer;
   outline: none;
-  background-color: #5aa4ff;
+  background-color: #707cff;
 }
 
 .app-form-button:hover {
   font-size: 16px;
   color: #ffffff;
-  background-color: #2286ff;
+  background-color: #4857f7;
 }
 
 .credits {

@@ -23,7 +23,7 @@ export default class Teams extends Component {
     const Leads = [
       {
         name: "Rajat Bhaskare",
-        role: "Tech Team Lead",
+        role: "Tech. Team Lead",
         img: require("../Assets/img/Rajat Bhaskare - Tech Team Lead.png"),
         linkedIn: "https://www.linkedin.com/in/rajat-bhaskare-b40443202",
       },
@@ -68,25 +68,25 @@ export default class Teams extends Component {
 
       {
         name: "Prakrti Mankar",
-        role: "Women In Tech",
+        role: "Women In Tech Lead",
         img: require("../Assets/img/Prakrti Mankar _ Women in Tech.jpg"),
         linkedIn: "https://www.linkedin.com/in/prakrti-mankar",
       },
       {
         name: "Abhishek Malviya",
-        role: "ML/Cloud",
+        role: "ML/Cloud Lead",
         img: require("../Assets/img/Abhishek Malviya _ Ml _ Cloud lead.jpg"),
         linkedIn: "https://www.linkedin.com/in/abhishek-malviya-458b001ba/",
       },
       {
         name: "Aryan Singh",
-        role: "Open Source development",
+        role: "Open Source Development Lead",
         img: require("../Assets/img/Aryan Singh _ Open Source Lead.jpg"),
         linkedIn: "https://www.linkedin.com/in/amazing-aryan",
       },
       {
         name: "Abhishek Singh Lodhi",
-        role: "UI/UX",
+        role: "UI/UX Lead",
         img: require("../Assets/img/Abhishek Singh Lodhi _ UI_UX Lead.png"),
         linkedIn: "https://www.linkedin.com/in/abhishek-singh-lodhi-b037091b8",
       },
@@ -114,63 +114,63 @@ export default class Teams extends Component {
 
     const buddies = [
       {
-        name: "Sumit Yadav",
-        role: "Design",
+        name: "Aman Singh Kushwaha",
+        role: "GDSC Buddy",
         img: require("../Assets/img/Sumit Yadav - Graphic designer and Video Editor.jpg"),
-        linkedIn: "https://www.linkedin.com/in/sumit-yadav-9306971b4",
+        linkedIn: "https://www.linkedin.com/in/aman-kumar-singh-kushwaha-60b501225/",
       },
       {
-        name: "Aastha Koserwal",
-        role: "Content and Marketing",
+        name: "Divyanshu Uramliya",
+        role: "GDSC Buddy",
         img: require("../Assets/img/Aastha Koserwal - Content and Marketing Lead.jpg"),
-        linkedIn: "https://www.linkedin.com/in/aastha-koserwal-8832b3225",
+        linkedIn: "https://www.linkedin.com/in/divyanshu-urmaliya-b542ba21b/",
       },
       {
-        name: "Pratishtha Tiwari",
-        role: "Content and Marketing",
+        name: "Jaywardhan Mourya",
+        role: "GDSC Buddy",
         img: require("../Assets/img/Pratishtha Tiwari - Content and Marketin.jpg"),
-        linkedIn: "https://www.linkedin.com/in/pratishtha-tiwari-49511b218",
+        linkedIn: "https://www.linkedin.com/in/jay-wardhan-mourya-9736ab22b/",
       },
       ,
       {
-        name: "Atharva J V Mathur ",
-        role: "Event and Outreach Co-Lead",
+        name: "Sumit Choudhary",
+        role: "GDSC Buddy",
         img: require("../Assets/img/Atharva J V Mathur _ Event and Outreach Lead.jpg"),
-        linkedIn: "",
+        linkedIn: "https://www.linkedin.com/in/sumitc02468/",
       },
       {
-        name: "Tanmay Rajatwat ",
-        role: "Event and Outreach Co-Lead",
+        name: "Shreya Rai",
+        role: "GDSC Buddy",
         img: require("../Assets/img/Tanmay Rajawat - Co-lead event management.jpg"),
-        linkedIn: "https://www.linkedin.com/in/tanmayrajawat",
+        linkedIn: "https://www.linkedin.com/in/shreya-rai-742952226/",
       },
     ];
 
     const mentors = [
       {
-        name: "Sumit Yadav",
-        role: "Design",
-        img: require("../Assets/img/Sumit Yadav - Graphic designer and Video Editor.jpg"),
-        linkedIn: "https://www.linkedin.com/in/sumit-yadav-9306971b4",
+        name: "Rishabh Gupta",
+        role: "Mentor",
+        img: require("../Assets/img/rg.jpg"),
+        linkedIn: "https://www.linkedin.com/in/rishabhgupta1/",
       },
       {
-        name: "Aastha Koserwal",
-        role: "Content and Marketing",
-        img: require("../Assets/img/Aastha Koserwal - Content and Marketing Lead.jpg"),
-        linkedIn: "https://www.linkedin.com/in/aastha-koserwal-8832b3225",
+        name: "Apoorv Pandey",
+        role: "Mentor",
+        img: require("../Assets/img/ap.jpg"),
+        linkedIn: "https://www.linkedin.com/in/apoorv-pandey/",
       },
       {
-        name: "Pratishtha Tiwari",
-        role: "Content and Marketing",
-        img: require("../Assets/img/Pratishtha Tiwari - Content and Marketin.jpg"),
-        linkedIn: "https://www.linkedin.com/in/pratishtha-tiwari-49511b218",
+        name: "Geetansh Agrawal",
+        role: "Mentor",
+        img: require("../Assets/img/ga.jpg"),
+        linkedIn: "https://www.linkedin.com/in/geetansh-agrawal-1b8a27190/",
       },
       ,
       {
-        name: "Atharva J V Mathur ",
-        role: "Event and Outreach Co-Lead",
-        img: require("../Assets/img/Atharva J V Mathur _ Event and Outreach Lead.jpg"),
-        linkedIn: "",
+        name: "Harsh Vishwakarma",
+        role: "Mentor",
+        img: require("../Assets/img/hv.jpg"),
+        linkedIn: "https://www.linkedin.com/in/meinhoonharsh/",
       },
     ];
 

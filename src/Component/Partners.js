@@ -41,7 +41,7 @@ export default class Partners extends Component {
           </div>
           <div className="card">
             <div className="card_image">
-              <img src={semikolan} />
+              <img src={finflee} />
             </div>
           </div>
           <div className="card">

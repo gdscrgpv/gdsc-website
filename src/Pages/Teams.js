@@ -237,6 +237,12 @@ export default class Teams extends Component {
             >
               Faculty Coordinator
             </span>
+            <span
+              class="MuiTypography-root mt-4 jss7 MuiTypography-caption MuiTypography-alignCenter"
+              sx="[object Object]"
+            >
+              sksharma@rgtu.net
+            </span>
 
             <div class="MuiCardActions-root MuiCardActions-spacing">
               <a

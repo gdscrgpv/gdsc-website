@@ -3,6 +3,7 @@ import './../Component/css/team.css';
 import { Row } from 'reactstrap';
 import FAQ from '../Component/Footer.js'
 import Ankur from "../Assets/img/Ankur Gupta _ Lead.jpg";
+import NavBarcomp from "../Component/NavBar";
 import Sir from "../Assets/img/sanjaysir.JPG";
 export default class Teams extends Component {
 
@@ -107,6 +108,7 @@ export default class Teams extends Component {
 
     return (
       <div className='team'>
+        <NavBarcomp/>
         
         <div >
           {/*left right section */}

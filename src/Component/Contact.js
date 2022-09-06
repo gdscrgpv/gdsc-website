@@ -31,7 +31,7 @@ export default class ContactComponent extends Component {
       <>
 
         <div class="">
-          <div class="container" style={{ marginBottom: 50 }}>
+          <div class="container" style={{ marginBottom: 50, paddingTop: 30 }}>
             <div class="screen">
               <div class="screen-header">
                 {/* <div class="screen-header-left">

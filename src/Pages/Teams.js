@@ -1,18 +1,16 @@
-import React, { Component } from 'react'
-import './../Component/css/team.css';
-import { Row } from 'reactstrap';
-import FAQ from '../Component/Footer.js'
+import React, { Component } from "react";
+import "./../Component/css/team.css";
+import { Row } from "reactstrap";
+import FAQ from "../Component/Footer.js";
 import Ankur from "../Assets/img/Ankur Gupta _ Lead.jpg";
 import NavBarcomp from "../Component/NavBar";
 import Sir from "../Assets/img/sanjaysir.JPG";
 import linkedIn from "../Assets/img/linkedin.png";
-import Footer from '../Component/Footer.js';
+import Footer from "../Component/Footer.js";
 export default class Teams extends Component {
-
-
-  componentDidMount(){
-    window.scrollTo(0,0);
-}
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     const GDSCLead = [
       {
@@ -20,101 +18,95 @@ export default class Teams extends Component {
         role: "GDSC Lead",
         img: Ankur,
         linkedIn: "https://www.linkedin.com/in/ankurg132",
-      }
+      },
     ];
     const Leads = [
       {
         name: "Rajat Bhaskare",
-        role: 'Tech Team Lead',
+        role: "Tech Team Lead",
         img: require("../Assets/img/Rajat Bhaskare - Tech Team Lead.png"),
         linkedIn: "https://www.linkedin.com/in/rajat-bhaskare-b40443202",
       },
       {
         name: "Srajal Sahu",
-        role: 'Design Team Lead',
+        role: "Design Team Lead",
         img: require("../Assets/img/srajal.jpg"),
-        linkedIn: "https://www.linkedin.com/in/srajal-sahu-50863b214"
+        linkedIn: "https://www.linkedin.com/in/srajal-sahu-50863b214",
       },
       {
-        name: "Abhinav badge ",
-        role: 'Content Lead',
+        name: "Abhinav Bagde ",
+        role: "Content Lead",
         img: require("../Assets/img/Abhinav Bagde - Content Lead.jpg"),
         linkedIn: "",
-
-      }
-      ,
+      },
       {
         name: "Atharva J V Mathur ",
-        role: 'Event and Outreach Co-Lead',
+        role: "Event and Outreach Co-Lead",
         img: require("../Assets/img/Atharva J V Mathur _ Event and Outreach Lead.jpg"),
         linkedIn: "",
       },
       {
-        name: "Tanmay Rajatwat ",
-        role: 'Event and Outreach Co-Lead',
+        name: "Tanmay Rajawat ",
+        role: "Event and Outreach Co-Lead",
         img: require("../Assets/img/Tanmay Rajawat - Co-lead event management.jpg"),
         linkedIn: "https://www.linkedin.com/in/tanmayrajawat",
       },
-
-
-
-    ]
+    ];
     const teachteam = [
       {
         name: "Satyam Sharma",
-        role: 'Web Lead',
+        role: "Web Lead",
         img: require("../Assets/img/ss.jpeg"),
         linkedIn: "https://www.linkedin.com/in/iamsatyam17/",
       },
       {
         name: "Pulkit Dubey",
-        role: 'App Lead',
+        role: "App Lead",
         img: require("../Assets/img/Pulkit Dubey - App Lead.jpg"),
         linkedIn: "https://www.linkedin.com/in/pulkit-dubey-75b703224/",
       },
 
       {
         name: "Prakrti Mankar",
-        role: 'Women In Tech',
+        role: "Women In Tech",
         img: require("../Assets/img/Prakrti Mankar _ Women in Tech.jpg"),
         linkedIn: "https://www.linkedin.com/in/prakrti-mankar",
       },
       {
         name: "Abhishek Malviya",
-        role: 'ML/Cloud',
+        role: "ML/Cloud",
         img: require("../Assets/img/Abhishek Malviya _ Ml _ Cloud lead.jpg"),
         linkedIn: "https://www.linkedin.com/in/abhishek-malviya-458b001ba/",
       },
       {
         name: "Aryan Singh",
-        role: 'Open Source development',
+        role: "Open Source development",
         img: require("../Assets/img/Aryan Singh _ Open Source Lead.jpg"),
         linkedIn: "https://www.linkedin.com/in/amazing-aryan",
-      }
-      ,
+      },
       {
         name: "Abhishek Singh Lodhi",
-        role: 'UI/UX',
+        role: "UI/UX",
         img: require("../Assets/img/Abhishek Singh Lodhi _ UI_UX Lead.png"),
         linkedIn: "https://www.linkedin.com/in/abhishek-singh-lodhi-b037091b8",
       },
-    ]
+    ];
     const designandcontent = [
       {
         name: "Sumit Yadav",
-        role: 'Design',
+        role: "Design",
         img: require("../Assets/img/Sumit Yadav - Graphic designer and Video Editor.jpg"),
         linkedIn: "https://www.linkedin.com/in/sumit-yadav-9306971b4",
       },
       {
         name: "Aastha Koserwal",
-        role: 'Content and Marketing',
+        role: "Content and Marketing",
         img: require("../Assets/img/Aastha Koserwal - Content and Marketing Lead.jpg"),
         linkedIn: "https://www.linkedin.com/in/aastha-koserwal-8832b3225",
       },
       {
         name: "Pratishtha Tiwari",
-        role: 'Content and Marketing',
+        role: "Content and Marketing",
         img: require("../Assets/img/Pratishtha Tiwari - Content and Marketin.jpg"),
         linkedIn: "https://www.linkedin.com/in/pratishtha-tiwari-49511b218",
       },
@@ -123,32 +115,32 @@ export default class Teams extends Component {
     const buddies = [
       {
         name: "Sumit Yadav",
-        role: 'Design',
+        role: "Design",
         img: require("../Assets/img/Sumit Yadav - Graphic designer and Video Editor.jpg"),
         linkedIn: "https://www.linkedin.com/in/sumit-yadav-9306971b4",
       },
       {
         name: "Aastha Koserwal",
-        role: 'Content and Marketing',
+        role: "Content and Marketing",
         img: require("../Assets/img/Aastha Koserwal - Content and Marketing Lead.jpg"),
         linkedIn: "https://www.linkedin.com/in/aastha-koserwal-8832b3225",
       },
       {
         name: "Pratishtha Tiwari",
-        role: 'Content and Marketing',
+        role: "Content and Marketing",
         img: require("../Assets/img/Pratishtha Tiwari - Content and Marketin.jpg"),
         linkedIn: "https://www.linkedin.com/in/pratishtha-tiwari-49511b218",
       },
       ,
       {
         name: "Atharva J V Mathur ",
-        role: 'Event and Outreach Co-Lead',
+        role: "Event and Outreach Co-Lead",
         img: require("../Assets/img/Atharva J V Mathur _ Event and Outreach Lead.jpg"),
         linkedIn: "",
       },
       {
         name: "Tanmay Rajatwat ",
-        role: 'Event and Outreach Co-Lead',
+        role: "Event and Outreach Co-Lead",
         img: require("../Assets/img/Tanmay Rajawat - Co-lead event management.jpg"),
         linkedIn: "https://www.linkedin.com/in/tanmayrajawat",
       },
@@ -157,76 +149,70 @@ export default class Teams extends Component {
     const mentors = [
       {
         name: "Sumit Yadav",
-        role: 'Design',
+        role: "Design",
         img: require("../Assets/img/Sumit Yadav - Graphic designer and Video Editor.jpg"),
         linkedIn: "https://www.linkedin.com/in/sumit-yadav-9306971b4",
       },
       {
         name: "Aastha Koserwal",
-        role: 'Content and Marketing',
+        role: "Content and Marketing",
         img: require("../Assets/img/Aastha Koserwal - Content and Marketing Lead.jpg"),
         linkedIn: "https://www.linkedin.com/in/aastha-koserwal-8832b3225",
       },
       {
         name: "Pratishtha Tiwari",
-        role: 'Content and Marketing',
+        role: "Content and Marketing",
         img: require("../Assets/img/Pratishtha Tiwari - Content and Marketin.jpg"),
         linkedIn: "https://www.linkedin.com/in/pratishtha-tiwari-49511b218",
       },
       ,
       {
         name: "Atharva J V Mathur ",
-        role: 'Event and Outreach Co-Lead',
+        role: "Event and Outreach Co-Lead",
         img: require("../Assets/img/Atharva J V Mathur _ Event and Outreach Lead.jpg"),
         linkedIn: "",
       },
     ];
 
     return (
-      <div className='team'>
+      <div className="team">
         <NavBarcomp />
 
-        <div >
+        <div>
           {/*left right section */}
-          <div className='teamlanding'>
-
+          <div className="teamlanding">
             <div class="container">
               <div class="row d-flex align-items-center justify-content-center">
-
                 <div class="col-md-6" id="home-img"></div>
                 <div class="col-md-6  text-center titletean" id="home-content ">
-                  <h1 className='first-title'>The<br />
-                    <span className='G'>T</span>
-                    <span className='D'>E</span>
-                    <span className='S'>A</span>
-                    <span className='C'>M</span>
+                  <h1 className="first-title">
+                    The
+                    <br />
+                    <span className="G">T</span>
+                    <span className="D">E</span>
+                    <span className="S">A</span>
+                    <span className="C">M</span>
                   </h1>
-                  <h2><b>Presenting board of 2022-2023</b></h2>
-                  <div>
-                  </div>
+                  <h2>
+                    <b>Presenting board of 2022-2023</b>
+                  </h2>
+                  <div></div>
                 </div>
-
               </div>
             </div>
-
           </div>
         </div>
         {/*team section */}
 
         {/*team section */}
-        <div className='container'>
-        </div>
-        <div className='Heading text-center mt-5'>
+        <div className="container"></div>
+        <div className="Heading text-center mt-5">
           <h1>Faculty Coordinator</h1>
         </div>
         <div className="speakersCardContainer mt-5">
           <div class="speakerCard">
             <div style={{ height: "40px" }}>
-              <img
-                class="speakerImage"
-                alt="Nikita Gandhi"
-                src={Sir}
-              />
+              <img class="speakerImage" alt="Nikita Gandhi" src={Sir} />
             </div>
             <h5 class="MuiTypography-root sanjay-sir jss7 MuiTypography-h5 MuiTypography-alignCenter">
               Sanjay Kumar Sharma
@@ -236,6 +222,12 @@ export default class Teams extends Component {
               sx="[object Object]"
             >
               Faculty Coordinator
+            </span>
+            <span
+              class="MuiTypography-root mt-4 jss7 MuiTypography-caption MuiTypography-alignCenter"
+              sx="[object Object]"
+            >
+              sksharma@rgtu.net
             </span>
 
             <div class="MuiCardActions-root MuiCardActions-spacing">
@@ -279,25 +271,17 @@ export default class Teams extends Component {
                 </span>
                 <span class="MuiTouchRipple-root"></span>
               </a>
-
-
             </div>
           </div>
-
-
         </div>
         {/* GDSC Lead */}
-        <div className='Heading text-center '>
+        <div className="Heading text-center ">
           <h1>GDSC Lead</h1>
         </div>
         <div className="speakersCardContainer mt-5">
           <div class="speakerCard">
             <div style={{ height: "40px" }}>
-              <img
-                class="speakerImage"
-                alt="Nikita Gandhi"
-                src={Ankur}
-              />
+              <img class="speakerImage" alt="Nikita Gandhi" src={Ankur} />
             </div>
             <h5 class="MuiTypography-root mt-5 jss7 MuiTypography-h4 team-heading MuiTypography-alignCenter">
               Ankur Gupta
@@ -317,18 +301,14 @@ export default class Teams extends Component {
               </button>
             </div>
           </div>
-
-
         </div>
         {/* Leads */}
-        <div className='Heading text-center '>
+        <div className="Heading text-center ">
           <h1>Leads</h1>
         </div>
         <div className="speakersCardContainer mt-5 col-md-9">
           {Leads.map((speaker, index) => (
-
             <div class="speakerCard">
-
               <div style={{ height: "40px" }}>
                 <img
                   class="speakerImage"
@@ -348,8 +328,7 @@ export default class Teams extends Component {
               </span>
               <br />
 
-              <div class="MuiCardActions-root margin-1 MuiCardActions-spacing" >
-
+              <div class="MuiCardActions-root margin-1 MuiCardActions-spacing">
                 <button class="connect-btn">
                   <a href={speaker.linkedIn} target="_blank">
                     <img src={linkedIn} className="connect-icon" />
@@ -357,20 +336,15 @@ export default class Teams extends Component {
                 </button>
               </div>
             </div>
-
           ))}
-
-
         </div>
         {/*---------------------TechTeam---------------------*/}
-        <div className='Heading text-center '>
+        <div className="Heading text-center ">
           <h1>Tech Team</h1>
         </div>
         <div className="speakersCardContainer mt-5 col-md-9">
           {teachteam.map((speaker, index) => (
-
             <div class="speakerCard">
-
               <div style={{ height: "40px" }}>
                 <img
                   class="speakerImage"
@@ -391,8 +365,7 @@ export default class Teams extends Component {
               <br />
 
               <div class="MuiCardActions-root MuiCardActions-spacing">
-                <div class="MuiCardActions-root margin-1 MuiCardActions-spacing" >
-
+                <div class="MuiCardActions-root margin-1 MuiCardActions-spacing">
                   <button class="connect-btn">
                     <a href={speaker.linkedIn} target="_blank">
                       <img src={linkedIn} className="connect-icon" />
@@ -401,20 +374,15 @@ export default class Teams extends Component {
                 </div>
               </div>
             </div>
-
           ))}
-
-
         </div>
         {/*---------------------DesignandcontentTeam---------------------*/}
-        <div className='Heading text-center '>
+        <div className="Heading text-center ">
           <h1>Design and Content Team</h1>
         </div>
         <div className="speakersCardContainer mt-5 col-md-9">
           {designandcontent.map((speaker, index) => (
-
             <div class="speakerCard">
-
               <div style={{ height: "40px" }}>
                 <img
                   class="speakerImage"
@@ -434,8 +402,7 @@ export default class Teams extends Component {
               </span>
               <br />
               <div class="MuiCardActions-root MuiCardActions-spacing">
-                <div class="MuiCardActions-root margin-1 MuiCardActions-spacing" >
-
+                <div class="MuiCardActions-root margin-1 MuiCardActions-spacing">
                   <button class="connect-btn">
                     <a href={speaker.linkedIn} target="_blank">
                       <img src={linkedIn} className="connect-icon" />
@@ -444,21 +411,16 @@ export default class Teams extends Component {
                 </div>
               </div>
             </div>
-
           ))}
-
-
         </div>
 
         {/* --------------------BuddyTeam------------------------------- */}
-        <div className='Heading text-center '>
+        <div className="Heading text-center ">
           <h1>Buddies</h1>
         </div>
         <div className="speakersCardContainer mt-5 col-md-9">
           {buddies.map((speaker, index) => (
-
             <div class="speakerCard">
-
               <div style={{ height: "40px" }}>
                 <img
                   class="speakerImage"
@@ -478,8 +440,7 @@ export default class Teams extends Component {
               </span>
               <br />
 
-              <div class="MuiCardActions-root margin-1 MuiCardActions-spacing" >
-
+              <div class="MuiCardActions-root margin-1 MuiCardActions-spacing">
                 <button class="connect-btn">
                   <a href={speaker.linkedIn} target="_blank">
                     <img src={linkedIn} className="connect-icon" />
@@ -487,20 +448,15 @@ export default class Teams extends Component {
                 </button>
               </div>
             </div>
-
           ))}
-
-
         </div>
         {/* ---------------------MentorTeam----------------------------- */}
-        <div className='Heading text-center '>
+        <div className="Heading text-center ">
           <h1>GDSC Mentors</h1>
         </div>
         <div className="speakersCardContainer mt-5 col-md-9">
           {mentors.map((speaker, index) => (
-
             <div class="speakerCard">
-
               <div style={{ height: "40px" }}>
                 <img
                   class="speakerImage"
@@ -520,8 +476,7 @@ export default class Teams extends Component {
               </span>
               <br />
 
-              <div class="MuiCardActions-root margin-1 MuiCardActions-spacing" >
-
+              <div class="MuiCardActions-root margin-1 MuiCardActions-spacing">
                 <button class="connect-btn">
                   <a href={speaker.linkedIn} target="_blank">
                     <img src={linkedIn} className="connect-icon" />
@@ -529,14 +484,10 @@ export default class Teams extends Component {
                 </button>
               </div>
             </div>
-
           ))}
         </div>
-        <Footer/>
-
+        <Footer />
       </div>
-
-
-    )
+    );
   }
 }

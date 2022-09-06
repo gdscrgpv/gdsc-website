@@ -10,7 +10,9 @@ import Footer from '../Component/Footer.js';
 export default class Teams extends Component {
 
 
-
+  componentDidMount(){
+    window.scrollTo(0,0);
+}
   render() {
     const GDSCLead = [
       {

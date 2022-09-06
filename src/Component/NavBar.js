@@ -31,11 +31,7 @@ export default class NavBarcomp extends Component {
             {/* <li>
               <Link className="link_text font-face-Bold "  to="/blogs">Blogs</Link>
             </li> */}
-            <li>
-              <a className="link_text font-face-Bold" href="/">
-                Contact us
-              </a>
-            </li>
+            
             <li>
               <div className="join_us_btn">
                 <a

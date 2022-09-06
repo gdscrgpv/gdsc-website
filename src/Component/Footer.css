@@ -4,7 +4,7 @@ ul {
 }
 
 .footer-section {
-  background: #000;
+  background: #151414;
   position: relative;
 }
 
@@ -168,6 +168,7 @@ ul {
 .subscribe-form button {
   position: absolute;
   right: 0;
+  background-color: rgba(66, 133, 244, 1) !important;
   font-size: 0.75rem;
   font-family: "GoogleSans-Bold";
   background-color: transparent;

@@ -49,11 +49,11 @@ export default class ContactComponent extends Component {
                 <div class="screen-body-item left">
 
                   {/* heanding */}
-                  <div class="app-title">
+                  <div class="app-title" style={{fontWeight: 700}}>
                     <span>Get in Touch</span>
                   </div>
 
-                  <p class="smallTxt" >We are here for you! How can we help?</p>
+                  <p class="smallTxt" style={{fontWeight: 600}}>We are here for you! How can we help?</p>
 
                   {/* form */}
                   <div class="app-form">
@@ -90,22 +90,22 @@ export default class ContactComponent extends Component {
 
                   {/* contact details */}
                   <div class="contact-detail contact ">
-                    <div class=" flex">
-                      <img src={mapPin} className="icon" style={{ color: 'black' }} />
+                    <div class=" flex" style={{marginBottom: "2%"}}>
+                      <img src={mapPin} className="contactIcon" style={{ color: 'black' }} />
 
                       <p class="midTxt">
                         Airport road, Uit rgpv
                       </p>
                     </div>
-                    <div class=" flex">
-                      <img src={mail} className="icon" style={{ color: 'black' }} />
+                    <div class=" flex" style={{marginBottom: "2%"}}>
+                      <img src={mail} className="contactIcon" style={{ color: 'black' }} />
 
                       <p class="midTxt">
                         gdscuitrgpv@gmail.com
                       </p>
                     </div>
-                    <div class=" flex">
-                      <img src={phone} className="icon" style={{ color: 'black' }} />
+                    <div class=" flex" style={{marginBottom: "2%"}}>
+                      <img src={phone} className="contactIcon" style={{ color: 'black' }} />
 
                       <p class="midTxt">
                         +91-6283698964
@@ -118,35 +118,35 @@ export default class ContactComponent extends Component {
                     <div class="app-form-group buttons">
 
                       <button class="connect-button">
-                        <img src={linkedin} className="icon" />
+                        <img src={linkedin} className="connectIcon" />
                       </button>
 
                       <button class="connect-button">
-                        <img src={insta} className="icon" />
+                        <img src={insta} className="connectIcon" />
                       </button>
 
                       <button class="connect-button">
-                        <img src={facebook} className="icon" />
+                        <img src={facebook} className="connectIcon" />
                       </button>
 
                       <button class="connect-button">
-                        <img src={discord} className="icon" />
+                        <img src={discord} className="connectIcon" />
                       </button>
 
                       <button class="connect-button">
-                        <img src={telegram} className="icon" />
+                        <img src={telegram} className="connectIcon" />
                       </button>
 
                       <button class="connect-button">
-                        <img src={youtube} className="icon" />
+                        <img src={youtube} className="connectIcon" />
                       </button>
 
                       <button class="connect-button">
-                        <img src={whatsapp} className="icon" />
+                        <img src={whatsapp} className="connectIcon" />
                       </button>
 
                       <button class="connect-button">
-                        <img src={twitter} className="icon" />
+                        <img src={twitter} className="connectIcon" />
                       </button>
 
                     </div>

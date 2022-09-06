@@ -22,7 +22,7 @@ export default function FAQ() {
                 </div>
                 <div class="col-sm">
                   <div class="mt-5 mb-5 contentWrapper">
-                    <h1>Faq</h1>
+                    <h1>FAQ</h1>
                     <ul>
                       <li>
                         <input

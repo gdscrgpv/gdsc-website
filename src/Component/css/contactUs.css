@@ -40,12 +40,13 @@
 .smallTxt {
   margin-left: 0.4vh;
   font-size: 2.2vh;
+  font-family: "GoogleSans-Bold";
   letter-spacing: 1px;
   color: #666;
 }
 
 .midTxt {
-  margin-top: 0.5vh;
+  margin-top: 1.25vh;
   font-size: 2.2vh;
   letter-spacing: 0.5px;
   color: rgb(50, 50, 50);
@@ -124,6 +125,7 @@
 
 .screen-body {
   display: flex;
+  font-family: "GoogleSans-Bold";
 }
 
 .screen-body-item {
@@ -146,6 +148,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  font-family: "GoogleSans-Bold";
   color: #707cff;
   font-size: 26px;
 }
@@ -317,7 +320,8 @@
   }
 
   .midTxt {
-    font-size: 1.8vh;
+margin-top: 0.6vh;
+    /* font-size: 1.8vh; */
   }
 }
 
@@ -373,7 +377,7 @@
   }
 
   .midTxt {
-    font-size: 1.8vh;
+    margin-top: 0.4vh;
   }
 }
 

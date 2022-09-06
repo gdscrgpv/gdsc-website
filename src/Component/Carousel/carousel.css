@@ -12,7 +12,8 @@ h1 {
     font-variant-caps: all-petite-caps;
     letter-spacing: 4px;
     text-align: center;
-    margin-bottom: 3%;
+    font-family: "GoogleSans-Bold";
+    margin-bottom: 1.5%;
 }
 
 

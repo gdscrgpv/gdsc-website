@@ -10,6 +10,10 @@
   align-items: center;
   justify-content: center;
 }
+
+.first-title {
+  font-family: "GoogleSans-Bold" !important;
+}
 /*make responsive*/
 @media screen and (max-width: 600px) {
   .teamlanding {
@@ -33,8 +37,7 @@
 
 .first-title {
   font-size: 6.5em;
-  transform: translateY(-2rem); 
-  text-transform: uppercase;
+  transform: translateY(-2rem);
   font-family: "GoogleSans-Bold" !important;
 }
 .speakersCardContainer {

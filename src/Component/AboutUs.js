@@ -63,19 +63,14 @@ const AboutUs = () => {
           <div className="content textbox">
             {/* text  */}
             <h5 className="font-face-lighter ">
-              Google Student Developer Clubs (GDSC) is a student-led network
-              that allows undergrad students to upgrade their skills and learn
-              about various domains of computing. It gives students the
-              potential to expand their technological skills, create solutions
-              for their local communities, and network with other members of the
-              Google community.
+            Google Developer Student Club (GDSC) is a student-led community that provides undergrad students with the opportunity to learn, grow or polish their technical skills. It provides students with a peer-to-peer learning environment to grow their knowledge as a developer and build solutions for society. Community learning is a key aspect of GDSC as it helps in effective learning and essential networking
             </h5>
           </div>
         </div>
 
         {/* image */}
         <div className="imageDiv" ref={aboutImg}>
-          <img className="image" src={Img} />
+          <img className="image" alt="AboutUS"  src={Img} />
         </div>
       </div>
     </>

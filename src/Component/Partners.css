@@ -4,6 +4,7 @@
 }
 
 .partners-title {
+  text-align: center;
   font-family: "GoogleSans-Bold";
   font-size: 3rem;
 }
@@ -28,13 +29,13 @@
   transition: 0.4s;
 }
 
-.card .card_image {
+.card .card_image a{
   width: 200px;
   height: 200px;
   border-radius: 40px !important;
 }
 
-.card .card_image img {
+.card .card_image a img {
   width: inherit;
   height: inherit;
   border-radius: 40px;
@@ -64,6 +65,7 @@
 .title-black {
   color: black;
 }
+
 
 @media all and (max-width: 500px) {
   .card-list {

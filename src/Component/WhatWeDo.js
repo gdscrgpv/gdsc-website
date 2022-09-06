@@ -27,7 +27,7 @@ const data = [
       {
         title: "Projects",
         text:
-          "Give life to your ideas. Build projects with the teams support and guidance and gain expertise. Explore out of your circle along the way.",
+          "Give life to your ideas. Build projects with the team’s support and guidance and gain expertise. Explore out of your circle along the way.",
           img:require('../Assets/img/wedmanage.png')
         },
       {
@@ -51,7 +51,7 @@ const data = [
             <div className="col-xl-11">
               <div className="row">
                 <div className="col-md-12">
-                  <div className="section-heading-7 text-left text-black font-face-bold">
+                  <div className="section-heading-7 text-center text-black font-face-bold">
                     <div className="flex">
                       <h2 className="what-we-do">What we do at</h2>
                       <h2 className="G">G</h2>
@@ -63,12 +63,7 @@ const data = [
                   </div>
                   <div className="section-heading-7 text-left text-black font-face-lighter">
                     <h4>
-                      Google Developers Students Club (GDSC) is formed by
-                      passionate and dedicated students leading to empower other
-                      students and help them enhance their learning curve, aims
-                      to bring out a positive change in the students and helps
-                      them to get to know about wider aspects of technologies
-                      and to build solutions for local business and community.
+                    Google Developer Student Club consists of passionate students who intend to make an impact in the world by contributing as a developer. The primary objective of GDSC is to provide assistance and guidance to students who are enthusiastic to learn new skills in the technical domain and henceforth serve as a valuable addition to the community. 
                     </h4>
                   </div>
                 </div>

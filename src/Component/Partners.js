@@ -4,56 +4,72 @@ import "../Component/Partners.css";
 import semikolan from "../Images/semikolan.png";
 import finflee from "../Images/finflee.png";
 import WhatWeDoCard from "./Cards/WhatWeDoCard";
+import logo_diode from "../Assets/img/partners/diode.png";
 export default class Partners extends Component {
   render() {
-    // const data = [
-    //   {
-    //     title: "Seminars",
-    //     text: "A necessary kick to propel students toward innovation and learning. Seminars will offer insight into upcoming and trending technologies.",
-    //     img: require("../Assets/img/wedsem.png"),
-    //   },
-    //   {
-    //     title: "Hackathons",
-    //     text: "Put your problem-solving skills to the test and win amazing prizes by participating in hackathons and creating solutions that benefit mankind.",
-    //     img: require("../Assets/img/wedhack.png"),
-    //   },
-    //   {
-    //     title: "Workshops",
-    //     text: "Gain hands-on learning experience on a particular topic and acquire knowledge by practical implementation under the guidance of experts.",
-    //     img: require("../Assets/img/wedwerench.png"),
-    //   },
-    //   {
-    //     title: "Projects",
-    //     text: "Give life to your ideas. Build projects with the teams support and guidance and gain expertise. Explore out of your circle along the way.",
-    //     img: require("../Assets/img/wedmanage.png"),
-    //   },
-    // ];
-
+    const data = [
+      {
+        title: "SemiKolan",
+        img: require("../Images/semikolan.png"),
+        link :"https://semikolan.co/"
+      },
+      {
+        title: "Freakydiodes",
+        img: require("../Assets/img/partners/logo_diode.png"),
+        link :"https://freakydiodes.com/"
+      },
+      {
+        title: "Flutter Bhopal",
+        img: require("../Assets/img/partners/logo_flutterbhopal.png"),
+        link: "https://twitter.com/flutterbhopal"
+      },
+      {
+        title: "CNCF Bhopal",
+        img: require("../Assets/img/partners/logo_cncfbhopal.png"),
+        link: "https://community.cncf.io/bhopal/"
+      },
+      {
+        title: "GDG Bhopal",
+        img: require("../Assets/img/partners/GDG_cloud.jpg"),
+        link: "https://community.cncf.io/bhopal/"
+      },
+    ];
     return (
       <>
       <div className="partners">
       <div className="partners-title">Partners & Sponsors</div>
         <div className="cards-list">
+
+        {data.map((item, index) => {
+
+            return (
           <div className="card">
+            <div className="card_image">
+              <a href={item.link} target="_blank" rel="noopener noreferrer">
+              <img src={item.img} alt={item.title} />
+              </a>
+            </div>
+          </div>
+        );
+            })};
+
+          {/* <div className="card">
+            <div className="card_image">
+              <a href="https://freakydiodes.com" target="_blank" rel="noopener noreferrer">
+              <img className="diode_logo" src={logo_diode} alt="Freakydiodes" rel="noopener noreferrer"  />
+              </a>
+            </div>
+          </div> */}
+          {/* <div className="card">
             <div className="card_image">
               <img src={semikolan} />
             </div>
-          </div>
-          <div className="card">
+          </div> */}
+          {/* <div className="card">
             <div className="card_image">
               <img src={semikolan} />
             </div>
-          </div>
-          <div className="card">
-            <div className="card_image">
-              <img src={semikolan} />
-            </div>
-          </div>
-          <div className="card">
-            <div className="card_image">
-              <img src={semikolan} />
-            </div>
-          </div>
+          </div> */}
         </div>
       </div>
       </>

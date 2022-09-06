@@ -26,9 +26,7 @@ export const WTB_Member = () => {
         <div className=" d-flex text-center justify-content-center font-face-bold WTB-text ">
           <p>
             {" "}
-            Being a part of GDSC, gives you a platform to express yourself and
-            build your skills with peer's and help enhance your technical
-            knowledge
+            GDSC provides an arena for every student to learn new technical skills, enhance their personality and form an amazing network with people. With immense exposure and a peer-to-peer learning environment, GDSC is the ideal community for you to thrive
           </p>
         </div>
         <div className="d-flex  justify-content-center">

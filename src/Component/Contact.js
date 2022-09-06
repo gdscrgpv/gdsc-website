@@ -6,7 +6,7 @@ import mail from "../Assets/img/mailBlack.png";
 import phone from "../Assets/img/phoneBlack.png";
 import linkedin from "../Assets/img/linkedin.png";
 import insta from "../Assets/img/instagram.png";
-import facebook from "../Assets/img/facebook.png";
+import github from "../Assets/img/github.png";
 import discord from "../Assets/img/discord.png";
 import twitter from "../Assets/img/twitter.png";
 import youtube from "../Assets/img/youtube.png";
@@ -31,7 +31,7 @@ export default class ContactComponent extends Component {
       <>
 
         <div class="">
-          <div class="container" style={{marginBottom: 50}}>
+          <div class="container" style={{ marginBottom: 50 }}>
             <div class="screen">
               <div class="screen-header">
                 {/* <div class="screen-header-left">
@@ -49,11 +49,11 @@ export default class ContactComponent extends Component {
                 <div class="screen-body-item left">
 
                   {/* heanding */}
-                  <div class="app-title" style={{fontWeight: 700}}>
+                  <div class="app-title" style={{ fontWeight: 700 }}>
                     <span>Get in Touch</span>
                   </div>
 
-                  <p class="smallTxt" style={{fontWeight: 600}}>We are here for you! How can we help?</p>
+                  <p class="smallTxt" style={{ fontWeight: 600 }}>We are here for you! How can we help?</p>
 
                   {/* form */}
                   <div class="app-form">
@@ -90,21 +90,21 @@ export default class ContactComponent extends Component {
 
                   {/* contact details */}
                   <div class="contact-detail contact ">
-                    <div class=" flex" style={{marginBottom: "2%"}}>
+                    <div class=" flex" style={{ marginBottom: "2%" }}>
                       <img src={mapPin} className="contactIcon" style={{ color: 'black' }} />
 
                       <p class="midTxt">
-                        Airport road, Uit rgpv
+                        8966+3M7, Abbas Nagar, Gandhi Nagar, Bhopal, Madhya Pradesh 462033
                       </p>
                     </div>
-                    <div class=" flex" style={{marginBottom: "2%"}}>
+                    <div class=" flex" style={{ marginBottom: "2%" }}>
                       <img src={mail} className="contactIcon" style={{ color: 'black' }} />
 
                       <p class="midTxt">
                         gdscuitrgpv@gmail.com
                       </p>
                     </div>
-                    <div class=" flex" style={{marginBottom: "2%"}}>
+                    <div class=" flex" style={{ marginBottom: "2%" }}>
                       <img src={phone} className="contactIcon" style={{ color: 'black' }} />
 
                       <p class="midTxt">
@@ -118,35 +118,52 @@ export default class ContactComponent extends Component {
                     <div class="app-form-group buttons">
 
                       <button class="connect-button">
-                        <img src={linkedin} className="connectIcon" />
+                        <a href="https://www.linkedin.com/company/gdscuitrgpv/" target="_blank">
+                          <img src={linkedin} className="connectIcon" />
+                        </a>
+                      </button>
+
+
+                      <button class="connect-button">
+                        <a href="https://www.instagram.com/gdsc_uitrgpv/" target="_blank">
+                          <img src={insta} className="connectIcon" />
+                        </a>
                       </button>
 
                       <button class="connect-button">
-                        <img src={insta} className="connectIcon" />
+                        <a href="https://github.com/gdscrgpv/" target="_blank">
+                          <img src={github} className="connectIcon" />
+                        </a>
                       </button>
 
                       <button class="connect-button">
-                        <img src={facebook} className="connectIcon" />
+                        <a href="https://discord.gg/pTxtS8xu" target="_blank">
+                          <img src={discord} className="connectIcon" />
+                        </a>
                       </button>
 
                       <button class="connect-button">
-                        <img src={discord} className="connectIcon" />
+                        <a href="https://t.me/gdscuitrgpv" target="_blank">
+                          <img src={telegram} className="connectIcon" />
+                        </a>
                       </button>
 
                       <button class="connect-button">
-                        <img src={telegram} className="connectIcon" />
+                        <a href="https://www.youtube.com/c/GoogleDeveloperStudentClubUITRGPVBhopal" target="_blank">
+                          <img src={youtube} className="connectIcon" />
+                        </a>
                       </button>
 
                       <button class="connect-button">
-                        <img src={youtube} className="connectIcon" />
+                        <a href="https://chat.whatsapp.com/Kuv8sZjJnGy7mlSxXMQcNZ" target="_blank">
+                          <img src={whatsapp} className="connectIcon" />
+                        </a>
                       </button>
 
                       <button class="connect-button">
-                        <img src={whatsapp} className="connectIcon" />
-                      </button>
-
-                      <button class="connect-button">
-                        <img src={twitter} className="connectIcon" />
+                        <a href="https://twitter.com/Gdsc_UitRgpv" target="_blank">
+                          <img src={twitter} className="connectIcon" />
+                        </a>
                       </button>
 
                     </div>

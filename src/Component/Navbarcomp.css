@@ -62,6 +62,12 @@
     
    }
 
+   .joinus {
+    text-decoration: none;
+    font-family: "GoogleSans-Light";
+    color: black;
+   }
+
    .btn_text {
     font-size: 1rem;
     text-decoration: none;

@@ -12,6 +12,8 @@
 }
 .gdsc-landing-logo{
     
+    height: 35%;
+    width: 40%;
     transform: translateY(-5rem);
 }
 /*
@@ -34,3 +36,16 @@
     top:5% !important;
     width: 6% !important;
 } */
+
+/* responsive image */ 
+@media screen and (max-width: 600px) {
+    .gdsc-landing-logo{
+        transform: translateY(-2rem);
+    }
+    .gdsc-landing-logo {
+        width: 100% ;
+        height: 20%;
+    }
+}
+
+    

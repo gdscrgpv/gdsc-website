@@ -37,36 +37,9 @@ export default class Landing extends Component {
     return (
       <div className='banner-landing '>
         
-        <img src={Logo} alt="logo" className='gdsc-landing-logo' style={{height:'35%',width:'40%'}}/>
+        <img src={Logo} alt="logo" className='gdsc-landing-logo' />
         
-       {/* <div>
-       <img src={Obj1} alt="logo" className='gdsc-landing-logo obj1' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj2} alt="logo" className='gdsc-landing-logo obj2' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj3} alt="logo" className='gdsc-landing-logo obj3' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj4} alt="logo" className='gdsc-landing-logo obj4' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj5} alt="logo" className='gdsc-landing-logo obj5' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj6} alt="logo" className='gdsc-landing-logo obj6' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj7} alt="logo" className='gdsc-landing-logo obj7' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj8} alt="logo" className='gdsc-landing-logo obj8' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj9} alt="logo" className='gdsc-landing-logo obj9' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj10} alt="logo" className='gdsc-landing-logo obj10' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj11} alt="logo" className='gdsc-landing-logo obj11' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj12} alt="logo" className='gdsc-landing-logo obj12' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj13} alt="logo" className='gdsc-landing-logo obj13' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj14} alt="logo" className='gdsc-landing-logo obj14' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj15} alt="logo" className='gdsc-landing-logo obj15' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj16} alt="logo" className='gdsc-landing-logo obj16' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj17} alt="logo" className='gdsc-landing-logo obj17' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj18} alt="logo" className='gdsc-landing-logo obj18' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj19} alt="logo" className='gdsc-landing-logo obj19' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj20} alt="logo" className='gdsc-landing-logo obj20' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj21} alt="logo" className='gdsc-landing-logo obj21' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj22} alt="logo" className='gdsc-landing-logo obj22' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj23} alt="logo" className='gdsc-landing-logo obj23' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj24} alt="logo" className='gdsc-landing-logo obj24' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj25} alt="logo" className='gdsc-landing-logo obj25' style={{height:'10%',width:'10%'}}/>
-        <img src={Obj26} alt="logo" className='gdsc-landing-logo obj26' style={{height:'10%',width:'10%'}}/>
-       </div> */}
+      
       
         
         

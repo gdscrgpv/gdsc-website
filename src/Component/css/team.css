@@ -35,7 +35,7 @@
   font-size: 6.5em;
   transform: translateY(-2rem); 
   text-transform: uppercase;
-  font-family: "GoogleSans-Bold";
+  font-family: "GoogleSans-Bold" !important;
 }
 .speakersCardContainer {
   display: flex;

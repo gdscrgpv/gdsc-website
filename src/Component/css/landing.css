@@ -10,6 +10,17 @@
     color: #fff;
     text-align: center;
 }
+/*-make reasponsive*/
+@media screen and (max-width: 600px) {
+    .banner-landing{
+        background-image: url(../../Assets/img/banner.png);
+        background-size: center;
+        background-position: right bottom;
+        height: 100vh;
+        width: 100%;
+    
+    }
+}
 .gdsc-landing-logo{
     
     height: 35%;

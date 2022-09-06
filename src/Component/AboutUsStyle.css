@@ -82,6 +82,14 @@ class. */
   /* height: 40%; */
   margin-top: 5%;
 }
+@media screen and (max-width: 800px) {
+  .textbox {
+    width: 100%;
+    /* height: 40%; */
+    margin-top: 5%;
+  }
+}
+  
 
 .imageDiv {
   width: 30%;

@@ -127,6 +127,10 @@ input[type=checkbox]{
     background-color:rgba(66, 133, 244, 1);
    }
 
+   .joinus {
+    font-family: "GoogleSans-Bold";
+   }
+
    
    .btn_text {
     font-size: 1rem;

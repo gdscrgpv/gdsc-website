@@ -6,6 +6,7 @@ import Ankur from "../Assets/img/Ankur Gupta _ Lead.jpg";
 import NavBarcomp from "../Component/NavBar";
 import Sir from "../Assets/img/sanjaysir.JPG";
 import linkedIn from "../Assets/img/linkedin.png";
+import Footer from '../Component/Footer.js';
 export default class Teams extends Component {
 
 
@@ -405,6 +406,7 @@ export default class Teams extends Component {
 
 
         </div>
+        <Footer/>
 
       </div>
 

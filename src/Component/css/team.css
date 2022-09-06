@@ -1,5 +1,5 @@
 .teamlanding {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/project-banana-4822.appspot.com/o/images%2Fbk.png?alt=media");
+  background-image: url(../../Assets/img/teamgame.png);
   height: 100vh;
 
   /* Center and scale the image nicely */
@@ -10,14 +10,32 @@
   align-items: center;
   justify-content: center;
 }
+/*make responsive*/
+@media screen and (max-width: 600px) {
+  .teamlanding {
+    background-image: url(../../Assets/img/teamgame.png);
+    height: 100vh;
 
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+  }
+}
 .sanjay-sir {
   margin-top: 70px;
 }
 
 .first-title {
-  font-size: 3.5em;
-  padding-top: 2em;
+  font-size: 6.5em;
+  transform: translateY(-2rem); 
+  text-transform: uppercase;
+  font-family: "GoogleSans-Bold";
 }
 .speakersCardContainer {
   display: flex;

@@ -189,13 +189,8 @@ export default class Teams extends Component {
         <div >
           {/*left right section */}
           <div className='teamlanding'>
-
-            <div class="container">
-              <div class="row d-flex align-items-center justify-content-center">
-
-                <div class="col-md-6" id="home-img"></div>
-                <div class="col-md-6  text-center titletean" id="home-content ">
-                  <h1 className='first-title'>The<br />
+              <div>
+              <h1 className='first-title'>The<br />
                     <span className='G'>T</span>
                     <span className='D'>E</span>
                     <span className='S'>A</span>
@@ -203,12 +198,10 @@ export default class Teams extends Component {
                   </h1>
                   <h2><b>Presenting board of 2022-2023</b></h2>
                   <div>
-                  </div>
-                </div>
-
+                  </div>  
               </div>
-            </div>
-
+            
+  
           </div>
         </div>
         {/*team section */}

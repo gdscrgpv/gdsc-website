@@ -12,6 +12,7 @@ import youtube from "../Assets/img/youtube.png";
 import insta from "../Assets/img/instagram.png";
 // import telegram from "../Assets/img/telegram.png";
 import discord from "../Assets/img/discord.png";
+import { Link } from "react-router-dom";
 
 import { Button } from "reactstrap";
 export default class Footer extends Component {
@@ -42,38 +43,20 @@ export default class Footer extends Component {
                   <div className="footer-widget-heading useful">
                     <h3>Useful Links</h3>
                   </div>
-                  <ul>
+                  <ul className="footer-link">
                     <li>
-                      <a href="#">Home</a>
+                      <Link to="/">Home</Link>
                     </li>
                     <li>
-                      <a href="#">about</a>
+                      <Link to="/teams">Team</Link>
                     </li>
                     <li>
-                      <a href="#">services</a>
+                      <Link to="/contact">Contact</Link>
                     </li>
-                    <li>
-                      <a href="#">portfolio</a>
-                    </li>
-                    <li>
-                      <a href="#">Contact</a>
-                    </li>
-                    <li>
-                      <a href="#">About us</a>
-                    </li>
-                    <li>
-                      <a href="#">Our Services</a>
-                    </li>
-                    <li>
-                      <a href="#">Expert Team</a>
-                    </li>
-                    <li>
-                      <a href="#">Contact us</a>
-                    </li>
-                    <li>
-                      <a href="#">Latest News</a>
-                    </li>
+                    
+                    
                   </ul>
+                  
                 </div>
               </div>
               <div className="col-xl-4 col-lg-4 col-md-6 mb-50 subscribe">

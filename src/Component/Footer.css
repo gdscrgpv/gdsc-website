@@ -1,6 +1,12 @@
 ul {
   margin: 0px;
   padding: 0px;
+
+}
+.footer-link{
+  display: flex;
+  flex-direction: column;
+ 
 }
 
 .footer-section {
@@ -122,9 +128,7 @@ ul {
   /* background: #ff5e14; */
 }
 
-.useful {
-  margin-left: 30px !important;
-}
+
 
 .footer-widget ul li {
   font-family: "GoogleSans-Bold";

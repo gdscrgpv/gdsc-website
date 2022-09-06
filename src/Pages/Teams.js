@@ -194,7 +194,7 @@ export default class Teams extends Component {
                 aria-disabled="false"
                 href="https://www.linkedin.com/in/nikita-gandhi01"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 <span class="MuiIconButton-label">
                   <svg
@@ -214,7 +214,7 @@ export default class Teams extends Component {
                 aria-disabled="false"
                 href="https://twitter.com/Nikkitagandhi"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 <span class="MuiIconButton-label">
                   <svg
@@ -263,7 +263,7 @@ export default class Teams extends Component {
                 aria-disabled="false"
                 href="https://www.linkedin.com/in/nikita-gandhi01"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 <span class="MuiIconButton-label">
                   <svg
@@ -283,7 +283,7 @@ export default class Teams extends Component {
                 aria-disabled="false"
                 href="https://twitter.com/Nikkitagandhi"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 <span class="MuiIconButton-label">
                   <svg
@@ -339,7 +339,7 @@ export default class Teams extends Component {
               aria-disabled="false"
               href="https://www.linkedin.com/in/nikita-gandhi01"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
             >
               <span class="MuiIconButton-label">
                 <svg
@@ -359,7 +359,7 @@ export default class Teams extends Component {
               aria-disabled="false"
               href="https://twitter.com/Nikkitagandhi"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
             >
               <span class="MuiIconButton-label">
                 <svg
@@ -417,7 +417,7 @@ export default class Teams extends Component {
               aria-disabled="false"
               href="https://www.linkedin.com/in/nikita-gandhi01"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
             >
               <span class="MuiIconButton-label">
                 <svg
@@ -437,7 +437,7 @@ export default class Teams extends Component {
               aria-disabled="false"
               href="https://twitter.com/Nikkitagandhi"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
             >
               <span class="MuiIconButton-label">
                 <svg
@@ -495,7 +495,7 @@ export default class Teams extends Component {
               aria-disabled="false"
               href="https://www.linkedin.com/in/nikita-gandhi01"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
             >
               <span class="MuiIconButton-label">
                 <svg
@@ -515,7 +515,7 @@ export default class Teams extends Component {
               aria-disabled="false"
               href="https://twitter.com/Nikkitagandhi"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
             >
               <span class="MuiIconButton-label">
                 <svg

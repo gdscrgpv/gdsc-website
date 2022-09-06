@@ -43,6 +43,8 @@
     transition: 0.3s ease;
    }
    .menu li {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
     padding: 5px 14px;   
    }
    .link_text{

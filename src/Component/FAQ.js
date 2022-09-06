@@ -37,7 +37,11 @@ export default function FAQ() {
                           </label>
                         </h2>
                         <p class="answer">
-                        Students of all undergraduate and graduate programs from all domains who are passionate about becoming a developer are welcome as a member of GDSC. The passion to learn and grow in a community of enthusiastic developers is the only prerequisite needed.
+                          Students of all undergraduate and graduate programs
+                          from all domains who are passionate about becoming a
+                          developer are welcome as a member of GDSC. The passion
+                          to learn and grow in a community of enthusiastic
+                          developers is the only prerequisite needed.
                         </p>
                       </li>
                       <li>

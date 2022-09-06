@@ -48,9 +48,12 @@ export default class NavBarcomp extends Component {
             </li> */}
 
             <li>
-            <a className="joinus" href="https://gdsc.community.dev/university-institute-of-technology-rgpv-bhopal/">
-              Join Us
-            </a>
+              <a
+                className="joinus"
+                href="https://gdsc.community.dev/university-institute-of-technology-rgpv-bhopal/"
+              >
+                Join Us
+              </a>
             </li>
           </div>
         </ul>

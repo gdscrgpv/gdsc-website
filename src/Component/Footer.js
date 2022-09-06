@@ -25,7 +25,7 @@ export default class Footer extends Component {
               <div className="col-xl-4 col-lg-4 mb-50">
                 <div className="footer-widget">
                   <div className="footer-logo">
-                    <a href="index.html">
+                    <a href="https://gdscuitrgpv.com">
                       <img src={GDSC} className="img-fluid" alt="logo" />
                     </a>
                   </div>

@@ -1,172 +1,187 @@
    /* NAVBAR STYLING STARTS */
 
-   .sticky{
-    position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-}
-.nav-links {
-    padding-right: 20px;
-    font-family: "GoogleSans-Light";
-    margin-bottom: 0 !important;
-}
+   .sticky {
+       position: -webkit-sticky;
+       position: sticky;
+       top: 0;
+   }
 
-.navlogo {
-    padding-left: 2rem;
-}
-._navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    background-color:white;
-    color: white;
-    /*shadow at bottom of navbar*/
-    box-shadow: 0 0 10px rgba(0,0,0,0.12);
-    z-index: 1;
+   .nav-links {
+       padding-right: 20px;
+       font-family: "GoogleSans-Light";
+       margin-bottom: 0 !important;
+   }
+
+   .navlogo {
+       padding-left: 2rem;
+   }
+
+   ._navbar {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding-top: 0.5rem;
+       padding-bottom: 0.5rem;
+       background-color: white;
+       color: white;
+       /*shadow at bottom of navbar*/
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+       z-index: 1;
    }
 
 
    /* LOGO */
    .logo {
-    font-size: 32px;
+       font-size: 32px;
    }
 
-   .logo img{
-    height: 4.5rem;
-    width: auto;
-    margin-left: 3rem;
+   .logo img {
+       height: 4.5rem;
+       width: auto;
+       margin-left: 3rem;
 
-}
+   }
+
    /* NAVBAR MENU */
    .menu {
-    display: flex;
-    gap: 1em;
-    align-items: center;
-    font-size: 18px;
+       display: flex;
+       gap: 1em;
+       align-items: center;
+       font-size: 18px;
    }
+
    .menu li:hover {
-    background-color:transparent;
-    border-radius: 5px;
-    transition: 0.3s ease;
+       background-color: transparent;
+       border-radius: 5px;
+       transition: 0.3s ease;
    }
+
    .menu li {
-    padding: 0px 15px;   
+       padding: 0px 15px;
    }
-   .link_text{
-    font-size: 1.2rem;
-    font-weight: 400;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    
+
+   .link_text {
+       font-size: 1.2rem;
+       font-weight: 400;
+       text-decoration: none;
+       color: rgb(0, 0, 0);
+
    }
 
    .joinus {
-    text-decoration: none;
-    font-family: "GoogleSans-Light";
-    color: black;
+       text-decoration: none;
+       font-family: "GoogleSans-Light";
+       color: black;
    }
 
    .btn_text {
-    font-size: 1rem;
-    text-decoration: none;
-    color: white;
+       font-size: 1rem;
+       text-decoration: none;
+       color: white;
    }
 
-   .join_us_btn{
-    display: flex;
-    height: 2.5rem;
-    width: 6rem;
-    /* transform: translateY(0.2rem); */
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 10px;
-    background-color:rgba(66, 133, 244, 1);
+   .join_us_btn {
+       display: flex;
+       height: 2.5rem;
+       width: 6rem;
+       /* transform: translateY(0.2rem); */
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       border-radius: 10px;
+       background-color: rgba(66, 133, 244, 1);
    }
-/*RESPONSIVE NAVBAR MENU STARTS*/
+
+   /*RESPONSIVE NAVBAR MENU STARTS*/
 
 
 
-/* CHECKBOX HACK */
-input[type=checkbox]{
-    display: none;
-   } 
+   /* CHECKBOX HACK */
+   input[type=checkbox] {
+       display: none;
+   }
+
    /*HAMBURGER MENU*/
    .hamburger {
-    display: none;
-    font-size: 24px;
-    padding-right: 1.5rem;
-    user-select: none;
-    color: black;
+       display: none;
+       font-size: 24px;
+       padding-right: 1.5rem;
+       user-select: none;
+       color: black;
    }
+
    /* APPLYING MEDIA QUERIES */
    @media (max-width: 1000px) {
 
-    .menu li {
-        padding-top: 20px;
-        font-family: "GoogleSans-Bold";
-    }
+       .menu li {
+           padding-top: 20px;
+           font-family: "GoogleSans-Bold";
+       }
 
-    .logo img{
-        height: 2.5rem;
-        width: auto;
-        margin: 1rem;
-    }
+       .logo img {
+           height: 2.5rem;
+           width: auto;
+           margin: 1rem;
+       }
 
-    
-   .join_us_btn{
-    display: flex;
-    height: 2rem;
-    width: 6rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 1.2rem;
-    background-color:rgba(66, 133, 244, 1);
-   }
 
-   .joinus {
-    font-family: "GoogleSans-Bold";
-   }
+       .join_us_btn {
+           display: flex;
+           height: 2rem;
+           width: 6rem;
+           justify-content: center;
+           align-items: center;
+           text-align: center;
+           border-radius: 1.2rem;
+           background-color: rgba(66, 133, 244, 1);
+       }
 
-   
-   .btn_text {
-    font-size: 1rem;
-    text-decoration: none;
-    color: white;
-   }
+       .joinus {
+           font-family: "GoogleSans-Bold";
+       }
 
-   .menu { 
-    display:none;
-    position: absolute;
-    background-color:white;
-    right: 0;
-    left: 0;
-    text-align: center;
-    padding: 16px 0;
-   }
-   .menu li:hover {
-    /* display: inline-block; */
-    background-color:rgba(0, 0 , 0, 0.05);
-    transition: 0.3s ease;
-   }
-   .menu li + li {
-    margin-top: 0;
-   }
-   input[type=checkbox]:checked ~ .menu{
-    display: block;
-   }
-   .hamburger {
-    display: flex;
-   }
-   .dropdown {
-    left: 50%;
-    top: 30px;
-    transform: translateX(35%);
-   }
-   .dropdown li:hover {
-    background-color: #4c9e9e;
-   }
+
+       .btn_text {
+           font-size: 1rem;
+           text-decoration: none;
+           color: white;
+       }
+
+       .menu {
+           display: none;
+           position: absolute;
+           background-color: white;
+           right: 0;
+           left: 0;
+           text-align: center;
+           padding: 16px 0;
+       }
+
+       .menu li:hover {
+           /* display: inline-block; */
+           background-color: rgba(0, 0, 0, 0.05);
+           transition: 0.3s ease;
+       }
+
+       .menu li+li {
+           margin-top: 0;
+       }
+
+       input[type=checkbox]:checked~.menu {
+           display: block;
+       }
+
+       .hamburger {
+           display: flex;
+       }
+
+       .dropdown {
+           left: 50%;
+           top: 30px;
+           transform: translateX(35%);
+       }
+
+       .dropdown li:hover {
+           background-color: #4c9e9e;
+       }
    }

@@ -3,11 +3,10 @@ import React from "react";
 export const WTB_Member = () => {
   return (
     <div className="main-box ">
-
       <div className="Side-box align-self-center">
-      <div className="circle-1"> Learn</div>
+        <div className="circle-1"> Learn</div>
         <div className="d-flex font-face-bold  justify-content-center  ">
-          <p >
+          <p>
             Why To Become <br />
             Community Member At
           </p>
@@ -26,7 +25,10 @@ export const WTB_Member = () => {
         <div className=" d-flex text-center justify-content-center font-face-bold WTB-text ">
           <p>
             {" "}
-            GDSC provides an arena for every student to learn new technical skills, enhance their personality and form an amazing network with people. With immense exposure and a peer-to-peer learning environment, GDSC is the ideal community for you to thrive
+            GDSC provides an arena for every student to learn new technical
+            skills, enhance their personality and form an amazing network with
+            people. With immense exposure and a peer-to-peer learning
+            environment, GDSC is the ideal community for you to thrive
           </p>
         </div>
         <div className="d-flex  justify-content-center">

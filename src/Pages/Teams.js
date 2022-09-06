@@ -275,11 +275,7 @@ export default class Teams extends Component {
           {Leads.map((speaker, index) => (
             <div class="speakerCard">
               <div style={{ height: "40px" }}>
-                <img
-                  class="speakerImage"
-                  alt=""
-                  src={speaker.img}
-                />
+                <img class="speakerImage" alt="" src={speaker.img} />
               </div>
 
               <h5
@@ -315,11 +311,7 @@ export default class Teams extends Component {
           {teachteam.map((speaker, index) => (
             <div class="speakerCard">
               <div style={{ height: "40px" }}>
-                <img
-                  class="speakerImage"
-                  alt=""
-                  src={speaker.img}
-                />
+                <img class="speakerImage" alt="" src={speaker.img} />
               </div>
 
               <h5
@@ -357,11 +349,7 @@ export default class Teams extends Component {
           {designandcontent.map((speaker, index) => (
             <div class="speakerCard">
               <div style={{ height: "40px" }}>
-                <img
-                  class="speakerImage"
-                  alt=""
-                  src={speaker.img}
-                />
+                <img class="speakerImage" alt="" src={speaker.img} />
               </div>
 
               <h5
@@ -399,11 +387,7 @@ export default class Teams extends Component {
           {buddies.map((speaker, index) => (
             <div class="speakerCard">
               <div style={{ height: "40px" }}>
-                <img
-                  class="speakerImage"
-                  alt=""
-                  src={speaker.img}
-                />
+                <img class="speakerImage" alt="" src={speaker.img} />
               </div>
 
               <h5
@@ -439,11 +423,7 @@ export default class Teams extends Component {
           {mentors.map((speaker, index) => (
             <div class="speakerCard">
               <div style={{ height: "40px" }}>
-                <img
-                  class="speakerImage"
-                  alt=""
-                  src={speaker.img}
-                />
+                <img class="speakerImage" alt="" src={speaker.img} />
               </div>
 
               <h5

@@ -29,7 +29,6 @@ export default class ContactComponent extends Component {
   render() {
     return (
       <>
-
         <div class="">
           <div class="container" style={{ marginBottom: 50, paddingTop: 30 }}>
             <div class="screen">
@@ -47,24 +46,35 @@ export default class ContactComponent extends Component {
               </div>
               <div class="screen-body">
                 <div class="screen-body-item left">
-
                   {/* heanding */}
                   <div class="app-title" style={{ fontWeight: 700 }}>
                     <span>Get in Touch</span>
                   </div>
 
-                  <p class="smallTxt" style={{ fontWeight: 600 }}>We are here for you! How can we help?</p>
+                  <p class="smallTxt" style={{ fontWeight: 600 }}>
+                    We are here for you! How can we help?
+                  </p>
 
                   {/* form */}
                   <div class="app-form">
                     <div class="app-form-group">
-                      <input class="app-form-control" placeholder="Enter your name" />
+                      <input
+                        class="app-form-control"
+                        placeholder="Enter your name"
+                      />
                     </div>
                     <div class="app-form-group">
-                      <input class="app-form-control" placeholder="Enter your email address" />
+                      <input
+                        class="app-form-control"
+                        placeholder="Enter your email address"
+                      />
                     </div>
                     <div class="app-form-group message">
-                      <textarea rows={5} class="app-form-control" placeholder="Go ahead we are listening..." />
+                      <textarea
+                        rows={5}
+                        class="app-form-control"
+                        placeholder="Go ahead we are listening..."
+                      />
                     </div>
                     <div class="app-form-group buttons">
                       {/* <button class="app-form-button">CANCEL</button> */}
@@ -91,41 +101,54 @@ export default class ContactComponent extends Component {
                   {/* contact details */}
                   <div class="contact-detail contact ">
                     <div class=" flex" style={{ marginBottom: "2%" }}>
-                      <img src={mapPin} className="contactIcon" style={{ color: 'black' }} />
+                      <img
+                        src={mapPin}
+                        className="contactIcon"
+                        style={{ color: "black" }}
+                      />
 
                       <p class="midTxt">
-                        8966+3M7, Abbas Nagar, Gandhi Nagar, Bhopal, Madhya Pradesh 462033
+                        8966+3M7, Abbas Nagar, Gandhi Nagar, Bhopal, Madhya
+                        Pradesh 462033
                       </p>
                     </div>
                     <div class=" flex" style={{ marginBottom: "2%" }}>
-                      <img src={mail} className="contactIcon" style={{ color: 'black' }} />
+                      <img
+                        src={mail}
+                        className="contactIcon"
+                        style={{ color: "black" }}
+                      />
 
-                      <p class="midTxt">
-                        gdscuitrgpv@gmail.com
-                      </p>
+                      <p class="midTxt">gdscuitrgpv@gmail.com</p>
                     </div>
                     <div class=" flex" style={{ marginBottom: "2%" }}>
-                      <img src={phone} className="contactIcon" style={{ color: 'black' }} />
+                      <img
+                        src={phone}
+                        className="contactIcon"
+                        style={{ color: "black" }}
+                      />
 
-                      <p class="midTxt">
-                        +91-6283698964
-                      </p>
+                      <p class="midTxt">+91-6283698964</p>
                     </div>
                   </div>
 
                   {/* connect with us */}
                   <div>
                     <div class="app-form-group buttons">
-
                       <button class="connect-button">
-                        <a href="https://www.linkedin.com/company/gdscuitrgpv/" target="_blank">
+                        <a
+                          href="https://www.linkedin.com/company/gdscuitrgpv/"
+                          target="_blank"
+                        >
                           <img src={linkedin} className="connectIcon" />
                         </a>
                       </button>
 
-
                       <button class="connect-button">
-                        <a href="https://www.instagram.com/gdsc_uitrgpv/" target="_blank">
+                        <a
+                          href="https://www.instagram.com/gdsc_uitrgpv/"
+                          target="_blank"
+                        >
                           <img src={insta} className="connectIcon" />
                         </a>
                       </button>
@@ -149,23 +172,31 @@ export default class ContactComponent extends Component {
                       </button>
 
                       <button class="connect-button">
-                        <a href="https://www.youtube.com/c/GoogleDeveloperStudentClubUITRGPVBhopal" target="_blank">
+                        <a
+                          href="https://www.youtube.com/c/GoogleDeveloperStudentClubUITRGPVBhopal"
+                          target="_blank"
+                        >
                           <img src={youtube} className="connectIcon" />
                         </a>
                       </button>
 
                       <button class="connect-button">
-                        <a href="https://chat.whatsapp.com/Kuv8sZjJnGy7mlSxXMQcNZ" target="_blank">
+                        <a
+                          href="https://chat.whatsapp.com/Kuv8sZjJnGy7mlSxXMQcNZ"
+                          target="_blank"
+                        >
                           <img src={whatsapp} className="connectIcon" />
                         </a>
                       </button>
 
                       <button class="connect-button">
-                        <a href="https://twitter.com/Gdsc_UitRgpv" target="_blank">
+                        <a
+                          href="https://twitter.com/Gdsc_UitRgpv"
+                          target="_blank"
+                        >
                           <img src={twitter} className="connectIcon" />
                         </a>
                       </button>
-
                     </div>
                   </div>
                 </div>
@@ -173,7 +204,6 @@ export default class ContactComponent extends Component {
             </div>
           </div>
         </div>
-
       </>
     );
   }

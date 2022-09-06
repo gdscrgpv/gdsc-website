@@ -1,4 +1,3 @@
-
 .flex {
   display: flex;
 }
@@ -18,17 +17,21 @@
 .C {
   color: #fbbc04;
 }
+
 /*add custom scroll bar**/
 ::-webkit-scrollbar {
   width: 10px;
 
 }
+
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
+
 ::-webkit-scrollbar-thumb {
-  background:rgb(0, 79, 139);
+  background: rgb(0, 79, 139);
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(0, 79, 139);
 }
@@ -42,11 +45,13 @@
   padding: 0.625rem;
   background-color: white;
 }
+
 /* Navbar logo */
 .Navbar-logo {
   height: 3rem;
   width: 6rem;
 }
+
 /* Navbar Tab */
 .Navbar-links {
   margin-left: 1.25rem;
@@ -83,6 +88,7 @@
   font-size: 2.5rem;
   color: black;
 }
+
 .Side-box h2 {
   margin: 2px;
   font-family: "GoogleSans-Bold" !important;
@@ -101,6 +107,7 @@
 .right-box p {
   font-family: "GoogleSans-Bold" !important;
 }
+
 /* des text of the right hand box */
 .WTB-text p {
   font-size: 1.75rem;
@@ -155,17 +162,18 @@
     0 0 40px rgba(0, 0, 0, 0.1) inset;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
+
 .circle-2 {
   font-family: "GoogleSans-Bold" !important;
   display: flex;
   height: 8rem;
   width: 8rem;
-  background-color:rgba(15, 157, 88, 1);
+  background-color: rgba(15, 157, 88, 1);
   border-radius: 20rem;
   align-items: center;
   justify-content: center;
   vertical-align: middle;
-  bottom:-8rem;
+  bottom: -8rem;
   position: relative;
   left: 40rem;
   margin-top: -7rem;
@@ -187,7 +195,7 @@
   align-items: center;
   justify-content: center;
   vertical-align: middle;
-  bottom:-7rem;
+  bottom: -7rem;
   position: relative;
   left: 0.5rem;
   margin-top: -7rem;
@@ -201,19 +209,28 @@
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
-.circle-1 { transition: all .2s ease-in-out; }
+.circle-1 {
+  transition: all .2s ease-in-out;
+}
+
 .circle-1:hover {
   transform: scale(1.1, 1.1);
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
-.circle-2 { transition: all .2s ease-in-out; }
+.circle-2 {
+  transition: all .2s ease-in-out;
+}
+
 .circle-2:hover {
   transform: scale(1.1, 1.1);
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
-.circle-3 { transition: all .2s ease-in-out; }
+.circle-3 {
+  transition: all .2s ease-in-out;
+}
+
 .circle-3:hover {
   transform: scale(1.1, 1.1);
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
@@ -222,17 +239,17 @@
 
 /* //media Query for WTB section  */
 
-@media only screen and (max-width: 1650px){
+@media only screen and (max-width: 1650px) {
   .circle-2 {
     display: flex;
     height: 8rem;
     width: 8rem;
-    background-color:rgba(15, 157, 88, 1);
+    background-color: rgba(15, 157, 88, 1);
     border-radius: 20rem;
     align-items: center;
     justify-content: center;
     vertical-align: middle;
-    bottom:-8rem;
+    bottom: -8rem;
     position: relative;
     left: 30rem;
     margin-top: -7rem;
@@ -247,18 +264,19 @@
   }
 
 }
-@media only screen and (max-width: 1500px){
+
+@media only screen and (max-width: 1500px) {
   .circle-2 {
     display: flex;
 
     height: 8rem;
     width: 8rem;
-    background-color:rgba(15, 157, 88, 1);
+    background-color: rgba(15, 157, 88, 1);
     border-radius: 20rem;
     align-items: center;
     justify-content: center;
     vertical-align: middle;
-    bottom:-8rem;
+    bottom: -8rem;
     position: relative;
     left: 25rem;
     margin-top: -7rem;
@@ -271,9 +289,10 @@
       0 0 40px rgba(0, 0, 0, 0.1) inset;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   }
-  
+
 
 }
+
 @media only screen and (max-width: 1450px) {
   .join-community-btn a {
     text-align: center;
@@ -282,18 +301,19 @@
     text-decoration: none;
   }
 }
-@media only screen and (max-width: 1300px){
- 
+
+@media only screen and (max-width: 1300px) {
+
   .circle-2 {
     display: flex;
     height: 8rem;
     width: 8rem;
-    background-color:rgba(15, 157, 88, 1);
+    background-color: rgba(15, 157, 88, 1);
     border-radius: 20rem;
     align-items: center;
     justify-content: center;
     vertical-align: middle;
-    bottom:-8rem;
+    bottom: -8rem;
     position: relative;
     left: 20rem;
     margin-top: -7rem;
@@ -308,7 +328,8 @@
   }
 
 }
-@media only screen and (max-width: 1100px){
+
+@media only screen and (max-width: 1100px) {
   .circle-1 {
     display: flex;
     height: 7rem;
@@ -331,16 +352,17 @@
       0 0 40px rgba(0, 0, 0, 0.1) inset;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   }
+
   .circle-2 {
     display: flex;
     height: 7rem;
     width: 7rem;
-    background-color:rgba(15, 157, 88, 1);
+    background-color: rgba(15, 157, 88, 1);
     border-radius: 20rem;
     align-items: center;
     justify-content: center;
     vertical-align: middle;
-    bottom:-7rem;
+    bottom: -7rem;
     position: relative;
     left: 15rem;
     margin-top: -7rem;
@@ -353,7 +375,7 @@
       0 0 40px rgba(0, 0, 0, 0.1) inset;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   }
-  
+
   .circle-3 {
     display: flex;
     height: 7rem;
@@ -363,7 +385,7 @@
     align-items: center;
     justify-content: center;
     vertical-align: middle;
-    bottom:-7rem;
+    bottom: -7rem;
     position: relative;
     left: 0.5rem;
     margin-top: -7rem;
@@ -378,6 +400,7 @@
   }
 
 }
+
 @media only screen and (max-width: 1000px) {
   .join-community-btn a {
     text-align: center;
@@ -385,10 +408,12 @@
     color: white;
     text-decoration: none;
   }
+
   .Side-box p {
     font-size: 2.3rem;
     color: black;
   }
+
   .Side-box h2 {
     margin: 2px;
     font-size: 3.4rem;
@@ -416,16 +441,17 @@
       0 0 40px rgba(0, 0, 0, 0.1) inset;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   }
+
   .circle-2 {
     display: flex;
     height: 6rem;
     width: 6rem;
-    background-color:rgba(15, 157, 88, 1);
+    background-color: rgba(15, 157, 88, 1);
     border-radius: 20rem;
     align-items: center;
     justify-content: center;
     vertical-align: middle;
-    bottom:-5rem;
+    bottom: -5rem;
     position: relative;
     left: 14rem;
     margin-top: -5rem;
@@ -438,7 +464,7 @@
       0 0 40px rgba(0, 0, 0, 0.1) inset;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   }
-  
+
   .circle-3 {
     display: flex;
     height: 6rem;
@@ -448,7 +474,7 @@
     align-items: center;
     justify-content: center;
     vertical-align: middle;
-    bottom:-6rem;
+    bottom: -6rem;
     position: relative;
     left: 0.4rem;
     margin-top: -rem;
@@ -462,7 +488,8 @@
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   }
 }
-@media only screen and (max-width: 900px){
+
+@media only screen and (max-width: 900px) {
   .circle-1 {
     display: flex;
     height: 6rem;
@@ -485,16 +512,17 @@
       0 0 40px rgba(0, 0, 0, 0.1) inset;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   }
+
   .circle-2 {
     display: flex;
     height: 6rem;
     width: 6rem;
-    background-color:rgba(15, 157, 88, 1);
+    background-color: rgba(15, 157, 88, 1);
     border-radius: 20rem;
     align-items: center;
     justify-content: center;
     vertical-align: middle;
-    bottom:-5rem;
+    bottom: -5rem;
     position: relative;
     left: 13rem;
     margin-top: -5rem;
@@ -507,7 +535,7 @@
       0 0 40px rgba(0, 0, 0, 0.1) inset;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   }
-  
+
   .circle-3 {
     display: flex;
     height: 6rem;
@@ -517,7 +545,7 @@
     align-items: center;
     justify-content: center;
     vertical-align: middle;
-    bottom:-6rem;
+    bottom: -6rem;
     position: relative;
     left: 0.rem;
     margin-top: -rem;
@@ -532,10 +560,12 @@
   }
 
 }
+
 @media only screen and (max-width: 800px) {
   .main-box {
     flex-direction: column;
   }
+
   .Side-box {
     /* flex-direction: column; */
     border: 3px rgb(66, 133, 244) solid;
@@ -544,31 +574,37 @@
     height: 100%;
     padding: 2rem;
   }
+
   .Side-box p {
     font-family: "GoogleSans-Bold";
     font-size: 2rem;
     font-weight: 100;
     color: black;
   }
+
   .Side-box h2 {
     font-family: "GoogleSans-Bold";
     font-size: 2rem;
     font-weight: bold;
   }
+
   .colored-logo {
     margin: 0;
   }
+
   .right-box {
     margin: 2rem;
     width: 90%;
     height: auto;
     padding: 0;
   }
+
   .WTB-text p {
     font-family: "GoogleSans-Light";
     font-size: 2rem;
     color: black;
   }
+
   .join-community-btn {
     height: 4rem;
     width: 60%;
@@ -576,21 +612,26 @@
     border-radius: 0.5rem;
     background-color: rgba(66, 133, 244, 1);
   }
+
   .join-community-btn a {
     font-size: 2rem;
     color: white;
     text-decoration: none;
   }
+
   .circle-1 {
-    display:none ;
+    display: none;
   }
+
   .circle-2 {
-    display:none  ;
+    display: none;
   }
+
   .circle-3 {
-    display:none ;
+    display: none;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .main-box {
     flex-direction: column;
@@ -604,6 +645,7 @@
     height: auto;
     padding: 1rem;
   }
+
   .Side-box p {
     text-align: center;
     font-family: "GoogleSans-Bold";
@@ -611,11 +653,13 @@
     font-weight: 100;
     color: black;
   }
+
   .Side-box h2 {
     font-family: "GoogleSans";
     font-size: 2rem;
     font-weight: bold;
   }
+
   .colored-logo {
     margin: 0;
   }
@@ -627,6 +671,7 @@
     height: auto;
     padding: 0;
   }
+
   .WTB-text p {
     padding: 1.5rem;
     font-family: "GoogleSans-Light";
@@ -634,6 +679,7 @@
     font-weight: normal;
     color: black;
   }
+
   .join-community-btn {
     height: 3rem;
     width: 50%;

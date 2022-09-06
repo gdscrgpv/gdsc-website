@@ -2,10 +2,11 @@ ul {
   margin: 0px;
   padding: 0px;
 }
-.footer-link{
+
+.footer-link {
   display: flex;
   flex-direction: column;
- 
+
 }
 
 .footer-section {

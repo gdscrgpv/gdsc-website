@@ -8,7 +8,7 @@
   flex-direction: column;
   padding: 2rem 0;
   margin: 0 auto;
-  
+
   /* background: #af67e9 linear-gradient(180deg, #af67e9 0%, #6565e7 100%); */
 }
 
@@ -18,7 +18,7 @@
 
 main {
   width: 85%;
-  
+
   max-width: 965px;
   position: relative;
   padding: 0 0 0 45px;
@@ -39,9 +39,11 @@ main {
     animation-iteration-count: infinite;
   } */
 
-  .question, .answer {
-    font-family: "GoogleSans-Light";
-  }
+.question,
+.answer {
+  font-family: "GoogleSans-Light";
+}
+
 @keyframes bounce {
   from {
     transform: translate3d(0, -10px, 0);

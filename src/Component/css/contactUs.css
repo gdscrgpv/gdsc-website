@@ -81,7 +81,7 @@
   display: flex;
   align-items: center;
   padding: 10px 20px;
-  background: linear-gradient(to right,#DB4437, #F4Bb05, #34a853, #4285f4);
+  background: linear-gradient(to right, #DB4437, #F4Bb05, #34a853, #4285f4);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -235,7 +235,10 @@
   background-color: #4857f7;
 }
 
-.app-form-button { transition: all .2s ease-in-out; }
+.app-form-button {
+  transition: all .2s ease-in-out;
+}
+
 .app-form-button:hover {
   transform: scale(1.1, 1.1);
   color: #000;
@@ -320,7 +323,7 @@
   }
 
   .midTxt {
-margin-top: 0.6vh;
+    margin-top: 0.6vh;
     /* font-size: 1.8vh; */
   }
 }

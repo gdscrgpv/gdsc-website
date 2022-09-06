@@ -12,15 +12,13 @@ code {
 @font-face {
   font-family: "GoogleSans-Bold";
   src: local("GoogleSans"),
-   url("./fonts/GoogleSans/GoogleSans-Bold-v1.27.ttf") format("truetype");
+    url("./fonts/GoogleSans/GoogleSans-Bold-v1.27.ttf") format("truetype");
   font-weight: bold;
-  }
+}
 
-  @font-face {
-    font-family: "GoogleSans-Light";
-    src: local("GoogleSans"),
-     url("./fonts/GoogleSans/GoogleSans-Regular-v1.27.ttf") ;
-    font-weight: lighter;
-    }
-
-
+@font-face {
+  font-family: "GoogleSans-Light";
+  src: local("GoogleSans"),
+    url("./fonts/GoogleSans/GoogleSans-Regular-v1.27.ttf");
+  font-weight: lighter;
+}

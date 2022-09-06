@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./AboutUsStyle.css";
-import Img from '../Assets/img/AboutUs.png';
+import Img from "../Assets/img/AboutUs.png";
 // import Transition from "./Transition/Transition";
 
 const AboutUs = () => {
@@ -28,7 +28,7 @@ const AboutUs = () => {
 
   return (
     <>
-      <div className="mainView" >
+      <div className="mainView">
         <div className="leftBox">
           {/* heading section */}
 
@@ -63,14 +63,20 @@ const AboutUs = () => {
           <div className="content textbox">
             {/* text  */}
             <h5 className="font-face-lighter ">
-            Google Developer Student Club (GDSC) is a student-led community that provides undergrad students with the opportunity to learn, grow or polish their technical skills. It provides students with a peer-to-peer learning environment to grow their knowledge as a developer and build solutions for society. Community learning is a key aspect of GDSC as it helps in effective learning and essential networking
+              Google Developer Student Club (GDSC) is a student-led community
+              that provides undergrad students with the opportunity to learn,
+              grow or polish their technical skills. It provides students with a
+              peer-to-peer learning environment to grow their knowledge as a
+              developer and build solutions for society. Community learning is a
+              key aspect of GDSC as it helps in effective learning and essential
+              networking
             </h5>
           </div>
         </div>
 
         {/* image */}
         <div className="imageDiv" ref={aboutImg}>
-          <img className="image" alt="AboutUS"  src={Img} />
+          <img className="image" alt="AboutUS" src={Img} />
         </div>
       </div>
     </>

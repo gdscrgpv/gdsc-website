@@ -37,7 +37,7 @@ export default class Footer extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-30 useful-links">
                 <div className="footer-widget">
                   <div className="footer-widget-heading useful">
                     <h3>Useful Links</h3>
@@ -76,7 +76,7 @@ export default class Footer extends Component {
                   </ul>
                 </div>
               </div>
-              <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-50 subscribe">
                 <div className="footer-widget">
                   <div className="footer-widget-heading">
                     <h3>Subscribe</h3>

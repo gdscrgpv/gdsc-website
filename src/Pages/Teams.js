@@ -137,6 +137,47 @@ export default class Teams extends Component {
         img: require("../Assets/img/Pratishtha Tiwari - Content and Marketin.jpg"),
         linkedIn: "https://www.linkedin.com/in/pratishtha-tiwari-49511b218",
       },
+      ,
+      {
+        name: "Atharva J V Mathur ",
+        role: 'Event and Outreach Co-Lead',
+        img: require("../Assets/img/Atharva J V Mathur _ Event and Outreach Lead.jpg"),
+        linkedIn: "",
+      },
+      {
+        name: "Tanmay Rajatwat ",
+        role: 'Event and Outreach Co-Lead',
+        img: require("../Assets/img/Tanmay Rajawat - Co-lead event management.jpg"),
+        linkedIn: "https://www.linkedin.com/in/tanmayrajawat",
+      },
+    ];
+
+    const mentors = [
+      {
+        name: "Sumit Yadav",
+        role: 'Design',
+        img: require("../Assets/img/Sumit Yadav - Graphic designer and Video Editor.jpg"),
+        linkedIn: "https://www.linkedin.com/in/sumit-yadav-9306971b4",
+      },
+      {
+        name: "Aastha Koserwal",
+        role: 'Content and Marketing',
+        img: require("../Assets/img/Aastha Koserwal - Content and Marketing Lead.jpg"),
+        linkedIn: "https://www.linkedin.com/in/aastha-koserwal-8832b3225",
+      },
+      {
+        name: "Pratishtha Tiwari",
+        role: 'Content and Marketing',
+        img: require("../Assets/img/Pratishtha Tiwari - Content and Marketin.jpg"),
+        linkedIn: "https://www.linkedin.com/in/pratishtha-tiwari-49511b218",
+      },
+      ,
+      {
+        name: "Atharva J V Mathur ",
+        role: 'Event and Outreach Co-Lead',
+        img: require("../Assets/img/Atharva J V Mathur _ Event and Outreach Lead.jpg"),
+        linkedIn: "",
+      },
     ];
 
     return (
@@ -185,11 +226,11 @@ export default class Teams extends Component {
                 src={Sir}
               />
             </div>
-            <h5 class="MuiTypography-root mt-5 jss7 MuiTypography-h5 MuiTypography-alignCenter">
+            <h5 class="MuiTypography-root sanjay-sir jss7 MuiTypography-h5 MuiTypography-alignCenter">
               Sanjay Kumar Sharma
             </h5>
             <span
-              class="MuiTypography-root mt-5 jss7 MuiTypography-caption MuiTypography-alignCenter"
+              class="MuiTypography-root mt-4 jss7 MuiTypography-caption MuiTypography-alignCenter"
               sx="[object Object]"
             >
               Faculty Coordinator
@@ -405,6 +446,89 @@ export default class Teams extends Component {
           ))}
 
 
+        </div>
+
+        {/* --------------------BuddyTeam------------------------------- */}
+        <div className='Heading text-center '>
+          <h1>Buddies</h1>
+        </div>
+        <div className="speakersCardContainer mt-5 col-md-9">
+          {buddies.map((speaker, index) => (
+
+            <div class="speakerCard">
+
+              <div style={{ height: "40px" }}>
+                <img
+                  class="speakerImage"
+                  alt="Nikita Gandhi"
+                  src={speaker.img}
+                />
+              </div>
+
+              <h5 class="MuiTypography-root jss7 margin-2 team-heading MuiTypography-h5 MuiTypography-alignCenter">
+                {speaker.name}
+              </h5>
+              <span
+                class="MuiTypography-root jss7 margin-1 MuiTypography-caption MuiTypography-alignCenter"
+                sx="[object Object]"
+              >
+                {speaker.role}
+              </span>
+              <br />
+
+              <div class="MuiCardActions-root margin-1 MuiCardActions-spacing" >
+
+                <button class="connect-btn">
+                  <a href={speaker.linkedIn} target="_blank">
+                    <img src={linkedIn} className="connect-icon" />
+                  </a>
+                </button>
+              </div>
+            </div>
+
+          ))}
+
+
+        </div>
+        {/* ---------------------MentorTeam----------------------------- */}
+        <div className='Heading text-center '>
+          <h1>GDSC Mentors</h1>
+        </div>
+        <div className="speakersCardContainer mt-5 col-md-9">
+          {mentors.map((speaker, index) => (
+
+            <div class="speakerCard">
+
+              <div style={{ height: "40px" }}>
+                <img
+                  class="speakerImage"
+                  alt="Nikita Gandhi"
+                  src={speaker.img}
+                />
+              </div>
+
+              <h5 class="MuiTypography-root jss7 margin-2 team-heading MuiTypography-h5 MuiTypography-alignCenter">
+                {speaker.name}
+              </h5>
+              <span
+                class="MuiTypography-root jss7 margin-1 MuiTypography-caption MuiTypography-alignCenter"
+                sx="[object Object]"
+              >
+                {speaker.role}
+              </span>
+              <br />
+
+              <div class="MuiCardActions-root margin-1 MuiCardActions-spacing" >
+
+                <button class="connect-btn">
+                  <a href={speaker.linkedIn} target="_blank">
+                    <img src={linkedIn} className="connect-icon" />
+                  </a>
+                </button>
+              </div>
+            </div>
+
+          ))}
         </div>
         <Footer/>
 

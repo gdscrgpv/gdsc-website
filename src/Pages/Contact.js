@@ -14,6 +14,7 @@ import {
 } from "react-icons/fa";
 import ContactComponent from "../Component/Contact";
 import NavBarcomp from "../Component/NavBar";
+import Footer from "../Component/Footer";
 export default class Contact extends Component {
   render() {
     return (
@@ -21,6 +22,7 @@ export default class Contact extends Component {
         <div className="">
           <NavBarcomp/>
           <ContactComponent />
+          <Footer/>
         </div>
       </>
     );

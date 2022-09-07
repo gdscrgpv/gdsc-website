@@ -2,6 +2,8 @@ import React, { Component } from "react";
 // import { Link } from "react-router-dom";
 import "../Component/css/whatwedo.css";
 import WhatWeDoCard from "./Cards/WhatWeDoCard";
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default class WhatWeDo extends Component {
   render() {
     const data = [
@@ -40,9 +42,9 @@ export default class WhatWeDo extends Component {
     return (
       <div className="testimonial-area-l-13 position-relative overflow-hidden z-index-1">
         <div className="container">
-          <div className="row justify-content-center ">
+          <div className="row justify-content-center">
             <div className="col-xl-11">
-              <div className="row">
+              <div className="row" data-aos="fade-left">
                 <div className="col-md-12">
                   <div className="section-heading-7 text-center text-black font-face-bold">
                     <div className="flex">
@@ -75,7 +77,7 @@ export default class WhatWeDo extends Component {
               >
                 {data.map((item, index) => {
                   return (
-                    <div className="col-xl-4 col-md-6 col-sm-8">
+                    <div className="col-xl-4 col-md-6 col-sm-8" data-aos="fade-up">
                       <div className="testimonial-card text-white font-face-lighter">
                         <div className="d-flex customer-identity">
                           <div className="customer-img">

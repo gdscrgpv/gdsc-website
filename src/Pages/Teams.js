@@ -7,6 +7,7 @@ import NavBarcomp from "../Component/NavBar";
 import Sir from "../Assets/img/sanjaysir.JPG";
 import linkedIn from "../Assets/img/linkedin.png";
 import Footer from "../Component/Footer.js";
+import "aos/dist/aos.css";
 export default class Teams extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
@@ -179,9 +180,8 @@ export default class Teams extends Component {
       <div className="team">
         <NavBarcomp />
 
-        <div>
           {/*left right section */}
-          <div className="teamlanding">
+          <div className="teamlanding" data-aos="zoom-in" data-aos-delay="300">
             <div>
               <h1 className="first-title">
                 The
@@ -194,21 +194,21 @@ export default class Teams extends Component {
               <h2>
                 <b>Presenting Board of 2022-2023</b>
               </h2>
-              <div></div>
+              {/* <div></div> */}
             </div>
           </div>
-        </div>
         {/*team section */}
 
         {/*team section */}
-        <div className="container"></div>
+        {/* <div className="container"></div> */}
         <div
           className="Heading text-center mt-5"
           style={{ fontFamily: "GoogleSans-Bold" }}
+          data-aos="fade-up"
         >
           <h1>Faculty Coordinator</h1>
         </div>
-        <div className="speakersCardContainer mt-5">
+        <div className="speakersCardContainer mt-5" data-aos="fade-up">
           <div class="speakerCard">
             <div style={{ height: "40px" }}>
               <img class="speakerImage" alt="" src={Sir} />
@@ -236,10 +236,10 @@ export default class Teams extends Component {
           </div>
         </div>
         {/* GDSC Lead */}
-        <div className="Heading text-center ">
+        <div className="Heading text-center" data-aos="fade-up">
           <h1>GDSC Lead</h1>
         </div>
-        <div className="speakersCardContainer mt-5">
+        <div className="speakersCardContainer mt-5" data-aos="fade-up">
           <div class="speakerCard">
             <div style={{ height: "40px" }}>
               <img class="speakerImage" alt="" src={Ankur} />
@@ -268,12 +268,12 @@ export default class Teams extends Component {
           </div>
         </div>
         {/* Leads */}
-        <div className="Heading text-center ">
+        <div className="Heading text-center" data-aos="fade-up">
           <h1>Leads</h1>
         </div>
-        <div className="speakersCardContainer mt-5 col-md-9">
+        <div className="speakersCardContainer mt-5 col-md-9" >
           {Leads.map((speaker, index) => (
-            <div class="speakerCard">
+            <div class="speakerCard" data-aos="fade-up">
               <div style={{ height: "40px" }}>
                 <img class="speakerImage" alt="" src={speaker.img} />
               </div>
@@ -304,12 +304,12 @@ export default class Teams extends Component {
           ))}
         </div>
         {/*---------------------TechTeam---------------------*/}
-        <div className="Heading text-center ">
+        <div className="Heading text-center" data-aos="fade-up">
           <h1>Tech Team</h1>
         </div>
         <div className="speakersCardContainer mt-5 col-md-9">
           {teachteam.map((speaker, index) => (
-            <div class="speakerCard">
+            <div class="speakerCard" data-aos="fade-up">
               <div style={{ height: "40px" }}>
                 <img class="speakerImage" alt="" src={speaker.img} />
               </div>
@@ -342,12 +342,12 @@ export default class Teams extends Component {
           ))}
         </div>
         {/*---------------------DesignandcontentTeam---------------------*/}
-        <div className="Heading text-center ">
+        <div className="Heading text-center" data-aos="fade-up">
           <h1>Design and Content Team</h1>
         </div>
         <div className="speakersCardContainer mt-5 col-md-9">
           {designandcontent.map((speaker, index) => (
-            <div class="speakerCard">
+            <div class="speakerCard" data-aos="fade-up">
               <div style={{ height: "40px" }}>
                 <img class="speakerImage" alt="" src={speaker.img} />
               </div>
@@ -380,12 +380,12 @@ export default class Teams extends Component {
         </div>
 
         {/* --------------------BuddyTeam------------------------------- */}
-        <div className="Heading text-center ">
+        <div className="Heading text-center" data-aos="fade-up">
           <h1>Buddies</h1>
         </div>
         <div className="speakersCardContainer mt-5 col-md-9">
           {buddies.map((speaker, index) => (
-            <div class="speakerCard">
+            <div class="speakerCard" data-aos="fade-up">
               <div style={{ height: "40px" }}>
                 <img class="speakerImage" alt="" src={speaker.img} />
               </div>
@@ -416,12 +416,12 @@ export default class Teams extends Component {
           ))}
         </div>
         {/* ---------------------MentorTeam----------------------------- */}
-        <div className="Heading text-center ">
+        <div className="Heading text-center" data-aos="fade-up">
           <h1>GDSC Mentors</h1>
         </div>
         <div className="speakersCardContainer mt-5 col-md-9">
           {mentors.map((speaker, index) => (
-            <div class="speakerCard">
+            <div class="speakerCard" data-aos="fade-up">
               <div style={{ height: "40px" }}>
                 <img class="speakerImage" alt="" src={speaker.img} />
               </div>

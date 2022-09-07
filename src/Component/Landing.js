@@ -28,12 +28,22 @@ import Obj24 from "../Assets/img/landingimg/banner_pieces-24.png";
 import Obj25 from "../Assets/img/landingimg/banner_pieces-25.png";
 import Obj26 from "../Assets/img/landingimg/banner_pieces-26.png";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export default class Landing extends Component {
+  constructor() {
+    super();
+    this.state = {
+      name: "React",
+    };
+    AOS.init({ duration: 1500 });
+  }
   render() {
     //make a json of landingimg from src\Assets\img\landingimg
 
     return (
-      <div className="banner-landing ">
+      <div className="banner-landing" data-aos="zoom-in" data-aos-delay="300">
         <img src={Logo} alt="logo" className="gdsc-landing-logo" />
       </div>
     );

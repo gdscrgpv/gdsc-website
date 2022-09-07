@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { FiPhone } from "react-icons/fi";
 import { FiSend } from "react-icons/fi";
 import { FiHome } from "react-icons/fi";
+import "aos/dist/aos.css";
 import {
   FaDiscord,
   FaFacebook,
@@ -21,7 +22,7 @@ export default class Contact extends Component {
       <>
         <div className="">
           <NavBarcomp />
-          <ContactComponent />
+          <ContactComponent/>
           <Footer />
         </div>
       </>

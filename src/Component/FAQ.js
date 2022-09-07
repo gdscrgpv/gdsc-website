@@ -1,11 +1,12 @@
 import React, { Component, useState, useRef, useEffect } from "react";
+import "aos/dist/aos.css";
 // import ReactLogo from "../Images/illustration-box-desktop.svg";
 // import { FiPlus } from "react-icons/fi";
 import "../Component/css/faq.css";
 export default function FAQ() {
   return (
     <>
-      <div className="root">
+      <div className="root" data-aos="fade-up" data-aos-delay="100">
         <main>
           <article>
             <div class="container">

@@ -29,9 +29,8 @@ export default class ContactComponent extends Component {
   render() {
     return (
       <>
-        <div class="">
           <div class="container" style={{ marginBottom: 50, paddingTop: 30 }}>
-            <div class="screen">
+            <div class="screen"  data-aos="fade-up">
               <div class="screen-header">
                 {/* <div class="screen-header-left">
                   <div class="screen-header-button close"></div>
@@ -203,7 +202,6 @@ export default class ContactComponent extends Component {
               </div>
             </div>
           </div>
-        </div>
       </>
     );
   }

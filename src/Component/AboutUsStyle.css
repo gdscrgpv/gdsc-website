@@ -1,7 +1,7 @@
 /* Setting the margin, padding, align-items, border-radius, display, and flex-direction of the mainView
 class. */
 .mainView {
-  margin: 2%;
+  /* margin: 2%; */
   padding: 3% 0% 3% 0%;
   align-items: center;
   border-radius: 15px;
@@ -13,7 +13,7 @@ class. */
 @media all and (max-width: 800px) {
   .mainView {
     flex-direction: column-reverse;
-    margin: 2%;
+    /* margin: 2%; */
     padding: 3% 0% 3% 0%;
     align-items: center;
     border-radius: 15px;

@@ -1,9 +1,11 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const WTB_Member = () => {
   return (
     <div className="main-box ">
-      <div className="Side-box align-self-center">
+      <div className="Side-box align-self-center" data-aos="fade-right">
         <div className="circle-1"> Learn</div>
         <div className="d-flex font-face-bold  justify-content-center  ">
           <p>
@@ -21,7 +23,7 @@ export const WTB_Member = () => {
         <div className="circle-2 ">Connect</div>
         <div className="circle-3 ">Growth</div>
       </div>
-      <div className="right-box d-flex">
+      <div className="right-box d-flex" data-aos="fade-left">
         <div className=" d-flex text-center justify-content-center font-face-bold WTB-text ">
           <p>
             {" "}

@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./AboutUsStyle.css";
 import Img from "../Assets/img/AboutUs.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 // import Transition from "./Transition/Transition";
 
 const AboutUs = () => {
@@ -8,28 +10,15 @@ const AboutUs = () => {
 
   const aboutHeading = useRef(null);
   const aboutImg = useRef(null);
-  useEffect(() => {
-    // aboutUs.from(aboutHeading, {
-    //     duration: .6,
-    //     skewX: 10,
-    //     x: -100,
-    //     opacity: 0
-    // }, 3.5)
-    // aboutUs.from(aboutImg, {
-    //     duration: .5,
-    //     y: -200,
-    //     opacity: 0
-    // }, 3)
-  });
-
+  
   setTimeout(() => {
     setHid(true);
   }, 600);
 
   return (
     <>
-      <div className="mainView">
-        <div className="leftBox">
+      <div className="mainView" data-aos="fade-right">
+        <div className="leftBox"  data-aos="fade-right">
           {/* heading section */}
 
           {/* yellow line */}
@@ -75,7 +64,7 @@ const AboutUs = () => {
         </div>
 
         {/* image */}
-        <div className="imageDiv" ref={aboutImg}>
+        <div className="imageDiv"  data-aos="fade-right" ref={aboutImg}>
           <img className="image" alt="AboutUS" src={Img} />
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 // import { Link } from "react-router-dom";
 import "../Component/Partners.css";
+import "aos/dist/aos.css";
 import semikolan from "../Images/semikolan.png";
 import finflee from "../Images/finflee.png";
 import WhatWeDoCard from "./Cards/WhatWeDoCard";
@@ -37,11 +38,11 @@ export default class Partners extends Component {
     return (
       <>
         <div className="partners">
-          <div className="partners-title">Partners & Sponsors</div>
+          <div className="partners-title" data-aos="fade-up" data-aos-delay="100">Partners & Sponsors</div>
           <div className="cards-list">
             {data.map((item, index) => {
               return (
-                <div className="card">
+                <div className="card" data-aos="zoom-in" data-aos-delay="100">
                   <div className="card_image">
                     <a
                       href={item.link}

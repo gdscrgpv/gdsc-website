@@ -117,33 +117,32 @@ export default class Teams extends Component {
       {
         name: "Aman Singh Kushwaha",
         role: "GDSC Buddy",
-        img: require("../Assets/img/Sumit Yadav - Graphic designer and Video Editor.jpg"),
-        linkedIn:
-          "https://www.linkedin.com/in/aman-kumar-singh-kushwaha-60b501225/",
+        img: require("../Assets/img/ProfilePic_Aman.png"),
+        linkedIn:"https://www.linkedin.com/in/aman-kumar-singh-kushwaha-60b501225/",
       },
       {
         name: "Divyanshu Uramliya",
         role: "GDSC Buddy",
-        img: require("../Assets/img/Aastha Koserwal - Content and Marketing Lead.jpg"),
+        img: require("../Assets/img/diyanshu.jpg"),
         linkedIn: "https://www.linkedin.com/in/divyanshu-urmaliya-b542ba21b/",
       },
       {
         name: "Jaywardhan Mourya",
         role: "GDSC Buddy",
-        img: require("../Assets/img/Pratishtha Tiwari - Content and Marketin.jpg"),
+        img: require("../Assets/img/jai.jpg"),
         linkedIn: "https://www.linkedin.com/in/jay-wardhan-mourya-9736ab22b/",
       },
       ,
       {
         name: "Sumit Choudhary",
         role: "GDSC Buddy",
-        img: require("../Assets/img/Atharva J V Mathur _ Event and Outreach Lead.jpg"),
+        img: require("../Assets/img/sumit_buddies.jpg"),
         linkedIn: "https://www.linkedin.com/in/sumitc02468/",
       },
       {
         name: "Shreya Rai",
         role: "GDSC Buddy",
-        img: require("../Assets/img/Tanmay Rajawat - Co-lead event management.jpg"),
+        img: require("../Assets/img/sherya.png"),
         linkedIn: "https://www.linkedin.com/in/shreya-rai-742952226/",
       },
     ];

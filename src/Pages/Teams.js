@@ -186,9 +186,9 @@ export default class Teams extends Component {
                 The
                 <br />
                 <span className="G">T</span>
-                <span className="D">e</span>
-                <span className="S">a</span>
-                <span className="C">m</span>
+                <span className="D">E</span>
+                <span className="S">A</span>
+                <span className="C">M</span>
               </h1>
               <h2>
                 <b>Presenting Board of 2022-2023</b>

@@ -9,27 +9,27 @@ export default class WhatWeDo extends Component {
     const data = [
       {
         title: "Seminars",
-        text: "A necessary kick to propel students toward innovation and learning. Seminars will offer insight into upcoming and trending technologies.",
+        text: "A necessary kick to propel students towards innovation and learning. Seminars will offer insight into upcoming and trending technologies.",
         img: require("../Assets/img/wedsem.png"),
       },
       {
         title: "Hackathons",
-        text: "Put your problem-solving skills to the test and win amazing prizes by participating in hackathons and creating solutions that benefit mankind.",
+        text: "Problem-solving skills to test and win amazing prizes by participating in hackathons and creating solutions that benefit mankind.",
         img: require("../Assets/img/wedhack.png"),
       },
       {
         title: "Workshops",
-        text: "Gain hands-on learning experience on a particular topic and acquire knowledge by practical implementation under the guidance of experts.",
+        text: "Gain hands-on learning experience on a particular topic and acquire knowledge by implementation under the guidance of experts.",
         img: require("../Assets/img/wedwerench.png"),
       },
       {
         title: "Projects",
-        text: "Give life to your ideas. Build projects with the team’s support and guidance and gain expertise. Explore out of your circle along the way.",
+        text: "Give life to your ideas. Build amazing projects with the team’s support and guidance and gain expertise. Explore out of your circle along the way.",
         img: require("../Assets/img/wedmanage.png"),
       },
       {
         title: "Study Jams",
-        text: "Learn new skills with people having similar interests. Engage in community learning and get the opportunity to receive certificates upon completion.",
+        text: "Learn new skills with people having similar interests. Engage in community and get the chance to receive certificates upon completion.",
         img: require("../Assets/img/Framewed.png"),
       },
       {

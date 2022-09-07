@@ -24,7 +24,7 @@ export default class Teams extends Component {
     const Leads = [
       {
         name: "Rajat Bhaskare",
-        role: "Tech. Team Lead",
+        role: "Tech Team Lead",
         img: require("../Assets/img/Rajat Bhaskare - Tech Team Lead.png"),
         linkedIn: "https://www.linkedin.com/in/rajat-bhaskare-b40443202",
       },
@@ -56,38 +56,38 @@ export default class Teams extends Component {
     const teachteam = [
       {
         name: "Satyam Sharma",
-        role: "Web Lead",
+        role: "Web Developer",
         img: require("../Assets/img/ss.jpeg"),
         linkedIn: "https://www.linkedin.com/in/iamsatyam17/",
       },
       {
         name: "Pulkit Dubey",
-        role: "App Lead",
+        role: "App Developer",
         img: require("../Assets/img/Pulkit Dubey - App Lead.jpg"),
         linkedIn: "https://www.linkedin.com/in/pulkit-dubey-75b703224/",
       },
 
       {
         name: "Prakrti Mankar",
-        role: "Women In Tech Lead",
+        role: "Women In Tech",
         img: require("../Assets/img/Prakrti Mankar _ Women in Tech.jpg"),
         linkedIn: "https://www.linkedin.com/in/prakrti-mankar",
       },
       {
         name: "Abhishek Malviya",
-        role: "ML/Cloud Lead",
+        role: "ML/Cloud",
         img: require("../Assets/img/Abhishek Malviya _ Ml _ Cloud lead.jpg"),
         linkedIn: "https://www.linkedin.com/in/abhishek-malviya-458b001ba/",
       },
       {
         name: "Aryan Singh",
-        role: "Open Source Development Lead",
+        role: "Open Source Developer",
         img: require("../Assets/img/Aryan Singh _ Open Source Lead.jpg"),
         linkedIn: "https://www.linkedin.com/in/amazing-aryan",
       },
       {
         name: "Abhishek Singh Lodhi",
-        role: "UI/UX Lead",
+        role: "UI/UX Designer",
         img: require("../Assets/img/Abhishek Singh Lodhi _ UI_UX Lead.png"),
         linkedIn: "https://www.linkedin.com/in/abhishek-singh-lodhi-b037091b8",
       },
@@ -115,7 +115,7 @@ export default class Teams extends Component {
 
     const buddies = [
       {
-        name: "Aman Singh Kushwaha",
+        name: "Aman Kushwaha",
         role: "GDSC Buddy",
         img: require("../Assets/img/ProfilePic_Aman.png"),
         linkedIn:"https://www.linkedin.com/in/aman-kumar-singh-kushwaha-60b501225/",

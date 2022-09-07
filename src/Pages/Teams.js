@@ -44,7 +44,7 @@ export default class Teams extends Component {
         name: "Atharva J V Mathur ",
         role: "Event and Outreach Co-Lead",
         img: require("../Assets/img/Atharva J V Mathur _ Event and Outreach Lead.jpg"),
-        linkedIn: "",
+        linkedIn: "https://www.linkedin.com/in/atharvamathur/",
       },
       {
         name: "Tanmay Rajawat ",
@@ -186,9 +186,9 @@ export default class Teams extends Component {
                 The
                 <br />
                 <span className="G">T</span>
-                <span className="D">E</span>
-                <span className="S">A</span>
-                <span className="C">M</span>
+                <span className="D">e</span>
+                <span className="S">a</span>
+                <span className="C">m</span>
               </h1>
               <h2>
                 <b>Presenting Board of 2022-2023</b>

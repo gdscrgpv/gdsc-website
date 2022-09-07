@@ -36,7 +36,7 @@ export const WTB_Member = () => {
         <div className="d-flex  justify-content-center">
           <button className="font-face-bold  join-community-btn">
             {" "}
-            <a href="#community">JOIN COMMUNITY </a>
+            <a href="https://gdsc.community.dev/university-institute-of-technology-rgpv-bhopal/">JOIN COMMUNITY </a>
           </button>
         </div>
       </div>

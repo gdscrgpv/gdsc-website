@@ -66,16 +66,24 @@ export default class Footer extends Component {
                   </div>
                   <ul className="footer-link">
                     <li>
-                      <Link to="">Technical</Link>
+                      <a>
+                        Technical
+                      </a>
                     </li>
                     <li>
-                      <Link to="">Design</Link>
+                      <a>
+                        Design
+                      </a>
                     </li>
                     <li>
-                      <Link to="">Content</Link>
+                      <a>
+                        Content
+                      </a>
                     </li>
                     <li>
-                      <Link to="">Event & Outreach</Link>
+                      <a>
+                        Event & Outreach
+                      </a>
                     </li>
                   </ul>
                 </div>

@@ -7,7 +7,6 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.css";
 import Teams from "./Pages/Teams";
-import Footer from "./Component/Footer";
 import Gallery from "./Pages/Gallery";
 import Contact from "./Pages/Contact";
 import Event from "./Pages/Event";

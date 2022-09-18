@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "../Component/css/contact.css";
-import "../Component/css/contactUs.css";
+import "../Assets/css/contact.css";
+import "../Assets/css/contactform.css";
 import mapPin from "../Assets/img/map_pinBlack.png";
 import mail from "../Assets/img/mailBlack.png";
 import phone from "../Assets/img/phoneBlack.png";

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./../Component/css/team.css";
+import "./../Assets/css/team.css";
 import { Row } from "reactstrap";
 import FAQ from "../Component/Footer.js";
 import Ankur from "../Assets/img/Ankur Gupta _ Lead.jpg";

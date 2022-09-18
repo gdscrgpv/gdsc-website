@@ -1,12 +1,15 @@
 import React from "react";
-import Carousel from "../Component/Carousel/carousel";
+import Carousel from "../Component/Carousel";
 
 const Gallery = () => {
   return (
-    <div className="">
-      {/* content */}
-      <Carousel />
-    </div>
+    <>
+    <Carousel/>
+    </>
+    // <div className="">
+    //   {/* content */}
+    //   <Carousel />
+    // </div>
   );
 };
 export default Gallery;

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import "./Transition.css";
+import "../Assets/css/Transition.css";
 function Transition({ timeline }) {
   const black = useRef(null);
 

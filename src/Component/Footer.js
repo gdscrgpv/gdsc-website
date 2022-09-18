@@ -1,20 +1,7 @@
 import React, { Component } from "react";
-import "./Footer.css";
+import "../Assets/css/footer.css";
 import GDSC from "../Assets/img/GDSC_Logo.png";
-import mail from "../Assets/img/mail.png";
-import phone from "../Assets/img/phone.png";
-import telegram from "../Assets/img/telegram.png";
-import mapPin from "../Assets/img/map_pin.png";
-import facebook from "../Assets/img/facebook.png";
-import linkedin from "../Assets/img/linkedin.png";
-import twitter from "../Assets/img/twitter.png";
-import youtube from "../Assets/img/youtube.png";
-import insta from "../Assets/img/instagram.png";
-// import telegram from "../Assets/img/telegram.png";
-import discord from "../Assets/img/discord.png";
 import { Link } from "react-router-dom";
-
-import { Button } from "reactstrap";
 export default class Footer extends Component {
   render() {
     return (
@@ -55,7 +42,7 @@ export default class Footer extends Component {
                     </li>
                     <li>
                       <a href="https://gdsc.community.dev/university-institute-of-technology-rgpv-bhopal/">
-                       Join Us
+                        Join Us
                       </a>
                     </li>
                   </ul>
@@ -66,24 +53,16 @@ export default class Footer extends Component {
                   </div>
                   <ul className="footer-link">
                     <li>
-                      <a>
-                        Technical
-                      </a>
+                      <a>Technical</a>
                     </li>
                     <li>
-                      <a>
-                        Design
-                      </a>
+                      <a>Design</a>
                     </li>
                     <li>
-                      <a>
-                        Content
-                      </a>
+                      <a>Content</a>
                     </li>
                     <li>
-                      <a>
-                        Event & Outreach
-                      </a>
+                      <a>Event & Outreach</a>
                     </li>
                   </ul>
                 </div>

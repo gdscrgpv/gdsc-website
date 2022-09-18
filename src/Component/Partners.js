@@ -1,11 +1,6 @@
 import React, { Component } from "react";
-// import { Link } from "react-router-dom";
-import "../Component/Partners.css";
+import "../Assets/css/partners.css";
 import "aos/dist/aos.css";
-import semikolan from "../Images/semikolan.png";
-import finflee from "../Images/finflee.png";
-import WhatWeDoCard from "./Cards/WhatWeDoCard";
-import logo_diode from "../Assets/img/partners/diode.png";
 export default class Partners extends Component {
   render() {
     const data = [

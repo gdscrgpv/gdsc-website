@@ -1,9 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./AboutUsStyle.css";
+import "../Assets/css/aboutus.css";
 import Img from "../Assets/img/AboutUs.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import Transition from "./Transition/Transition";
 
 const AboutUs = () => {
   const [hid, setHid] = useState(false);
@@ -17,8 +16,8 @@ const AboutUs = () => {
 
   return (
     <>
-      <div className="mainView" data-aos="fade-right">
-        <div className="leftBox"  data-aos="fade-right">
+      <div className="mainView" data-aos="fade-up">
+        <div className="leftBox"  data-aos="fade-up">
           {/* heading section */}
 
           {/* yellow line */}

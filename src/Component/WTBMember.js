@@ -1,8 +1,7 @@
 import React from "react";
-import AOS from "aos";
 import "aos/dist/aos.css";
 
-export const WTB_Member = () => {
+export const WTBMember = () => {
   return (
     <div className="main-box ">
       <div className="Side-box align-self-center" data-aos="fade-right">
@@ -44,4 +43,4 @@ export const WTB_Member = () => {
   );
 };
 
-export default WTB_Member;
+export default WTBMember;

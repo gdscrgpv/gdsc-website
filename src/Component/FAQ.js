@@ -2,7 +2,7 @@ import React, { Component, useState, useRef, useEffect } from "react";
 import "aos/dist/aos.css";
 // import ReactLogo from "../Images/illustration-box-desktop.svg";
 // import { FiPlus } from "react-icons/fi";
-import "../Component/css/faq.css";
+import "../Assets/css/faq.css";
 export default function FAQ() {
   return (
     <>

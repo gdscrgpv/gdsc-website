@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 // import { Link } from "react-router-dom";
-import "../Component/css/whatwedo.css";
+import "../Assets/css/whatwedo.css";
 import WhatWeDoCard from "./Cards/WhatWeDoCard";
 import AOS from "aos";
 import "aos/dist/aos.css";

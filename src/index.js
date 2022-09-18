@@ -10,6 +10,7 @@ import Teams from "./Pages/Teams";
 import Footer from "./Component/Footer";
 import Gallery from "./Pages/Gallery";
 import Contact from "./Pages/Contact";
+import Event from "./Pages/Event";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
@@ -18,6 +19,7 @@ root.render(
       <Route path="/teams" element={<Teams />} />
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/event" element={<Event />} />
     </Routes>
   </BrowserRouter>
 );

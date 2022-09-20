@@ -19,6 +19,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  padding: 2% 5%;
 }
 
 /*
@@ -217,9 +219,7 @@
   transform: scale(1.05);
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
-  
-
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
   /* event card */
 
   .wrap-event {
@@ -227,6 +227,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 2% 5%;
     justify-content: center;
   }
 }

@@ -63,7 +63,7 @@ const AboutUs = () => {
         </div>
 
         {/* image */}
-        <div className="imageDiv"  data-aos="fade-right" ref={aboutImg}>
+        <div className="imageDiv"  data-aos="fade-up" ref={aboutImg}>
           <img className="image" alt="AboutUS" src={Img} />
         </div>
       </div>

@@ -13,7 +13,7 @@
    }
 
    .navlogo {
-       padding-left: 2rem;
+       padding-left: 1rem;
    }
 
    ._navbar {
@@ -69,6 +69,7 @@
    }
 
    .joinus {
+    white-space: nowrap;
        text-decoration: none;
        font-family: "GoogleSans-Light";
        color: black;

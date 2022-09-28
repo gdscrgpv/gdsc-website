@@ -44,7 +44,7 @@ export default class WhatWeDo extends Component {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-11">
-              <div className="row" data-aos="fade-left">
+              <div className="row" data-aos="fade-up">
                 <div className="col-md-12">
                   <div className="section-heading-7 text-center text-black font-face-bold">
                     <div className="flex">
@@ -71,7 +71,7 @@ export default class WhatWeDo extends Component {
               </div>
               <div
                 className="row testimonial-area-l-13-items justify-content-center"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-duration={800}
                 data-aos-once="true"
               >

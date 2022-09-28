@@ -4,9 +4,9 @@ import "aos/dist/aos.css";
 export const WTBMember = () => {
   return (
     <div className="main-box ">
-      <div className="Side-box align-self-center" data-aos="fade-right">
+      <div className="Side-box align-self-center" data-aos="fade-up">
         <div className="circle-1"> Learn</div>
-        <div className="d-flex font-face-bold  justify-content-center  ">
+        <div className="d-flex font-face-bold  justify-content-center">
           <p>
             Why To Become <br />
             Community Member At
@@ -22,7 +22,7 @@ export const WTBMember = () => {
         <div className="circle-2 ">Connect</div>
         <div className="circle-3 ">Growth</div>
       </div>
-      <div className="right-box d-flex" data-aos="fade-left">
+      <div className="right-box d-flex" data-aos="fade-up">
         <div className=" d-flex text-center justify-content-center font-face-bold WTB-text ">
           <p>
             {" "}

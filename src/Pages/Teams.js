@@ -55,18 +55,17 @@ export default class Teams extends Component {
     ];
     const teachteam = [
       {
-        name: "Satyam Sharma",
-        role: "Web Developer",
-        img: require("../Assets/img/ss.jpeg"),
-        linkedIn: "https://www.linkedin.com/in/iamsatyam17/",
-      },
-      {
         name: "Pulkit Dubey",
         role: "App Developer",
         img: require("../Assets/img/Pulkit Dubey - App Lead.jpg"),
         linkedIn: "https://www.linkedin.com/in/pulkit-dubey-75b703224/",
       },
-
+      {
+        name: "Satyam Sharma",
+        role: "Web Developer",
+        img: require("../Assets/img/ss.jpeg"),
+        linkedIn: "https://www.linkedin.com/in/iamsatyam17/",
+      },
       {
         name: "Prakrti Mankar",
         role: "Women In Tech",

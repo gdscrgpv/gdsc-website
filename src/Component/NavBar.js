@@ -1,5 +1,6 @@
 import "../Assets/css/navbar.css";
 import React, { Component } from "react";
+import gdsc from "../Assets/img/gdsc-gif.gif";
 import { Link } from "react-router-dom";
 export default class NavBarcomp extends Component {
   render() {
@@ -7,8 +8,8 @@ export default class NavBarcomp extends Component {
       <nav class="_navbar sticky">
         <div className="navlogo">
           <img
-            style={{ height: "50%", width: "10%" }}
-            src="https://gdsciiitb.tech/images/logos/gdsc-logo.gif"
+            style={{height:"1%", width: "40%" }}
+            src={gdsc}
             halt="logo"
           />
         </div>

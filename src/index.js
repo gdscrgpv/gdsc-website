@@ -10,6 +10,7 @@ import Teams from "./Pages/Teams";
 import Gallery from "./Pages/Gallery";
 import Contact from "./Pages/Contact";
 import Event from "./Pages/Event";
+import Error404 from "./Pages/Error404";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
@@ -19,6 +20,7 @@ root.render(
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/event" element={<Event />} />
+      <Route path="*" element={<Error404 />} />
     </Routes>
   </BrowserRouter>
 );

@@ -45,7 +45,7 @@ const EventCard = () => {
 
         <div className="container major-event">
           <div className="event-section-title">Major Events</div>
-          <div class="row major-event-item">
+          <div class="row major-event-item-first">
             <div class="col major-event-info">
               <div className="title text-end">
                 <h3>Android Study Jams</h3>
@@ -69,7 +69,7 @@ const EventCard = () => {
         </div>
 
         <div className="container major-event">
-          <div class="row major-event-item">
+          <div class="row major-event-item-second">
             <div class="col major-event-image">
               <div className="event-image-section">
                 <img src={asj} className="event-image" />

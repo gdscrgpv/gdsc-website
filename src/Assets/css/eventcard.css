@@ -359,6 +359,15 @@
     display: block;
   }
 
+  .major-event-item-first {
+    display: block;
+  }
+
+  .major-event-item-second {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
   .major-event-info .title,
   .description,
   .know-more {

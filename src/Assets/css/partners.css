@@ -42,7 +42,6 @@
 .card .card_image a img {
   width: inherit;
   height: inherit;
-  position: relative;
   border-radius: 40px;
   padding: 2rem;
   object-fit: cover;

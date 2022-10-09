@@ -26,6 +26,12 @@
 /*
 *Card
 */
+.link-event{
+  text-decoration: none;
+}
+.link-event a:hover{
+  color: #fff !important;
+}
 
 .session-cards {
   padding: 2rem;
@@ -102,7 +108,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .card__imagen-event {

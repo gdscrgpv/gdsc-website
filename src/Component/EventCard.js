@@ -91,7 +91,7 @@ const EventCard = () => {
           <div class="row major-event-item-first">
             <div class="col major-event-info">
               <div className="title text-end">
-                <h3>Android Study Jams</h3>
+                <h3>Compose Camp</h3>
               </div>
               <div className="description text-end">
                 <p>

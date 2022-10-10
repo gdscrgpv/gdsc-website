@@ -35,6 +35,11 @@ export default class NavBarcomp extends Component {
               </Link>
             </li>
             <li>
+              <Link className="link_text font-face-Bold " to="/event">
+                Events
+              </Link>
+            </li>
+            <li>
               <Link
                 className="link_text font-face-Bold "
                 disabled

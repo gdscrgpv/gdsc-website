@@ -23,7 +23,7 @@ const AboutUs = () => {
           {/* yellow line */}
           <div className="line space"></div>
 
-          <div className="flex top" ref={aboutHeading}>
+          <div className="flex top heading" ref={aboutHeading}>
             <h1 className="space"> About</h1>
 
             <div className="flex gdsc">

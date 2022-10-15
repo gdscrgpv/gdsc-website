@@ -63,7 +63,7 @@ export default class Teams extends Component {
       {
         name: "Satyam Sharma",
         role: "Web Developer",
-        img: require("../Assets/img/ss.jpeg"),
+        img: require("../Assets/img/ss.png"),
         linkedIn: "https://www.linkedin.com/in/iamsatyam17/",
       },
       {

@@ -199,6 +199,31 @@ const EventCard = () => {
           </div>
         </div>
 
+        <div className="container major-event">
+          <div class="row major-event-item-first">
+            <div class="col major-event-info">
+              <div className="title text-end">
+                <h3>Compose Camp</h3>
+              </div>
+              <div className="description text-end">
+                <p>
+                  Session 3 of compose camp - Deep dive into compose
+                  fundamentals and build birthday card app Date: September 29,
+                  2022
+                </p>
+              </div>
+              <div className="know-more text-end">
+                <button class="know-more-btn-small">Know More</button>
+              </div>
+            </div>
+            <div class="col major-event-image">
+              <div className="event-image-section">
+                <img src={os} className="event-image" />
+              </div>
+            </div>
+          </div>
+        </div>
+
 
         <div className="session-cards">
           <div className="event-section-title">Sessions</div>

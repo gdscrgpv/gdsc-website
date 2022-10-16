@@ -2,6 +2,9 @@ import React from "react";
 import "../Assets/css/eventcard.css";
 import os from "../Assets/img/os.png";
 import asj from "../Assets/img/android-study-jams.jpeg";
+import opensource from "../Assets/img/opensource.png";
+import hacktoberfest from "../Assets/img/hacktoberfest.png";
+import compose from "../Assets/img/compose.png";
 import keploy from "../Assets/img/keploy.png";
 import Footer from "./Footer";
 import NavBarcomp from "./NavBar";
@@ -155,13 +158,11 @@ const EventCard = () => {
           <div class="row major-event-item-first">
             <div class="col major-event-info">
               <div className="title text-end">
-                <h3>Compose Camp</h3>
+                <h3>Compose Camp 2022</h3>
               </div>
               <div className="description text-end">
                 <p>
-                  Session 3 of compose camp - Deep dive into compose
-                  fundamentals and build birthday card app Date: September 29,
-                  2022
+                  Learn how to build Android apps using Jetpack Compose, Android’s modern UI toolkit, alongside your peers at Compose Camp. These virtual and in-person sessions are kicking off near you soon!
                 </p>
               </div>
               <div className="know-more text-end">
@@ -170,7 +171,7 @@ const EventCard = () => {
             </div>
             <div class="col major-event-image">
               <div className="event-image-section">
-                <img src={os} className="event-image" />
+                <img src={compose} className="event-image" />
               </div>
             </div>
           </div>
@@ -180,18 +181,17 @@ const EventCard = () => {
           <div class="row major-event-item-second">
             <div class="col major-event-image">
               <div className="event-image-section">
-                <img src={keploy} className="event-image" />
+                <img src={hacktoberfest} className="event-image" />
               </div>
             </div>
             <div class="col major-event-info">
               <div className="title text-start">
-                <h3>Hacktoberfest</h3>
+                <h3>Hacktober Fest 2022</h3>
               </div>
               <div className="description text-start">
                 <p>
-                  Join us with Semikolan and GDSC UIT RGPV where you can find a
-                  variety of projects in which you can contribute and through
-                  which you can start your open source journey.
+                  Hacktoberfest, the biggest event in Hacktoberfest is open to register now!
+                  We have a lot more planned for the fest and it's time you all tie up your seatbelts and join us on the ride.
                 </p>
               </div>
               <div className="know-more text-start">
@@ -205,13 +205,11 @@ const EventCard = () => {
           <div class="row major-event-item-first">
             <div class="col major-event-info">
               <div className="title text-end">
-                <h3>Compose Camp</h3>
+                <h3>Demystifying Open Source</h3>
               </div>
               <div className="description text-end">
                 <p>
-                  Session 3 of compose camp - Deep dive into compose
-                  fundamentals and build birthday card app Date: September 29,
-                  2022
+                  Google Summer of Code (GSoC) is a global, online program focused on bringing new contributors into open source software development. You get the chance to interact with the greatest developers in the world.
                 </p>
               </div>
               <div className="know-more text-end">
@@ -220,11 +218,12 @@ const EventCard = () => {
             </div>
             <div class="col major-event-image">
               <div className="event-image-section">
-                <img src={os} className="event-image" />
+                <img src={opensource} className="event-image" />
               </div>
             </div>
           </div>
         </div>
+
 
         <div className="session-cards">
           <div className="event-section-title">Sessions</div>

@@ -18,7 +18,6 @@ import { auth, db } from "../config/firebase";
 import { doc, setDoc } from "firebase/firestore";
 
 export default class ContactComponent extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -127,7 +126,13 @@ export default class ContactComponent extends Component {
                     </div>
                     <div className="app-form-group buttons">
                       {/* <button className="app-form-button">CANCEL</button> */}
-                      <button type="submit" value={"submit"} className="app-form-button">SUBMIT</button>
+                      <button
+                        type="submit"
+                        value={"submit"}
+                        className="app-form-button"
+                      >
+                        SUBMIT
+                      </button>
                     </div>
                   </div>
                 </form>
@@ -191,7 +196,8 @@ export default class ContactComponent extends Component {
                     <button className="connect-button">
                       <a
                         href="https://www.linkedin.com/company/gdscuitrgpv/"
-                        target="_blank" rel="noreferrer"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <img src={linkedin} className="connectIcon" />
                       </a>
@@ -200,26 +206,39 @@ export default class ContactComponent extends Component {
                     <button className="connect-button">
                       <a
                         href="https://www.instagram.com/gdsc_uitrgpv/"
-                        target="_blank" rel="noreferrer"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <img src={insta} className="connectIcon" />
                       </a>
                     </button>
 
                     <button className="connect-button">
-                      <a href="https://github.com/gdscrgpv/" target="_blank" rel="noreferrer">
+                      <a
+                        href="https://github.com/gdscrgpv/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <img src={github} className="connectIcon" />
                       </a>
                     </button>
 
                     <button className="connect-button">
-                      <a href="https://discord.gg/pTxtS8xu" target="_blank" rel="noreferrer">
+                      <a
+                        href="https://discord.gg/pTxtS8xu"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <img src={discord} className="connectIcon" />
                       </a>
                     </button>
 
                     <button className="connect-button">
-                      <a href="https://t.me/gdscuitrgpv" target="_blank" rel="noreferrer">
+                      <a
+                        href="https://t.me/gdscuitrgpv"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <img src={telegram} className="connectIcon" />
                       </a>
                     </button>
@@ -227,7 +246,8 @@ export default class ContactComponent extends Component {
                     <button className="connect-button">
                       <a
                         href="https://www.youtube.com/c/GoogleDeveloperStudentClubUITRGPVBhopal"
-                        target="_blank" rel="noreferrer"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <img src={youtube} className="connectIcon" />
                       </a>
@@ -236,7 +256,8 @@ export default class ContactComponent extends Component {
                     <button className="connect-button">
                       <a
                         href="https://chat.whatsapp.com/Kuv8sZjJnGy7mlSxXMQcNZ"
-                        target="_blank" rel="noreferrer"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <img src={whatsapp} className="connectIcon" />
                       </a>
@@ -245,7 +266,8 @@ export default class ContactComponent extends Component {
                     <button className="connect-button">
                       <a
                         href="https://twitter.com/Gdsc_UitRgpv"
-                        target="_blank" rel="noreferrer"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <img src={twitter} className="connectIcon" />
                       </a>

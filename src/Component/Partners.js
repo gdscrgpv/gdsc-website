@@ -33,7 +33,13 @@ export default class Partners extends Component {
     return (
       <>
         <div className="partners">
-          <div className="partners-title" data-aos="fade-up" data-aos-delay="100">Partners & Sponsors</div>
+          <div
+            className="partners-title"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            Partners & Sponsors
+          </div>
           <div className="cards-list">
             {data.map((item, index) => {
               return (

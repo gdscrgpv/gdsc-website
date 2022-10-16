@@ -1,8 +1,8 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 :root {
   --bs-link-hover-color: #000000;
@@ -18,7 +18,7 @@
   border-top-left-radius: 44px;
   position: relative;
   background-color: rgba(0, 0, 0, 0.04);
-  width:-webkit-fill-available;
+  width: -webkit-fill-available;
 }
 
 .oops-text {

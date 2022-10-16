@@ -189,7 +189,9 @@ const EventCard = () => {
               </div>
               <div className="description text-start">
                 <p>
-                Join us with Semikolan and GDSC UIT RGPV where you can find a variety of projects in which you can contribute and through which you can start your open source journey.
+                  Join us with Semikolan and GDSC UIT RGPV where you can find a
+                  variety of projects in which you can contribute and through
+                  which you can start your open source journey.
                 </p>
               </div>
               <div className="know-more text-start">
@@ -223,7 +225,6 @@ const EventCard = () => {
             </div>
           </div>
         </div>
-
 
         <div className="session-cards">
           <div className="event-section-title">Sessions</div>

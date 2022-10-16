@@ -77,7 +77,10 @@ export default class WhatWeDo extends Component {
               >
                 {data.map((item, index) => {
                   return (
-                    <div className="col-xl-4 col-md-6 col-sm-8" data-aos="fade-up">
+                    <div
+                      className="col-xl-4 col-md-6 col-sm-8"
+                      data-aos="fade-up"
+                    >
                       <div className="testimonial-card text-white font-face-lighter">
                         <div className="d-flex customer-identity">
                           <div className="customer-img">

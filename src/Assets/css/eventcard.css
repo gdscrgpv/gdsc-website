@@ -26,10 +26,11 @@
 /*
 *Card
 */
-.link-event{
+.link-event {
   text-decoration: none;
 }
-.link-event a:hover{
+
+.link-event a:hover {
   color: #fff !important;
 }
 

@@ -9,7 +9,7 @@ const AboutUs = () => {
 
   const aboutHeading = useRef(null);
   const aboutImg = useRef(null);
-  
+
   setTimeout(() => {
     setHid(true);
   }, 600);
@@ -17,7 +17,7 @@ const AboutUs = () => {
   return (
     <>
       <div className="mainView" data-aos="fade-up">
-        <div className="leftBox"  data-aos="fade-up">
+        <div className="leftBox" data-aos="fade-up">
           {/* heading section */}
 
           {/* yellow line */}
@@ -63,7 +63,7 @@ const AboutUs = () => {
         </div>
 
         {/* image */}
-        <div className="imageDiv"  data-aos="fade-up" ref={aboutImg}>
+        <div className="imageDiv" data-aos="fade-up" ref={aboutImg}>
           <img className="image" alt="AboutUS" src={Img} />
         </div>
       </div>

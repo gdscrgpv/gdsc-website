@@ -92,7 +92,7 @@ class. */
     text-align: center;
   }
 
-  
+
 }
 
 @media screen and (max-width: 450px) {
@@ -100,11 +100,12 @@ class. */
     width: 85%;
     margin: 0 1rem;
   }
+
   .textbox h5 {
     margin: 0 1rem;
     line-height: 1.8rem;
   }
-  
+
 }
 
 

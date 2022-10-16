@@ -13,7 +13,6 @@ export default class Landing extends Component {
     AOS.init({ duration: 1500 });
   }
   render() {
-
     return (
       <div className="banner-landing" data-aos="zoom-in" data-aos-delay="300">
         <img src={Logo} alt="logo" className="gdsc-landing-logo" />

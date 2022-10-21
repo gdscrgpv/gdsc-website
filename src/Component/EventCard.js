@@ -57,7 +57,9 @@ const EventCard = () => {
                 </p>
               </div>
               <div className="know-more text-end">
-                <button class="know-more-btn-small">Know More</button>
+                <a href="https://gdsc.community.dev/events/details/developer-student-clubs-university-institute-of-technology-rgpv-bhopal-presents-orientation-session-gdsc-22-23/">
+                  <button class="know-more-btn-small">Know More</button>
+                </a>
               </div>
             </div>
             <div class="col major-event-image">
@@ -86,7 +88,9 @@ const EventCard = () => {
                 </p>
               </div>
               <div className="know-more text-start">
-                <button class="know-more-btn-small">Know More</button>
+                <a href="https://gdsc.community.dev/events/details/developer-student-clubs-university-institute-of-technology-rgpv-bhopal-presents-api-literacy-session-keploy/">
+                  <button class="know-more-btn-small">Know More</button>
+                </a>
               </div>
             </div>
           </div>
@@ -104,7 +108,9 @@ const EventCard = () => {
                 </p>
               </div>
               <div className="know-more text-end">
-                <button class="know-more-btn-small">Know More</button>
+                <a href="https://gdsc.community.dev/events/details/developer-student-clubs-university-institute-of-technology-rgpv-bhopal-presents-getting-started-with-android-and-android-studio-compose-camp/">
+                  <button class="know-more-btn-small">Know More</button>
+                </a>
               </div>
             </div>
             <div class="col major-event-image">
@@ -132,9 +138,9 @@ const EventCard = () => {
                   We have a lot more planned for the fest and it's time you all tie up your seatbelts and join us on the ride.
                 </p>
               </div>
-              <div className="know-more text-start">
-                <button class="know-more-btn-small">Know More</button>
-              </div>
+              <a href="https://gdsc.community.dev/events/details/developer-student-clubs-university-institute-of-technology-rgpv-bhopal-presents-initiating-hacktoberfest-get-started-with-git-and-github/">
+                  <button class="know-more-btn-small">Know More</button>
+                </a>
             </div>
           </div>
         </div>
@@ -151,7 +157,9 @@ const EventCard = () => {
                 </p>
               </div>
               <div className="know-more text-end">
-                <button class="know-more-btn-small">Know More</button>
+                <a href="https://gdsc.community.dev/events/details/developer-student-clubs-university-institute-of-technology-rgpv-bhopal-presents-demystifying-open-source/">
+                  <button class="know-more-btn-small">Know More</button>
+                </a>
               </div>
             </div>
             <div class="col major-event-image">

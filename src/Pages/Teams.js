@@ -63,7 +63,7 @@ export default class Teams extends Component {
       {
         name: "Satyam Sharma",
         role: "Web Developer",
-        img: require("../Assets/img/ss.jpeg"),
+        img: require("../Assets/img/ss.png"),
         linkedIn: "https://www.linkedin.com/in/iamsatyam17/",
       },
       {
@@ -117,7 +117,8 @@ export default class Teams extends Component {
         name: "Aman Kushwaha",
         role: "GDSC Buddy",
         img: require("../Assets/img/ProfilePic_Aman.png"),
-        linkedIn:"https://www.linkedin.com/in/aman-kumar-singh-kushwaha-60b501225/",
+        linkedIn:
+          "https://www.linkedin.com/in/aman-kumar-singh-kushwaha-60b501225/",
       },
       {
         name: "Divyanshu Uramliya",
@@ -178,23 +179,23 @@ export default class Teams extends Component {
       <div className="team">
         <NavBarcomp />
 
-          {/*left right section */}
-          <div className="teamlanding" data-aos="zoom-in" data-aos-delay="300">
-            <div>
-              <h1 className="first-title">
-                The
-                <br />
-                <span className="G">T</span>
-                <span className="D">e</span>
-                <span className="S">a</span>
-                <span className="C">m</span>
-              </h1>
-              <h2>
-                <b>Presenting Board of 2022-2023</b>
-              </h2>
-              {/* <div></div> */}
-            </div>
+        {/*left right section */}
+        <div className="teamlanding" data-aos="zoom-in" data-aos-delay="300">
+          <div>
+            <h1 className="first-title">
+              The
+              <br />
+              <span className="G">T</span>
+              <span className="D">e</span>
+              <span className="S">a</span>
+              <span className="C">m</span>
+            </h1>
+            <h2>
+              <b>Presenting Board of 2022-2023</b>
+            </h2>
+            {/* <div></div> */}
           </div>
+        </div>
         {/*team section */}
 
         {/*team section */}
@@ -269,7 +270,7 @@ export default class Teams extends Component {
         <div className="Heading text-center" data-aos="fade-up">
           <h1>Leads</h1>
         </div>
-        <div className="speakersCardContainer mt-5 col-md-9" >
+        <div className="speakersCardContainer mt-5 col-md-9">
           {Leads.map((speaker, index) => (
             <div class="speakerCard" data-aos="fade-up">
               <div style={{ height: "40px" }}>

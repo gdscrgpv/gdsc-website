@@ -7,11 +7,7 @@ export default class NavBarcomp extends Component {
     return (
       <nav class="_navbar sticky">
         <div className="navlogo">
-          <img
-            style={{height:"1%", width: "40%" }}
-            src={gdsc}
-            halt="logo"
-          />
+          <img style={{ height: "1%", width: "40%" }} src={gdsc} halt="logo" />
         </div>
 
         <ul className="nav-links ">
@@ -32,6 +28,11 @@ export default class NavBarcomp extends Component {
             <li>
               <Link className="link_text font-face-Bold " to="/teams">
                 Team
+              </Link>
+            </li>
+            <li>
+              <Link className="link_text font-face-Bold " to="/event">
+                Events
               </Link>
             </li>
             <li>

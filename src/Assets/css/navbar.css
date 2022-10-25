@@ -69,7 +69,7 @@
    }
 
    .joinus {
-    white-space: nowrap;
+       white-space: nowrap;
        text-decoration: none;
        font-family: "GoogleSans-Light";
        color: black;

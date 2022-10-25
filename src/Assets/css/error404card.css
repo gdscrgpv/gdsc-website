@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bs-link-hover-color: #000000;
+}
+
+.error-404-main {
+  font-family: "GoogleSans-Bold";
+  min-height: 50%;
+  text-align: center;
+  border-bottom-right-radius: 44px;
+  border-bottom-left-radius: 44px;
+  border-top-right-radius: 44px;
+  border-top-left-radius: 44px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.04);
+  width: -webkit-fill-available;
+}
+
+.oops-text {
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.page-not-found-tip-text {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.page-not-found-text {
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.go-to-homepage-btn {
+  background-color: rgba(66, 133, 244, 1) !important;
+  font-size: 0.6rem;
+  font-family: "GoogleSans-Bold";
+  background-color: transparent;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  padding: 17px 25px;
+  margin-top: 1rem;
+}

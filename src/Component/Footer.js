@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 //Firebase
 import { db } from "../config/firebase";
 import { rtdb } from "../config/firebase";
-import { doc, setDoc, onSnapshot } from "firebase/firestore";
-import { ref, child, push, update, onValue } from "firebase/database";
+import { doc, setDoc, onSnapshot, snapshotEqual, connectFirestoreEmulator } from "firebase/firestore";
+import { ref, child, push, update, get, onValue } from "firebase/database";
 
 export default class Footer extends Component {
   constructor(props) {
@@ -30,62 +30,120 @@ export default class Footer extends Component {
   async subscribe(event) {
     event.preventDefault();
 
-     let docdata = null;
+    console.log("subscribe working");
 
-    const emailexist = onSnapshot(doc(db, "subscribers", this.state.email), (doc) => {
-      console.log("Current data: ", doc.data());
-      docdata = doc.data();
+    await get(child(ref(rtdb), 'subscribers')).then((snapshot) => {
+      if (snapshot.exists()) {
+        const data = snapshot.val();
+        console.log(data);
+
+        for (const i in data) {
+          if (data[i].email === this.state.email) {
+            console.log("Already Subscribed");
+            // await this.setState({ exist: true });
+          }
+          else {
+            console.log("Not Subscribed");
+
+            const newPostKey = push(child(ref(rtdb), 'subscribers')).key;
+
+            update(ref(rtdb, 'subscribers'), {
+              [newPostKey]: {
+                key: newPostKey,
+                email: this.state.email,
+              }
+            });
+            console.log("Subscribed");
+          }
+        }
+      }
+      else {
+        console.log("No data available");
+        console.log("Creating data...");
+
+        const newPostKey = push(child(ref(rtdb), 'subscribers')).key;
+
+        update(ref(rtdb, 'subscribers'), {
+          [newPostKey]: {
+            key: newPostKey,
+            email: this.state.email,
+          }
+        });
+        console.log("Subscribed");
+      }
     });
 
-    if (docdata === undefined) {
-      console.log("Email does not exist");
+    // await console.log(this.state.exist);
 
-      const newPostKey = push(child(ref(rtdb), 'subscribers')).key;
+    // if (this.state.exist === false) {
+    //   const newPostKey = await push(child(ref(rtdb), 'subscribers')).key;
 
-      await update(ref(rtdb, 'subscribers'), {
-        [newPostKey]: {
-          key: newPostKey,
-          email: this.state.email,
-        },
-      })
-        .then(() => {
-          console.log("Subribed successfully. rtdb");
-        })
-        .catch((error) => {
-          console.log("Error while subscribing: " + error);
-        });
+    //   update(ref(rtdb, 'subscribers'), {
+    //     [newPostKey]: {
+    //       key: newPostKey,
+    //       email: this.state.email,
+    //     }
+    //   });
+    //   console.log("Subscribed");
+    // }
 
-      const docRef = doc(db, "subscribers", this.state.email);
-      await setDoc(docRef, {
-        email: this.state.email,
-        key: newPostKey,
-      })
-        .then(() => {
-          console.log("Subribed successfully. rtdb");
-        })
-        .catch((error) => {
-          console.log("Error: ", error);
-        });
-    }
-    else {
-      console.log("Email already exists");
 
-      await onValue(ref(rtdb, 'subscribers/' + docdata.key), (snapshot) => {
-        const data = snapshot.val();
+    //  let docdata = null;
 
-        if (data && data.email === this.state.email) {
-          console.log("Email already exists in rtdb");
-        }
-        else {
-          update(ref(rtdb, 'subscribers/'), {
-            [docdata.key]: {
-              key: docdata.key,
-              email: this.state.email,
-            }
-          })
-        }
-      });
-    }
+    // const emailexist = onSnapshot(doc(db, "subscribers", this.state.email), (doc) => {
+    //   console.log("Current data: ", doc.data());
+    //   docdata = doc.data();
+    // });
+
+    // if (docdata === undefined) {
+    //   console.log("Email does not exist");
+
+    //   const newPostKey = push(child(ref(rtdb), 'subscribers')).key;
+
+    //   await update(ref(rtdb, 'subscribers'), {
+    //     [newPostKey]: {
+    //       key: newPostKey,
+    //       email: this.state.email,
+    //     },
+    //   })
+    //     .then(() => {
+    //       console.log("Subribed successfully. rtdb");
+    //     })
+    //     .catch((error) => {
+    //       console.log("Error while subscribing: " + error);
+    //     });
+
+    //   const docRef = doc(db, "subscribers", this.state.email);
+    //   await setDoc(docRef, {
+    //     email: this.state.email,
+    //     key: newPostKey,
+    //   })
+    //     .then(() => {
+    //       console.log("Subribed successfully. rtdb");
+    //     })
+    //     .catch((error) => {
+    //       console.log("Error: ", error);
+    //     });
+    // }
+    // else {
+    //   console.log("Email already exists");
+
+    //   await onValue(ref(rtdb, 'subscribers/' + docdata.key), (snapshot) => {
+    //     const data = snapshot.val();
+
+    //     if (data && data.email === this.state.email) {
+    //       console.log("Email already exists in rtdb");
+    //     }
+    //     else {
+    //       update(ref(rtdb, 'subscribers/'), {
+    //         [docdata.key]: {
+    //           key: docdata.key,
+    //           email: this.state.email,
+    //         }
+    //       })
+    //     }
+    //   });
+    // }
   }
 
 

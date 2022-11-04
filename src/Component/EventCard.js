@@ -190,9 +190,8 @@ const EventCard = () => {
               </div>
               <div className="description text-start">
                 <p>
-                  Deep dive into the world of Cloud Computing
-                  and get hands-on experience with the Google Cloud Platform
-                  (GCP).
+                  Deep dive into the world of Cloud Computing and get hands-on
+                  experience with the Google Cloud Platform (GCP).
                 </p>
               </div>
               <a href="http://semiurl.tech/gccp">

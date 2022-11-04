@@ -3,6 +3,7 @@ import "../Assets/css/eventcard.css";
 import os from "../Assets/img/os.png";
 import asj from "../Assets/img/android-study-jams.jpeg";
 import opensource from "../Assets/img/opensource.png";
+import gcp from "../Assets/img/Google Cloud Campaign.png";
 import hacktoberfest from "../Assets/img/hacktoberfest.png";
 import compose from "../Assets/img/compose.png";
 import keploy from "../Assets/img/keploy.png";
@@ -10,7 +11,6 @@ import Footer from "./Footer";
 import NavBarcomp from "./NavBar";
 
 const EventCard = () => {
-
   return (
     <>
       <div className="event-page">
@@ -104,7 +104,10 @@ const EventCard = () => {
               </div>
               <div className="description text-end">
                 <p>
-                  Learn how to build Android apps using Jetpack Compose, Android’s modern UI toolkit, alongside your peers at Compose Camp. These virtual and in-person sessions are kicking off near you soon!
+                  Learn how to build Android apps using Jetpack Compose,
+                  Android’s modern UI toolkit, alongside your peers at Compose
+                  Camp. These virtual and in-person sessions are kicking off
+                  near you soon!
                 </p>
               </div>
               <div className="know-more text-end">
@@ -134,13 +137,14 @@ const EventCard = () => {
               </div>
               <div className="description text-start">
                 <p>
-                  Hacktoberfest, the biggest event in Hacktoberfest is open to register now!
-                  We have a lot more planned for the fest and it's time you all tie up your seatbelts and join us on the ride.
+                  Hacktoberfest, the biggest event in Hacktoberfest is open to
+                  register now! We have a lot more planned for the fest and it's
+                  time you all tie up your seatbelts and join us on the ride.
                 </p>
               </div>
               <a href="https://gdsc.community.dev/events/details/developer-student-clubs-university-institute-of-technology-rgpv-bhopal-presents-initiating-hacktoberfest-get-started-with-git-and-github/">
-                  <button class="know-more-btn-small">Know More</button>
-                </a>
+                <button class="know-more-btn-small">Know More</button>
+              </a>
             </div>
           </div>
         </div>
@@ -153,7 +157,10 @@ const EventCard = () => {
               </div>
               <div className="description text-end">
                 <p>
-                  Google Summer of Code (GSoC) is a global, online program focused on bringing new contributors into open source software development. You get the chance to interact with the greatest developers in the world.
+                  Google Summer of Code (GSoC) is a global, online program
+                  focused on bringing new contributors into open source software
+                  development. You get the chance to interact with the greatest
+                  developers in the world.
                 </p>
               </div>
               <div className="know-more text-end">
@@ -169,6 +176,31 @@ const EventCard = () => {
             </div>
           </div>
         </div>
+
+        <div className="container major-event">
+          <div class="row major-event-item-second">
+            <div class="col major-event-image">
+              <div className="event-image-section">
+                <img src={gcp} className="event-image" />
+              </div>
+            </div>
+            <div class="col major-event-info">
+              <div className="title text-start">
+                <h3>Google Cloud Campaign</h3>
+              </div>
+              <div className="description text-start">
+                <p>
+                  Deep dive into the world of Cloud Computing and get hands-on
+                  experience with the Google Cloud Platform (GCP).
+                </p>
+              </div>
+              <a href="http://semiurl.tech/gccp">
+                <button class="know-more-btn-small">Know More</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
         <Footer />
       </div>
     </>

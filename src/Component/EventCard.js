@@ -142,7 +142,7 @@ const EventCard = () => {
                   time you all tie up your seatbelts and join us on the ride.
                 </p>
               </div>
-              <div className="know-more text-end">
+              <div className="know-more">
                 <a href="https://gdsc.community.dev/events/details/developer-student-clubs-university-institute-of-technology-rgpv-bhopal-presents-initiating-hacktoberfest-get-started-with-git-and-github/">
                   <button class="know-more-btn-small">Know More</button>
                 </a>
@@ -196,7 +196,7 @@ const EventCard = () => {
                   experience with the Google Cloud Platform (GCP).
                 </p>
               </div>
-              <div className="know-more text-end">
+              <div className="know-more">
               <a href="http://semiurl.tech/gccp">
                 <button class="know-more-btn-small">Know More</button>
               </a>

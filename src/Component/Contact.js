@@ -176,7 +176,7 @@ export default class ContactComponent extends Component {
                       alt="Email"
                     />
 
-                    <p className="midTxt">gdscuitrgpv@gmail.com</p>
+                    <p className="midTxt">gdscuitbhopal@rgpv.ac.in</p>
                   </div>
                   <div className=" flex" style={{ marginBottom: "2%" }}>
                     <img

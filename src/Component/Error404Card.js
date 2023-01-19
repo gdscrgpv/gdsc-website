@@ -11,13 +11,13 @@ const Error404Card = () => {
         <span className="C">s</span>
         <span>!</span>
       </div>
-      <div className="page-not-found-text">404 - PAGE NOT FOUND</div>
+      <div className="page-not-found-text">Error 404</div>
       <div className="page-not-found-tip-text">
         This is not the web page you are looking for.
       </div>
       <button className="go-to-homepage-btn">
         <Link className="link_text font-face-Bold " to="/">
-          GO TO HOMEPAGE
+          Go to homepage
         </Link>
       </button>
     </div>

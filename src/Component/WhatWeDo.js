@@ -44,7 +44,7 @@ export default class WhatWeDo extends Component {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-11">
-              <div className="row" data-aos="fade-up">
+              <div className="row" data-aos="fade-up" style={{margin:"3px" }}>
                 <div className="col-md-12">
                   <div className="section-heading-7 text-center text-black font-face-bold">
                     <div className="flex">
@@ -57,7 +57,7 @@ export default class WhatWeDo extends Component {
                     </div>
                   </div>
                   <div className="section-heading-7 text-left text-black font-face-lighter">
-                    <h4>
+                    <h5>
                       Google Developer Student Club consists of passionate
                       students who intend to make an impact in the world by
                       contributing as a developer. The primary objective of GDSC
@@ -65,7 +65,7 @@ export default class WhatWeDo extends Component {
                       enthusiastic to learn new skills in the technical domain
                       and henceforth serve as a valuable addition to the
                       community.
-                    </h4>
+                    </h5>
                   </div>
                 </div>
               </div>

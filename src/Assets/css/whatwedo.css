@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 800px) {
-  .testimonial-area-l-13 .section-heading-7 h4 {
+  .testimonial-area-l-13 .section-heading-7 h5 {
     text-align: center;
   }
 }
@@ -42,8 +42,8 @@
   padding-bottom: 35px;
 }
 
-.testimonial-area-l-13 .section-heading-7 h4 {
-  line-height: 1.8rem;
+.testimonial-area-l-13 .section-heading-7 h5 {
+  line-height: 2;
 }
 
 .testimonial-area-l-13 .testimonial-area-l-13-items {

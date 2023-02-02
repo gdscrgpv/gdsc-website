@@ -2,7 +2,7 @@
 class. */
 .mainView {
   /* margin: 2%; */
-  padding: 3% 0% 3% 0%;
+  padding: 8%;
   align-items: center;
   border-radius: 15px;
   display: flex;
@@ -73,16 +73,20 @@ class. */
 }
 
 .content {
-  width: 56%;
+  width: 55%;
   justify-content: space-between;
   align-items: center;
 }
 
 .textbox {
-  width: 88%;
+  width: 90%;
   /* height: 40%; */
-  margin-top: 5%;
+  margin-top: 3%;
   margin-left: 3%;
+}
+
+.textbox h5 {
+  line-height: 2;
 }
 
 @media screen and (max-width: 800px) {
@@ -91,8 +95,12 @@ class. */
     margin: 5% 0 0 0;
     text-align: center;
   }
+}
 
-
+@media screen and (min-width: 800px) {
+ .imageDiv {
+  margin-right: 5rem;
+ }
 }
 
 @media screen and (max-width: 450px) {
@@ -105,9 +113,7 @@ class. */
     margin: 0 1rem;
     line-height: 1.8rem;
   }
-
 }
-
 
 .imageDiv {
   width: 30%;

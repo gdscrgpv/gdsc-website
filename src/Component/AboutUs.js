@@ -50,7 +50,7 @@ const AboutUs = () => {
           {/* content section */}
           <div className="content textbox">
             {/* text  */}
-            <h5 className="font-face-lighter ">
+            <h5 className="font-face-lighter">
               Google Developer Student Club (GDSC) is a student-led community
               that provides undergrad students with the opportunity to learn,
               grow or polish their technical skills. It provides students with a

@@ -110,16 +110,15 @@
 
 /* des text of the right hand box */
 .WTB-text p {
-  font-size: 1.75rem;
-  color: black;
+  font-size: 1.5rem;
 }
 
 /* join  community  button class  */
 
 .join-community-btn {
-  margin: 1.2rem;
-  height: 5rem;
-  width: 50%;
+  margin: 1rem;
+  height: 3rem;
+  width: 30%;
   background-color: rgba(66, 133, 244, 1);
   border-radius: 0.5rem;
   border: 0;
@@ -410,7 +409,7 @@
   }
 
   .Side-box p {
-    font-size: 2.3rem;
+    font-size: 2rem;
     color: black;
   }
 

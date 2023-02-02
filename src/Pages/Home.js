@@ -16,9 +16,6 @@ export default class Home extends Component {
         <Landing />
         <AboutUs />
         <Whatwedo />
-        <div className="mt-5 mb-5">
-          <WTBMember/>
-        </div>
         <Partner />
         <FAQ />
         <Footer />

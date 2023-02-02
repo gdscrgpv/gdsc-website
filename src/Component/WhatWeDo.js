@@ -44,7 +44,7 @@ export default class WhatWeDo extends Component {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-11">
-              <div className="row" data-aos="fade-up" style={{margin:"3px" }}>
+              <div className="row" data-aos="fade-up">
                 <div className="col-md-12">
                   <div className="section-heading-7 text-center text-black font-face-bold">
                     <div className="flex">

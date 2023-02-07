@@ -62,7 +62,7 @@ export default class Teams extends Component {
       },
       {
         name: "Satyam Sharma",
-        role: "Web Developer",
+        role: "Web & Android Developer",
         img: require("../Assets/img/ss.png"),
         linkedIn: "https://www.linkedin.com/in/iamsatyam17/",
       },
@@ -144,6 +144,93 @@ export default class Teams extends Component {
         role: "GDSC Buddy",
         img: require("../Assets/img/sherya.png"),
         linkedIn: "https://www.linkedin.com/in/shreya-rai-742952226/",
+      },
+    ];
+
+    const volunteer = [
+      {
+        name: "Kishan Dwivedi",
+        role: "Technical & Developemt Team",
+        img: require("../Assets/img/volunteer/Kishan.jpeg"),
+        linkedIn: "https://www.linkedin.com/in/kishandwivedi/",
+      },
+      {
+        name: "Tanisha Chaturvedi",
+        role: "Technical & Developemt Team",
+        img: require("../Assets/img/volunteer/Tanisha Chaturvedi.jpg"),
+        linkedIn: "https://www.linkedin.com/in/tanisha-chaturvedi-5a5915213",
+      },
+      {
+        name: "Atharva Gupta",
+        role: "Technical & Developemt Team",
+        img: require("../Assets/img/volunteer/Atharva Gupta.jpg"),
+        linkedIn: "https://www.linkedin.com/in/atharva-gupta-762972256",
+      },
+      {
+        name: "Disha Patidar",
+        role: "Graphic Design Team",
+        img: require("../Assets/img/volunteer/Disha Patidar.jpg"),
+        linkedIn: "https://www.linkedin.com/in/disha-patidar-9ba36825a",
+      },
+      {
+        name: "Rohan Sharma",
+        role: "Graphic Design Team",
+        img: require("../Assets/img/volunteer/Rohan Sharma.jpg"),
+        linkedIn: "https://www.linkedin.com/in/rohan-sharma-741046227",
+      },
+      {
+        name: "Shivi Shukla",
+        role: "Graphic Design Team",
+        img: require("../Assets/img/volunteer/Shivi Shukla.jpg"),
+        linkedIn: "https://www.linkedin.com/in/shivi-shukla-48b1b7228",
+      },
+      {
+        name: "Vanshika Malviya",
+        role: "Content & Curation Team",
+        img: require("../Assets/img/volunteer/Vanshika Malviya.jpg"),
+        linkedIn: "https://www.linkedin.com/in/vanshika-malviya-172550256",
+      },
+      {
+        name: "Suryanshi Kushwaha",
+        role: "Content & Curation Team",
+        img: require("../Assets/img/volunteer/Suryanshi Kushwaha.jpeg"),
+        linkedIn: "https://www.linkedin.com/in/suryanshi-kushwaha",
+      },
+      {
+        name: "Deepali Pathak",
+        role: "Operations Team",
+        img: require("../Assets/img/volunteer/Deepali Pathak.jpeg"),
+        linkedIn: "https://www.linkedin.com/in/deepali-pathak-47479421b/",
+      },
+      {
+        name: "Bhawesh Choudhary",
+        role: "Operations Team",
+        img: require("../Assets/img/volunteer/Bhawesh.jpg"),
+        linkedIn: "https://www.linkedin.com/in/b-choudhary-32431a250",
+      },
+      {
+        name: "Tanishk Khandelwal",
+        role: "Marketing Team",
+        img: require("../Assets/img/volunteer/Tanishk.jpg"),
+        linkedIn: "https://www.linkedin.com/in/tanishk-khandelwal-02689b239",
+      },
+      {
+        name: "Vaidik Patil",
+        role: "Marketing Team",
+        img: require("../Assets/img/volunteer/Vaidik.jpg"),
+        linkedIn: "https://www.linkedin.com/in/vaidik-patil/",
+      },
+      {
+        name: "Yash Darbar",
+        role: "Sponsorship Team",
+        img: require("../Assets/img/volunteer/Yash Darbar.jpg"),
+        linkedIn: "https://www.linkedin.com/in/yash-darbar-140323256",
+      },
+      {
+        name: "Nilesh Dhakad",
+        role: "Sponsorship Team",
+        img: require("../Assets/img/volunteer/Nilesh Dhakad.jpg"),
+        linkedIn: "https://www.linkedin.com/in/nilesh-dhakad-6a7230257",
       },
     ];
 
@@ -265,6 +352,42 @@ export default class Teams extends Component {
               </button>
             </div>
           </div>
+        </div>
+        {/* ---------------------MentorTeam----------------------------- */}
+        <div className="Heading text-center" data-aos="fade-up">
+          <h1>GDSC Mentors</h1>
+        </div>
+        <div className="speakersCardContainer mt-5 col-md-9">
+          {mentors.map((speaker, index) => (
+            <div class="speakerCard" data-aos="fade-up">
+              <div style={{ height: "40px" }}>
+                <img class="speakerImage" alt="" src={speaker.img} />
+              </div>
+
+              <h5
+                class="MuiTypography-root jss7 margin-2 team-heading MuiTypography-h5 MuiTypography-alignCenter"
+                style={{ fontFamily: "GoogleSans-Bold" }}
+              >
+                {speaker.name}
+              </h5>
+              <span
+                class="MuiTypography-root jss7 margin-1 MuiTypography-caption MuiTypography-alignCenter"
+                sx="[object Object]"
+                style={{ fontFamily: "GoogleSans-Light" }}
+              >
+                {speaker.role}
+              </span>
+              <br />
+
+              <div class="MuiCardActions-root margin-1 MuiCardActions-spacing">
+                <button class="connect-btn">
+                  <a href={speaker.linkedIn} target="_blank">
+                    <img src={linkedIn} className="connect-icon" />
+                  </a>
+                </button>
+              </div>
+            </div>
+          ))}
         </div>
         {/* Leads */}
         <div className="Heading text-center" data-aos="fade-up">
@@ -414,12 +537,12 @@ export default class Teams extends Component {
             </div>
           ))}
         </div>
-        {/* ---------------------MentorTeam----------------------------- */}
+        {/* ---------------------VolunteerTeam----------------------------- */}
         <div className="Heading text-center" data-aos="fade-up">
-          <h1>GDSC Mentors</h1>
+          <h1>Volunteers</h1>
         </div>
         <div className="speakersCardContainer mt-5 col-md-9">
-          {mentors.map((speaker, index) => (
+          {volunteer.map((speaker, index) => (
             <div class="speakerCard" data-aos="fade-up">
               <div style={{ height: "40px" }}>
                 <img class="speakerImage" alt="" src={speaker.img} />

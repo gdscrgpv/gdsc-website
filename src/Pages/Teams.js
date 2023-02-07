@@ -185,6 +185,12 @@ export default class Teams extends Component {
         linkedIn: "https://www.linkedin.com/in/shivi-shukla-48b1b7228",
       },
       {
+        name: "Mukti Markam",
+        role: "Graphic Design Team",
+        img: require("../Assets/img/volunteer/Mukti.png"),
+        linkedIn: "https://www.linkedin.com/in/mukti-markam-0896b41b1/",
+      },
+      {
         name: "Vanshika Malviya",
         role: "Content & Curation Team",
         img: require("../Assets/img/volunteer/Vanshika Malviya.jpg"),

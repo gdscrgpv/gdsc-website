@@ -41,7 +41,6 @@ export default class ContactComponent extends Component {
   handleChangeDesc(event) {
     this.setState({ desc: event.target.value });
   }
-
   async handleSubmit(event) {
     event.preventDefault();
     console.log(this.state);

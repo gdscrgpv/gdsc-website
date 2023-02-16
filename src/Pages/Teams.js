@@ -150,19 +150,19 @@ export default class Teams extends Component {
     const volunteer = [
       {
         name: "Kishan Dwivedi",
-        role: "Technical & Developemt Team",
+        role: "Technical & Development Team",
         img: require("../Assets/img/volunteer/Kishan.jpeg"),
         linkedIn: "https://www.linkedin.com/in/kishandwivedi/",
       },
       {
         name: "Tanisha Chaturvedi",
-        role: "Technical & Developemt Team",
+        role: "Technical & Development Team",
         img: require("../Assets/img/volunteer/Tanisha Chaturvedi.jpg"),
         linkedIn: "https://www.linkedin.com/in/tanisha-chaturvedi-5a5915213",
       },
       {
         name: "Atharva Gupta",
-        role: "Technical & Developemt Team",
+        role: "Technical & Development Team",
         img: require("../Assets/img/volunteer/Atharva Gupta.jpg"),
         linkedIn: "https://www.linkedin.com/in/atharva-gupta-762972256",
       },
